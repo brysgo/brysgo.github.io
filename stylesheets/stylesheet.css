@@ -198,7 +198,6 @@ ul, ol, dl {
 
 ul li {
   list-style: inside;
-  padding-left: 20px;
 }
 
 ol li {
@@ -260,7 +259,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 392px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -417,3 +416,19 @@ Small Device Styles
   }
 
 }
+
+.service-icon,.icon {
+  height: 128px;
+  width: 128px;
+  display: inline-block;
+  margin-bottom: 3px
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.service-icon {
+  background-color: black;
+}
+
