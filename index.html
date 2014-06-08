@@ -16,9 +16,21 @@
 
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
+  <script>
+    var toggleTitle = function(over) {
+      var title = document.getElementById('project_title')
+      if (over) {
+        title.innerHTML = '@brysgo'
+      } else {
+        title.innerHTML = 'Bryan Goldstein'
+      }
+    };
+  </script>
   <header class="inner">
-    <h1 id="project_title">Bryan Goldstein</h1>
-
+    <!-- Hipster Angular -->
+    <h1 id="project_title" onmouseover="toggleTitle(true);" onmouseout="toggleTitle(false)">
+      Bryan Goldstein
+    </h1>
   </header>
 </div>
 
