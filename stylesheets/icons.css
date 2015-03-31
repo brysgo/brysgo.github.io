@@ -10,6 +10,11 @@
     background-color: #3b5998;
     background-image: url(/simple-icons/icons/facebook/facebook-128.png);
 }
+.si-fiverr {
+    background-color: #FFFFFF;
+    border: 1px solid #00B241;
+    background-image: url(/images/fiverr-128.png);
+}
 .si-behance {
     background-color: #1769ff;
     background-image: url(/simple-icons/icons/behance/behance-128.png);
