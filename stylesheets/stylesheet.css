@@ -432,3 +432,10 @@ Small Device Styles
   background-color: black;
 }
 
+.service-icon button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
