@@ -39,6 +39,9 @@
 </script>
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
+  <div id="under_construction" style="display:none;">
+    <marquee>Under Construction: You've landed on one of the many domains that I have yet to build a site for. Click around to see what I'm up to.</marquee>
+  </div>
   <script>
     var toggleTitle = function(over) {
       var title = document.getElementById('project_title')
@@ -49,6 +52,9 @@
       }
     };
 
+    if (window.location != top.location) {
+      $("#under_construction").show();
+    }
   </script>
 
   <script>
