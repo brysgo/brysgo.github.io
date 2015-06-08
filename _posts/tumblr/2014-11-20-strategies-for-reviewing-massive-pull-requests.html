@@ -1,0 +1,37 @@
+---
+layout: post
+title: Strategies for reviewing massive pull requests
+date: '2014-11-20T22:52:00-05:00'
+tags:
+- pull request
+- code review
+- lots of code
+tumblr_url: http://blog.brysgo.com/post/103175852704/strategies-for-reviewing-massive-pull-requests
+---
+<p>Too many massive pull requests are a smell, but sometimes big pull requests are a necessity. It is easy to come across a large pull request and immediately reject it, but you shouldn’t be intimidated by the size of a PR.</p>
+
+<p>Your first job when reviewing such a PR is to identify why it is so large. Is there a large piece of functionality being added or Is a common pattern in the code being changed? Maybe the pull request is a large feature combined with pattern changes.</p>
+
+<p>If it is the third, I would definitely ask for the PR to be broken up. There is no reason to do a pattern change and new feature in one PR. Otherwise the actions you take will depend largely on what the reason for the PR’s size is.<!-- more --></p>
+
+<h2>Widespread Pattern Changes</h2>
+
+<p>If the PR is large because of a pattern change, identify the change. Look for all the individual places the pattern changed. Check to see that a few of them make sense. Observe how they differ, and maybe search through the code independently looking for parts that may have been missed or intentionally left out. If you find inconsistencies comment and ask about them.</p>
+
+<p>If you agree with the pattern change and you look through them and they all look good, then all you need to do is go through the rest of your normal PR checklist and you’re good to approve it.</p>
+
+<p>If you don’t agree with the pattern change in general, comment on where the pattern could do better. Maybe there is a reason the pattern isn’t that way.</p>
+
+<h2>Large feature added</h2>
+
+<p>If there is a new feature, the first thing to check after you know you want the feature, is all the points where the new code touches existing code. If you find out how it interfaces you can box it in your mind and it will be less overwhelming.</p>
+
+<p>Are the interfaces with the rest of your code standard? Is the new code structured in a way that is consistent with all of your patterns? Is the new code tested? Is the new code integration tested with the rest of the system?</p>
+
+<p>Briefly read through the implementation and check for any faulty assumptions about the existing code. If you find faulty assumptions, point them out so the new feature can be fixed. If you start having common assumptions about different parts of your code that are off, that is a code smell and you should probably address it.</p>
+
+<p>Once you’ve asked all the questions and read through the code, have someone else look at it and then sign off.</p>
+
+<h2>Disclaimer</h2>
+
+<p>No one is perfect and bugs slip by, but if you make good strategies that you constantly improve on you can prevent most catastrophes.</p>

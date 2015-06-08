@@ -1,0 +1,46 @@
+---
+layout: post
+title: Web Development on a Nexus 9
+date: '2015-03-11T10:41:18-04:00'
+tags:
+- linode
+- android
+- nexus 9
+- web development
+tumblr_url: http://blog.brysgo.com/post/113342786539/web-development-on-a-nexus-9
+---
+<p>I recently did something a little crazy. I am a professional web developer, and I decided I was going to move all of my development to the cloud. This paradigm that has brought so much convenience into every corner of my life was going to close the final gap. It took me a little while, but I have 99% percent of what I had going on my Macbook Pro, so here is my setup.</p>
+
+<!-- more -->
+
+<h1>Linode</h1>
+
+<p>I tried a few AWS boxes at first, but in the end I wound up choosing Linode. Feel free to use the host of your choosing, or host your own box if that’s your cup of tea.</p>
+
+<p>I set up an ubuntu box with a ruby on rails dev environment. The only thing that I had to set up out of the ordinary was XVFB. This is because I have browser tests that run and need an X server even though it is headless. One snag with this, after you get XVFB running, don’t forget to tell your application which display to connect to (for me it was setting the $DISPLAY environment variable).</p>
+
+<h1>JuiceSSH</h1>
+
+<p>On my Nexus 9, I chose JuiceSSH as my SSH client since it has a nice UI and makes ssh tunneling easy.</p>
+
+<p>First I set up a normal connection to my Linode server, follow the instructions that linode gives you.</p>
+
+<p>Next you need to tunnel your dev server port. JuiceSSH makes this easy, just go to your connections and swipe left. Then you will be able to access the dev server of your website from your android.</p>
+
+<h1>External Keyboard Helper Pro</h1>
+
+<p>You will need a bluetooth keyboard of your choosing, the keyboard case is good if you are on the go, but I am much more comfortable on a slightly larger keyboard.</p>
+
+<p>Like many developers, there is at least one key on the keyboard you will need to remap. That key is caps lock. Since all developer’s know caps lock is supposed to be control, this one is a no brainer.</p>
+
+<p>This is <a href="http://android.stackexchange.com/a/56423/95205">pretty easy to do.</a></p>
+
+<p>On the keyboard case for the Nexus 9, it is a search button. I haven’t found a way to remap it yet, but if you are able to I’d love to hear from you.</p>
+
+<h1>What’s missing?</h1>
+
+<ul><li>Chrome Inspector</li>
+</ul><p>Remote Chrome Inspecting works fine if you are trying to debug a phone, but what if you are making your tablet a dev environment? There needs to be a better way to inspect a page from a tablet.</p>
+
+<ul><li>Remapping Search Key =&gt; Control</li>
+</ul><p>This one is just silly. I can remap any key with External Keyboard Helper Pro, but the search key is above it. It has some super powers that make it refuse to be remapped.</p>

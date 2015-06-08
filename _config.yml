@@ -1,0 +1,13 @@
+# Site settings
+title: Bryan Goldstein
+alt_title: "@brysgo"
+email: brysgo@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Muses on software development and life in a surprisingly intricate and complex world.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://brysgo.com" # the base hostname & protocol for your site
+twitter_username: brysgo
+github_username:  brysgo
+
+# Build settings
+markdown: kramdown

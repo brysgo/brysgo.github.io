@@ -1,0 +1,18 @@
+---
+layout: post
+title: Linearly dependant Rspec 'behavior'
+date: '2014-12-31T15:17:00-05:00'
+tags:
+- rspec
+- ruby
+tumblr_url: http://blog.brysgo.com/post/106735578684/linearly-dependant-rspec-behavior
+---
+<p><strong>The problem:</strong> You finish writing your test in rspec, and after you have carefully described the scenario, you go to write your next test. For your next test you need to check that after you do everything for the first test, the next thing doesn’t break.</p>
+<p><strong>Potential hacks:</strong></p>
+<p>a) Well, it is just this one time, I can ignore the description of the spec and just throw in another assertion after my test.</p>
+<p>While you’re at it, why don’t you just do everything in one test, I’m sure you’ll be able to figure it out when it fails.</p>
+<p>b) There isn’t that much setup, I can just do the same thing I did in the last test as setup!</p>
+<p>Lets pretend we don’t care about performance, I hope we can guarantee that the first test won’t change and that the setup state of the second test won’t get out of touch with reality!</p>
+<p><strong>But wait, there’s another solutions…</strong></p>
+<p><!-- more -->There you are waisting time, money, and CPU cycles wishing three was a better way. Well, thanks to my coworker <a href="https://github.com/rupurt" target="_blank">Alex</a> there is.</p>
+<script src="https://gist.github.com/brysgo/abfb8c2ba5df8de33184.js" type="text/javascript"></script>
