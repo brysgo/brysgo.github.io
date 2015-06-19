@@ -11,3 +11,5 @@ github_username:  brysgo
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
