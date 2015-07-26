@@ -12,6 +12,8 @@ tags:
 As a web developer doing iOS development with react native, I need a staging
 environment for the product manager to review changes to the app.
 
+<img src="/assets/heroku-logo.png" style="height:200px;width:200px;float:right;margin:15px;"/>
+
 On the web, that means using Heroku, but with a react native app it is a bit
 more complicated.
 
