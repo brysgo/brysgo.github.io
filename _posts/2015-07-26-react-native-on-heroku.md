@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React Native on Heroku"
-date:   2015-07-26 12:59:33
+date:   2015-07-26 00:09:33
 categories: development tools
 tags:
 - react-native
