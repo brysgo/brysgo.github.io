@@ -32,7 +32,7 @@ var toggleTitle = function(over) {
     }
 };
 
-if (top.location.origin.indexOf("crench") !== -1) {
+if (window.location.origin.indexOf("crench") !== -1) {
   $("#socrenchus_header").show();
 } else if (window.location != top.location) {
   $("#under_construction").show();
