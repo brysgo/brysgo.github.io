@@ -16,6 +16,12 @@
     <div id="under_construction" style="display:none;">
       <marquee>Under Construction: You've landed on one of the many domains that I have yet to build a site for. Click around to see what I'm up to.</marquee>
     </div>
+    <div id="socrenchus_header" style="display:none;margin:0;margin-top:15px;">
+      <h1 style="margin:0;">
+        <img src="/assets/socrenchus.png" style="height:100px;float:left;margin:15px;margin-top:0;"/>
+        Socrenchus Consulting
+      </h1>
+    </div>
     <script>
 var toggleTitle = function(over) {
   var $title = $('.site-title')
@@ -26,7 +32,9 @@ var toggleTitle = function(over) {
     }
 };
 
-if (window.location != top.location) {
+if (top.location.origin.indexOf("crench") !== -1) {
+  $("#socrenchus_header").show();
+} else if (window.location != top.location) {
   $("#under_construction").show();
 }
     </script>
