@@ -9,6 +9,8 @@ tags:
 - relay
 - flux
 ---
+> [Relay][relay-preview] is out in preview! Have a look.
+
 When people talk about Relay they think of it as the server-client link in the
 Facebook stack, but is that really all it is?
 
@@ -42,3 +44,9 @@ of which ones have already been chosen.
 Here is the client-side store and here is the view that uses it...
 
 <script src="https://gist.github.com/brysgo/f9613e71386b00aa4d03.js"></script>
+
+> # Update Log
+> - *2015-07-25*: Published
+> - *2015-08-14*: Add link to relay
+
+[relay-preview]:https://facebook.github.io/relay/

@@ -22,3 +22,6 @@ Since I know you all missed those pages so much, I brought them back. If you vis
 You will see an under construction banner that uses HTML5 gradients, text shadow, and of course, a marquee tag.
 
 You're welcome.
+
+> # Update Log
+> - *2015-08-14*: Took the cool construction strip down in favor of a brand banner for my consulting business.

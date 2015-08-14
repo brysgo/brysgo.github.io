@@ -11,6 +11,9 @@ tags:
 - jasmine
 - nodejs
 ---
+
+> Now that [Relay][relay] is out in preview, it will probably replace Flux entirely.
+
 # Why React?
 A few months ago, the release of [React Native][react-native] by Facebook convinced me to make
 the leap to [React][react].
@@ -114,8 +117,10 @@ take on Flux that is bare bones but extensible.
 * May not be a winner
 
 > # Update Log
-> *2015-06-17*: Published
+> - *2015-06-17*: Published
+> - *2015-08-14*: Added note about Relay
 
 [react]: http://facebook.github.io/react/
 [react-native]: https://facebook.github.io/react-native/
 [flux]: https://facebook.github.io/flux/
+[relay]: https://facebook.github.io/relay/
