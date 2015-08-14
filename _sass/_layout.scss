@@ -235,3 +235,18 @@
         }
     }
 }
+
+#under_construction {
+  margin-bottom: -40px;
+}
+
+.caution-banner {
+  background: repeating-linear-gradient( 45deg, yellow 0px, yellow 20px, black 20px, black 40px);
+  height: 40px;
+  margin-top: 10px;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0px 0px 8px black;
+}
+
