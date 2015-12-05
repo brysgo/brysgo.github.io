@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jscodeshift + rails migrations = jscodemigrate"
-date:   2015-08-13 00:09:33
+date:   2015-15-05 00:09:33
 categories: development tools
 tags:
 - jscodeshift
