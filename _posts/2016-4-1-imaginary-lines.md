@@ -48,10 +48,13 @@ great work you guys, I hope it isn't a problem that we are thinking about
 changing widgets to have round tuits and respond to thingy mabobers.'
 
 Now we realize our mistake. We've been so busy putting everything in our neat
-little piles, we didn't realize that the paradigm we've been using to do it was
-completely tangential to our domain. Meaning, in order to change a concept,
-not only do we need to change it in 40 places, we also better cross our fingers
-and hope it all works.
+little piles, we didn't realize that the imaginary lines we've been drawing
+to do it were around concepts completely tangential to our domain. Meaning, 
+in order to change a concept, we need to change it in 40 places 
+neatly hidden by gems that magically composes services so you don't have to
+think about them. By the time we are done tracking down the things we need to
+change, we better cross our fingers and hope it all still works (Or run our
+test suit that grows exponentially in size).
 
 So we've learned our lesson, what do we do differently next time? How do we
 avoid the same mistake? The answer to that is quite simple, draw your imaginary
