@@ -18,7 +18,7 @@ from [graffiti-mongoose][graffiti-mongoose], to my own graphql database glue.
 
 I searched for an ORM that could take the place of mongoose and it wasn't long
 before I stumbled upon [BookshelfJS][bookshelfjs]. Built alongside its query
-building counterpart by [@tgriesser][tgressier], it was a good choice of where
+building counterpart by [@tgriesser][tgriesser], it was a good choice of where
 to start.
 
 Then I had a choice, I could build a [graffiti][graffiti] adapter for postgres,
@@ -43,6 +43,6 @@ graphql schema.*
 
 [graffiti-mongoose]:https://github.com/RisingStack/graffiti-mongoose
 [bookshelfjs]:http://bookshelfjs.org/
-[tgressier]:https://github.com/tgriesser
+[tgriesser]:https://github.com/tgriesser
 [graffiti]:https://github.com/RisingStack/graffiti
 [graphql-schema]:https://github.com/brysgo/graphql-bookshelf/tree/master/schema
