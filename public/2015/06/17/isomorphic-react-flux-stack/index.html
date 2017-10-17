@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Searching for an Isomorphic Reactiflux Stack</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.31-DEV" />
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', '');
+        </script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Searching for an Isomorphic Reactiflux Stack</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:brysgo@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/brysgo/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/brysgo/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/brysgo/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/brysgo/"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2015/06/17/isomorphic-react-flux-stack/">Searching for an Isomorphic Reactiflux Stack</a></h4>
+    <h5>June 17, 2015</h5>
+     <kbd class="item-tag">react</kbd>  <kbd class="item-tag">isomorphic</kbd>  <kbd class="item-tag">flux</kbd>  <kbd class="item-tag">redux</kbd>  <kbd class="item-tag">jasmine</kbd>  <kbd class="item-tag">nodejs</kbd> 
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<blockquote>
+<p>Now that <a href="https://facebook.github.io/relay/">Relay</a> is out in preview, it will probably replace Flux entirely.</p>
+</blockquote>
+
+<h1 id="why-react">Why React?</h1>
+
+<p>A few months ago, the release of <a href="https://facebook.github.io/react-native/">React Native</a> by Facebook convinced me to make
+the leap to <a href="http://facebook.github.io/react/">React</a>.</p>
+
+<p>I spent a while working on a <a href="https://facebook.github.io/react-native/">React Native</a> app and quickly learned that I needed
+to bring in <a href="https://facebook.github.io/flux/">Flux</a>. After watching a few videos and reading a few blogs, I added my own
+implementation of flux to my react native app.</p>
+
+<p>The javascript nature, minimalism, isomorphic potential, and cross platform possibilities were
+almost too good to be true. I fell in love with the stack and set out to refine the set of tools
+I&rsquo;m using around my personal priorities.</p>
+
+<h1 id="goals">Goals</h1>
+
+<ul>
+<li>Isomorphic app
+
+<ul>
+<li>Having the right information at page load is essential</li>
+<li>Not having to compromise on interactivity is the dream</li>
+</ul></li>
+<li>Native mobile support
+
+<ul>
+<li>Get as close to write once, run anywhere as possible</li>
+<li>Without sacrificing quality</li>
+</ul></li>
+<li>Sustainable tools
+
+<ul>
+<li>Ensure all tools use sound engineering practices</li>
+<li>Make sure there is either a stable following to a tool or an easy pivot</li>
+</ul></li>
+<li>High quality testing
+
+<ul>
+<li>Stack should be designed to hold complexity well</li>
+<li>Regression tests should be simple and clear</li>
+</ul></li>
+</ul>
+
+<h1 id="what-i-ve-tried-so-far">What I&rsquo;ve tried so far&hellip;</h1>
+
+<h2 id="why-not-go-with-vanilla-flux-https-github-com-facebook-flux">Why not go with vanilla <a href="https://github.com/facebook/flux">Flux</a>?</h2>
+
+<p>Using only the Flux tools given by Facebook seems like a no-brainer, but
+besides being extraneously verbose, you have to maintain, grow, and enforce the
+framework yourself.</p>
+
+<h3 id="pros">Pros</h3>
+
+<ul>
+<li>Pretty good assurance that it will not fall out of popularity and leave you
+stranded.</li>
+</ul>
+
+<h3 id="cons">Cons</h3>
+
+<ul>
+<li>Verbose in a bad way</li>
+<li>Leaves a ton of tooling to the imagination</li>
+<li>I lot of ways to mess up</li>
+<li>Left to your own devices on isomorphism</li>
+</ul>
+
+<h2 id="fluxible-https-github-com-yahoo-fluxible"><a href="https://github.com/yahoo/fluxible">Fluxible</a></h2>
+
+<p>A full featured flux framework from Yahoo.</p>
+
+<h3 id="pros-1">Pros</h3>
+
+<ul>
+<li>Isomorphic</li>
+<li>Lots of convenience functionality</li>
+<li>Yahoo backs it and they still are a large company</li>
+</ul>
+
+<h3 id="cons-1">Cons</h3>
+
+<ul>
+<li>A touch magical</li>
+<li>Pretty large</li>
+<li>Still a bit verbose</li>
+</ul>
+
+<h2 id="reflux-https-github-com-spoike-refluxjs"><a href="https://github.com/spoike/refluxjs">Reflux</a></h2>
+
+<p>A minimalistic rethinking of Flux for the functional programming world.</p>
+
+<h3 id="pros-2">Pros</h3>
+
+<ul>
+<li>Simplicity</li>
+<li>Relatively small</li>
+<li>Easy to conceptualize and get started</li>
+<li>No dispatcher, it is built in</li>
+</ul>
+
+<h3 id="cons-2">Cons</h3>
+
+<ul>
+<li>Not isomorphic</li>
+<li>Small bits of built in magic, make it less flexible</li>
+<li>Suggests creating stores that subscribe to other stores
+
+<ul>
+<li>This could create hidden complexity layers deep</li>
+</ul></li>
+</ul>
+
+<h2 id="flummox-https-github-com-acdlite-flummox"><a href="https://github.com/acdlite/flummox">Flummox</a></h2>
+
+<p>Minimal isomorphic Flux.</p>
+
+<h3 id="cons-3">Cons</h3>
+
+<ul>
+<li>Readme says it will not be supported</li>
+</ul>
+
+<h3 id="pros-3">Pros</h3>
+
+<ul>
+<li>Gave me the name of a framework the author likes better</li>
+</ul>
+
+<h2 id="redux-https-github-com-gaearon-redux"><a href="https://github.com/gaearon/redux">Redux</a></h2>
+
+<p>Advertised as &ldquo;Atomic Flux with hot reloading,&rdquo; A minimalistic, isomorphic
+take on Flux that is bare bones but extensible.</p>
+
+<blockquote>
+<h3 id="current-winner">Current Winner</h3>
+
+<p>In spite of its small following and young API, the minimalistic approach
+only gets as far from the vanilla implementation of Flux as you want it
+to. This would make it relatively easy to pivot to another Flux implementation
+of maintain independantly.</p>
+</blockquote>
+
+<h3 id="pros-4">Pros</h3>
+
+<ul>
+<li>Minimalistic</li>
+<li>Extensible</li>
+<li>Isomorphic</li>
+<li>Hot reloads code</li>
+<li>Dispatcher optional, atomic by default</li>
+</ul>
+
+<h3 id="cons-4">Cons</h3>
+
+<ul>
+<li>Pre-1.0 API likely to have breaking changes</li>
+<li>Smaller following</li>
+<li>May not be a winner</li>
+</ul>
+
+<blockquote>
+<h1 id="update-log">Update Log</h1>
+
+<ul>
+<li><em>2015-06-17</em>: Published</li>
+<li><em>2015-08-14</em>: Added note about Relay</li>
+</ul>
+</blockquote>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2016/04/01/imaginary-lines/">Imaginary Lines</a></h4>
+    <h5>April 1, 2016</h5>
+     <kbd class="item-tag">react</kbd>  <kbd class="item-tag">graphql</kbd>  <kbd class="item-tag">relay</kbd>  <kbd class="item-tag">rails</kbd>  <kbd class="item-tag">emberjs</kbd>  <kbd class="item-tag">rest</kbd>  <kbd class="item-tag">engineering</kbd> 
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2015/07/26/react-native-on-heroku/">React Native on Heroku</a></h4>
+    <h5>July 26, 2015</h5>
+     <kbd class="item-tag">react-native</kbd>  <kbd class="item-tag">react</kbd>  <kbd class="item-tag">heroku</kbd>  <kbd class="item-tag">paas</kbd> 
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2015/07/25/relay-vs-flux/">Will Relay replace Flux?</a></h4>
+    <h5>July 25, 2015</h5>
+     <kbd class="item-tag">facebook</kbd>  <kbd class="item-tag">react</kbd>  <kbd class="item-tag">relay</kbd>  <kbd class="item-tag">flux</kbd> 
+
+</div>
+ 
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "brysgo" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

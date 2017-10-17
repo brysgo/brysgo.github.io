@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advice on BRYSGO</title>
+    <link>http://brysgo.com/tags/advice/</link>
+    <description>Recent content in Advice on BRYSGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Jul 2014 21:55:14 +0000</lastBuildDate>
+    
+	<atom:link href="http://brysgo.com/tags/advice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wishlist Series</title>
+      <link>http://brysgo.com/2014/07/27/wishlist-series/</link>
+      <pubDate>Sun, 27 Jul 2014 21:55:14 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2014/07/27/wishlist-series/</guid>
+      <description>Those of you who know me already know I am a man of many wishes and dreams. That means as a developer, I dream up, try to start, and abandon many&amp;hellip;many projects.
+When I work occasionally to get these projects out of my head and into code, I will pull on any open source threads I am given. The really cool part about this is I usually end up finding the people who are already trying to do what I am setting out to do.</description>
+    </item>
+    
+  </channel>
+</rss>

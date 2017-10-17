@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capybara Webkit on BRYSGO</title>
+    <link>http://brysgo.com/tags/capybara-webkit/</link>
+    <description>Recent content in Capybara Webkit on BRYSGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jan 2015 11:00:38 +0000</lastBuildDate>
+    
+	<atom:link href="http://brysgo.com/tags/capybara-webkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaspoon with Capybara-Webkit</title>
+      <link>http://brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</link>
+      <pubDate>Fri, 02 Jan 2015 11:00:38 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</guid>
+      <description>Do you use teaspoon to run your javascript tests?
+Do you use Capybara-Webkit to run your feature tests?
+Now you can run your teaspoon suite faster without having to install and boot up phantomjs. Just use the new Capybara-Webkit driver for teaspoon! You may also have more success with it on your CI server, as that is what caused us to make this change.</description>
+    </item>
+    
+  </channel>
+</rss>

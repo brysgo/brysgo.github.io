@@ -1,0 +1,28 @@
+---
+categories: development retro
+date: 2015-06-25T10:07:43Z
+tags:
+- html5
+- retro
+- marquee
+title: Bringing back 'Under Construction' in style
+url: /2015/06/25/under-construction/
+---
+
+I'm just going to go ahead and say what's on everyone's mind already. Where did all those great under construction pages from the 90s go with the animated gifs and text scrolling accross the screen.
+
+Since I know you all missed those pages so much, I brought them back. If you visit any of my websites that I have yet to utilize:
+
+- [worthy.gift](http://worthy.gift)
+- [unravel.space](http://unravel.space)
+- [solve.technology](http://solve.technology)
+- [socrenchus.com](http://socrenchus.com)
+- [stackoverachieve.com](http://stackoverachieve.com)
+- [stackoverachiever.com](http://stackoverachiever.com)
+
+You will see an under construction banner that uses HTML5 gradients, text shadow, and of course, a marquee tag.
+
+You're welcome.
+
+> # Update Log
+> - *2015-08-14*: Took the cool construction strip down in favor of a brand banner for my consulting business.
