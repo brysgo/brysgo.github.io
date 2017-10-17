@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linode on BRYSGO</title>
+    <link>http://brysgo.com/tags/linode/</link>
+    <description>Recent content in Linode on BRYSGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2015 10:41:18 +0000</lastBuildDate>
+    
+	<atom:link href="http://brysgo.com/tags/linode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Development on a Nexus 9</title>
+      <link>http://brysgo.com/2015/03/11/web-development-on-a-nexus-9/</link>
+      <pubDate>Wed, 11 Mar 2015 10:41:18 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2015/03/11/web-development-on-a-nexus-9/</guid>
+      <description>I recently did something a little crazy. I am a professional web developer, and I decided I was going to move all of my development to the cloud. This paradigm that has brought so much convenience into every corner of my life was going to close the final gap. It took me a little while, but I have 99% percent of what I had going on my Macbook Pro, so here is my setup.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Migration on BRYSGO</title>
+    <link>http://brysgo.com/tags/migration/</link>
+    <description>Recent content in Migration on BRYSGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Dec 2015 00:09:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://brysgo.com/tags/migration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jscodemigrate (deps|dependencies)</title>
+      <link>http://brysgo.com/2015/12/11/jscodemigrate-deps/</link>
+      <pubDate>Fri, 11 Dec 2015 00:09:33 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2015/12/11/jscodemigrate-deps/</guid>
+      <description>If you haven&amp;rsquo;t yet read about jscodemigrate, read about it here. If you already know about jscodemigrate then stick around because there is a new feature, and it is ready for you to use, just npm install jscodemigrate@latest --save-dev.
+You already know that you can run all of your jscodeshift scripts at once and easily maintain your project with a directory full of timestamped codemods, but now, you can make it easy for those who depend on your npm packages to respond quickly to your API changes.</description>
+    </item>
+    
+    <item>
+      <title>jscodeshift &#43; rails migrations = jscodemigrate</title>
+      <link>http://brysgo.com/2015/12/05/jscodemigrate/</link>
+      <pubDate>Sat, 05 Dec 2015 00:09:33 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2015/12/05/jscodemigrate/</guid>
+      <description>I&amp;rsquo;ve worked on lots of projects big and small, but as time went on they all suffered from the same problem. Changing standards and updated api&amp;rsquo;s left code fragmented as the codebase grew.
+From the time I started working on coffeelint, the problem has been stewing in my head. Subconciously on the lookout for a solution, I heard about codemods. Let me preface by saying I&amp;rsquo;ve been quite obsessed with everything facebook engineering has been doing in open source lately.</description>
+    </item>
+    
+  </channel>
+</rss>

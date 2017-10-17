@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Chrome on BRYSGO</title>
+    <link>http://brysgo.com/tags/google-chrome/</link>
+    <description>Recent content in Google Chrome on BRYSGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2015 15:11:44 +0000</lastBuildDate>
+    
+	<atom:link href="http://brysgo.com/tags/google-chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wishlist: Chromebook search/ctrl</title>
+      <link>http://brysgo.com/2015/04/29/chromebook-search-ctrl/</link>
+      <pubDate>Wed, 29 Apr 2015 15:11:44 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2015/04/29/chromebook-search-ctrl/</guid>
+      <description>In order to do development on my Chromebook, I need to change the search key to a control key. Problem is the search key is really sexy, and while I can make the control key the search key, it just isn&amp;rsquo;t the same. Also, sometimes I actually try and use Ctrl like a control key and everything is wonky.
+So here is my request. I want to be able to set the search key to bring up the search if I haven’t pressed any keys in combination with it, but if I have, it should act like a control key.</description>
+    </item>
+    
+  </channel>
+</rss>

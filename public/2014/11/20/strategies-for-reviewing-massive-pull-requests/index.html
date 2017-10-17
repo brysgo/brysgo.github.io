@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Strategies for reviewing massive pull requests</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.31-DEV" />
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', '');
+        </script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Strategies for reviewing massive pull requests</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:brysgo@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/brysgo/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/brysgo/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/brysgo/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/brysgo/"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2014/11/20/strategies-for-reviewing-massive-pull-requests/">Strategies for reviewing massive pull requests</a></h4>
+    <h5>November 20, 2014</h5>
+     <kbd class="item-tag">pull request</kbd>  <kbd class="item-tag">code review</kbd>  <kbd class="item-tag">lots of code</kbd> 
+
+</div>
+
+
+    <br> <div class="text-justify"><p>Too many massive pull requests are a smell, but sometimes big pull requests are a necessity. It is easy to come across a large pull request and immediately reject it, but you shouldn’t be intimidated by the size of a PR.</p>
+
+<p>Your first job when reviewing such a PR is to identify why it is so large. Is there a large piece of functionality being added or Is a common pattern in the code being changed? Maybe the pull request is a large feature combined with pattern changes.</p>
+
+<p>If it is the third, I would definitely ask for the PR to be broken up. There is no reason to do a pattern change and new feature in one PR. Otherwise the actions you take will depend largely on what the reason for the PR’s size is.<!--more--></p>
+
+<h2>Widespread Pattern Changes</h2>
+
+<p>If the PR is large because of a pattern change, identify the change. Look for all the individual places the pattern changed. Check to see that a few of them make sense. Observe how they differ, and maybe search through the code independently looking for parts that may have been missed or intentionally left out. If you find inconsistencies comment and ask about them.</p>
+
+<p>If you agree with the pattern change and you look through them and they all look good, then all you need to do is go through the rest of your normal PR checklist and you’re good to approve it.</p>
+
+<p>If you don’t agree with the pattern change in general, comment on where the pattern could do better. Maybe there is a reason the pattern isn’t that way.</p>
+
+<h2>Large feature added</h2>
+
+<p>If there is a new feature, the first thing to check after you know you want the feature, is all the points where the new code touches existing code. If you find out how it interfaces you can box it in your mind and it will be less overwhelming.</p>
+
+<p>Are the interfaces with the rest of your code standard? Is the new code structured in a way that is consistent with all of your patterns? Is the new code tested? Is the new code integration tested with the rest of the system?</p>
+
+<p>Briefly read through the implementation and check for any faulty assumptions about the existing code. If you find faulty assumptions, point them out so the new feature can be fixed. If you start having common assumptions about different parts of your code that are off, that is a code smell and you should probably address it.</p>
+
+<p>Once you’ve asked all the questions and read through the code, have someone else look at it and then sign off.</p>
+
+<h2>Disclaimer</h2>
+
+<p>No one is perfect and bugs slip by, but if you make good strategies that you constantly improve on you can prevent most catastrophes.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "brysgo" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

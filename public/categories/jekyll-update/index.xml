@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll Update on BRYSGO</title>
+    <link>http://brysgo.com/categories/jekyll-update/</link>
+    <description>Recent content in Jekyll Update on BRYSGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2015 10:07:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://brysgo.com/categories/jekyll-update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Switched to Jekyll!</title>
+      <link>http://brysgo.com/2015/06/05/switched-to-jekyll/</link>
+      <pubDate>Fri, 05 Jun 2015 10:07:43 +0000</pubDate>
+      
+      <guid>http://brysgo.com/2015/06/05/switched-to-jekyll/</guid>
+      <description>Just switched my blog to Jekyll because it is easier to manage. I will probably continue using tumblr here and there to reblog interesting things, but not to write my posts.
+Also didn&amp;rsquo;t feel like deleting the intro post, so here it is&amp;hellip;
+ You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</description>
+    </item>
+    
+  </channel>
+</rss>
