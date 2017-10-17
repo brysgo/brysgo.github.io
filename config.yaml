@@ -1,5 +1,0 @@
-baseURL: http://brysgo.com
-disablePathToLower: true
-languageCode: en-us
-title: BRYSGO
-theme: gohugo-theme-ananke
