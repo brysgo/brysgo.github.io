@@ -1,0 +1,30 @@
+---
+categories: development philosophy
+date: 2014-11-15T02:11:50Z
+tags:
+- object oriented
+- software engineering
+- speghetti
+- blurred lines
+title: OO code isn't spaghetti proof
+tumblr_url: http://blog.brysgo.com/post/102674509294/oo-code-isnt-spaghetti-proof
+url: /2014/11/15/oo-code-isnt-spaghetti-proof/
+---
+
+<p>Today I had another terrifying, tear swallowing pull request moment. It involved clearly abstracted pieces of our system being clearly and purposefully coupled. If this doesn&rsquo;t bring you to your knees let me try and illustrate why this is so bad.</p>
+
+<p>You are the kind of developer that pardon my french, &ldquo;gets shit done.&rdquo; Because you are such a doer, you connect the first input with the desired output. You repeat this with a different input and output a few times. Then you have two inputs that have the same desired outcome so you hook that up. Then maybe you depend on that output as the input to something else you need to decide on. This keeps going on taking whatever input is needed for the job and producing the desired outcome on the system. Eventually this happens.</p>
+
+<p><img src="https://31.media.tumblr.com/b806e2011e2768372a78180a846f2ca9/tumblr_inline_nf2j4zxuhS1r60sb8.png" alt="tangled mess"/></p>
+
+<p>Quick homework, look at the system we&rsquo;ve produced and figure out what action caused what, and what state the system is in, and what will happen if you change a piece.</p>
+
+<p>Now imagine instead of just &ldquo;making it happen&rdquo; you built your system as small, well tested tools that adhere to standard interfaces that can be moved around easily and used with each other fluidly. You&rsquo;d have something closer to this.</p>
+
+<p><img src="http://g-ecx.images-amazon.com/images/G/01/aplus/detail-page/B002RL7VNO_02_lg.jpg" alt="legos!!"/></p>
+
+<p>Now where do you draw the lines between your tools? How do you create the interfaces? Aren&rsquo;t the lines just imaginary?</p>
+
+<p>These are questions that may cause you to dismiss the need, but think about the lego. Are there other ways lego could have made bricks fit together in a consistent fashion? Would the building blocks have been just as successful? Yes the lines are imaginary, and no it really doesn&rsquo;t make so much of a difference where you draw them. The important thing is that they are consistent and you stick with them, even if it means rethinking a minor detail in a feature, because if you don&rsquo;t, well&hellip;</p>
+
+<p><img src="https://31.media.tumblr.com/0e5f7199c745829c92153f996f0e2a3e/tumblr_inline_nf2jq0rgbi1r60sb8.png" alt="this"/></p>
