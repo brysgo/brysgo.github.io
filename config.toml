@@ -1,5 +1,5 @@
 disablePathToLower = true
-baseURL = "http://brysgo.com/"
+baseURL = "https://brysgo.com/"
 languageCode = "en-us"
 title = "BRYSGO"
 theme = "minimal"
