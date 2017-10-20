@@ -11,7 +11,7 @@ title: "Future of Flight: Spontaneous trip to Paris"
 date: 2017-10-17T15:10:28Z
 ---
 
-I want to go to France, I didn't plan to go, I was just waking on the highline and was like, I think I want to go to Paris. I take out my phone, and open my air travel app and put in Paris. It tells me how much it costs, and I click accept. It takes my to a border patrol and security flow where I need to answer some lame questions, but it isn't so bad.
+I want to go to France, I didn't plan to go, I was just waking on the highline and was like, I think I want to go to Paris. I take out my phone, and open my air travel app and put in Paris. It tells me how much it costs, and I click accept. It takes me to a border patrol and security flow where I need to answer some lame questions, but it isn't so bad.
 
 The app informs me which air shuttle to go to. Since there is one every 10 blocks in Manhattan I don't have to go far. I just need to walk to Chelsea market. When I get to the roof, I see an elevator that has four propellers instead of a wire. I get to the door, and I see a border patrol / security officer on a screen who gives me instructions on how to proceed with the security equipment. When I am done, the gates let me through to the elevator.
 
