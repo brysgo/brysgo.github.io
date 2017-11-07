@@ -34,8 +34,8 @@ probably think about modernizing the way they orchestrate their systems.
 Let me explain what I mean, and to do so I will divide up the uses of Linux into
 two categories.
 
-1) Running a remote service for people to use.
-2) Running a local machine for someone to use.
+1. Running a remote service for people to use.
+2. Running a local machine for someone to use.
 
 When solving for the first, you might say, "I want all my users to log in and
 have complete access to a unix environment." To that, I would ask "Do you
