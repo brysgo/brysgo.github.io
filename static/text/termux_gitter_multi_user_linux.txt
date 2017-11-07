@@ -1,0 +1,131 @@
+Bryan Goldstein @brysgo 08:16
+@sdrausty - I'm so frustrated >< https://twitter.com/brysgo/status/927162173331267584
+ Bryan Goldstein @brysgo
+Why is linux still multi-user? No one shares a machine anymore, and every userland application/service has a better authorization system.
+8:14 AM - Nov 5, 2017
+ 1 1 Reply   Retweets   likes
+Twitter Ads info and privacy
+
+Sofia @Soph1a7 08:23
+well it makes sense in servers and institutions
+where Linux is most used
+
+Bryan Goldstein @brysgo 08:23
+maybe institutions
+where lots of people log into the same linux servers
+but I feel like that is really only CS departments at schools
+everyone else is using linux to host their other services with built in authz
+or
+they are using it to build modern operating systems, like android, ios, chrome os, that have application level security
+there isn't really a place in the future for an operating system that everybody logs into
+everyone has like a hundred devices
+
+Sofia @Soph1a7 08:25
+don't forget the enterprise
+
+Bryan Goldstein @brysgo 08:25
+and we log into specific services
+I'm not
+
+Sofia @Soph1a7 08:25
+where one or multiple servers are shared
+
+Bryan Goldstein @brysgo 08:25
+I actually do tech consulting for enterprise
+and they still wouldn't have employees log into a linux system with multiple users
+there are some exceptions
+don't get me wrong
+some systems are built with their authz leveraging unix permissions because it is there
+but there is absolutely no reason for it to be coupled to the OS
+since all of these things are services built on top of the os
+and OS security would be much better if it worried about applications interfering with eachother rather than users
+because most users have no clue what they are doing, and will install random stuff from people who do
+</rant>
+
+
+Bryan Goldstein @brysgo 10:18
+this caused me to write a blog post :grinning: http://www.brysgo.com/post/2017-11-05-multi-user-systems/
+
+IRC/Gitter bot @TermuxBot 10:25
+BrainDamage services in linux are still divided among multiple users for a human user, this allows to reduce the amount of priviledges given them and the attack surface in exchange for increased complexity
+BrainDamage and even when there's not a deliberate attack there's also the accidental damage from user or bugs
+BrainDamage even windows will not let you run everything as admin by default anymore
+BrainDamage if anything, machines are becoming MORE multi-user, just that the users aren't human
+
+Bryan Goldstein @brysgo 10:27
+But is accidental error what we should be building our security for? I would give the post a read
+
+IRC/Gitter bot @TermuxBot 10:29
+BrainDamage i read it, containers are another way to do it, but they come with considerable complexity themselves since you need to give programs an environment to work in
+BrainDamage also accidental error was only one of the points
+BrainDamage and it's true that linux lacks a better auth model, but good luck writing it, cgroups was supposed to be, but it's not done
+
+Bryan Goldstein @brysgo 10:30
+Right, but programs should be where the authorization is focused
+Not users
+We are no longer protecting our systems from users, we are protecting them from the software we install
+
+IRC/Gitter bot @TermuxBot 10:32
+BrainDamage users abstraction is going to be kept, your user case was for a personal device, the majority of computers is actually multi-seated servers
+BrainDamage desktop/phone centric distros indeed can benefit from a more program-oriented security model
+
+Bryan Goldstein @brysgo 10:38
+The server case, I argued it should absolutely not rely on the OS for authorization
+I'm just repeating what was written, but how many times do you log directly into a multi user Unix machine?
+
+IRC/Gitter bot @TermuxBot 10:39
+BrainDamage i don't see that in the link
+
+Bryan Goldstein @brysgo 10:40
+"When was the last time you logged into a multi-user unix system that had other users on it? Was it in your CS department in college? Me too."
+
+IRC/Gitter bot @TermuxBot 10:41
+BrainDamage no, 'The server case, I argued it should absolutely not rely on the OS for authorization' < this
+BrainDamage do you mean the example where you swap operative system?
+BrainDamage there's a limit to the abstraction
+BrainDamage if all os were generic and swappable, the situation would be far off what we have no
+BrainDamage now
+BrainDamage and authorization and permissions are tightly coupled with the base principles of the os ( filesystem structure, etc )
+
+Bryan Goldstein @brysgo 10:44
+Right, but for building services, that doesn't make sense
+
+IRC/Gitter bot @TermuxBot 10:45
+BrainDamage oh and for the record, the last time I've logged into a multiseat server was yesterday
+BrainDamage and no, I'm not in CS
+
+Bryan Goldstein @brysgo 10:45
+Would you mind explaining what the system was for?
+Because it seems to be more the exception
+
+IRC/Gitter bot @TermuxBot 10:46
+BrainDamage i did it twice, one was a game server where i have a small slot allocated for a game i help with, another was a computing cluster to dispatch a job
+
+Bryan Goldstein @brysgo 10:49
+And for the game server, is there a reason the game doesn't handle authorization?
+
+IRC/Gitter bot @TermuxBot 10:49
+BrainDamage it's a server which hosts multiple services for the game
+BrainDamage the game is a sep thing, each service has its own admins
+BrainDamage there's file hosting, there's game lobby, etc
+BrainDamage it's just a way to split the workload so one doesn't have to maintain everything, or each the service admins have access to everything
+
+Bryan Goldstein @brysgo 10:53
+So I'm sure it made sense to set everything up that way, but in a world where your services aren't sharing operating systems the operating system would be much lighter. And sandboxing in userland would make more sense
+And another service for the game
+But I would have a service for files
+They would talk to an authorization service if you need one notion of a user
+
+IRC/Gitter bot @TermuxBot 10:58
+BrainDamage or you can simply keep both and the authorization for a program are the AND between a user's and the program itself, for a desktop system just have the default user with full permissions
+BrainDamage so you'd be AND'ing with 1
+
+Bryan Goldstein @brysgo 11:02
+Right except we should be reducing complexity, it is the only way to make building systems practical as time goes on
+An OS should:
+1) abstract a complex system below into a simpler abstraction
+2) be composable with other operating systems
+It shouldn't add unnecessary complexity to managing a system
+
+IRC/Gitter bot @TermuxBot 11:05
+BrainDamage I'm not sure if people will agree with 2
