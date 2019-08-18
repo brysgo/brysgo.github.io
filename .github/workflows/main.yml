@@ -17,7 +17,7 @@ jobs:
       with:
         args: --gc --minify --cleanDestinationDir
     - name: clean up scss
-      run: rm -rf ./public/css/*.scss
+      run: sudo rm -rf ./public/css/*.scss
     - name: deploy
       uses: peaceiris/actions-gh-pages@v1.1.0
       if: contains(github.ref, 'hugo')
