@@ -5,8 +5,8 @@ tags:
 - engineering
 - abstract
 - wishlist
-title: "The Dangers of Idiomatic Programming"
-date: 2017-12-07T02:00:28Z
+title: "High Altitude Mass Volley"
+date: 2019-08-07T02:00:28Z
 ---
 
 ## Preamble
