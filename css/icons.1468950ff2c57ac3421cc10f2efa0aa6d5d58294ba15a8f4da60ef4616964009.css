@@ -1,0 +1,569 @@
+.si-pivotallabs {
+    background-color: #C61B33;
+    background-image: url(/images/pivotallabs-128.png);
+}
+.si-pinboard {
+    background-color: #00f;
+    background-image: url(/simple-icons/icons/pinboard/pinboard-128.png);
+}
+.si-facebook {
+    background-color: #3b5998;
+    background-image: url(/simple-icons/icons/facebook/facebook-128.png);
+}
+.si-fiverr {
+    background-color: #FFFFFF;
+    border: 1px solid #00B241;
+    background-image: url(/images/fiverr-128.png);
+}
+.si-behance {
+    background-color: #1769ff;
+    background-image: url(/simple-icons/icons/behance/behance-128.png);
+}
+.si-google {
+    background-color: #245dc1;
+    background-image: url(/simple-icons/icons/google/google-128.png);
+}
+.si-skydrive {
+    background-color: #094ab1;
+    background-image: url(/simple-icons/icons/skydrive/skydrive-128.png);
+}
+.si-php {
+    background-color: #6181b6;
+    background-image: url(/simple-icons/icons/php/php-128.png);
+}
+.si-designernews {
+    background-color: #1c52a2;
+    background-image: url(/simple-icons/icons/designernews/designernews-128.png);
+}
+.si-stackexchange {
+    background-color: #1f5196;
+    background-image: url(/simple-icons/icons/stackexchange/stackexchange-128.png);
+}
+.si-delicious {
+    background-color: #3274d1;
+    background-image: url(/simple-icons/icons/delicious/delicious-128.png);
+}
+.si-flickr {
+    background-color: #0063db;
+    background-image: url(/simple-icons/icons/flickr/flickr-128.png);
+}
+.si-livejournal {
+    background-color: #195397;
+    background-image: url(/simple-icons/icons/livejournal/livejournal-128.png);
+}
+.si-ebay {
+    background-color: #0064d2;
+    background-image: url(/simple-icons/icons/ebay/ebay-128.png);
+}
+.si-letterboxd {
+    background-color: #2c3641;
+    background-image: url(/simple-icons/icons/letterboxd/letterboxd-128.png);
+}
+.si-nationalrail {
+    background-color: #036;
+    background-image: url(/simple-icons/icons/nationalrail/nationalrail-128.png);
+}
+.si-digg {
+    background-color: #14589e;
+    background-image: url(/simple-icons/icons/digg/digg-128.png);
+}
+.si-bitbucket {
+    background-color: #205081;
+    background-image: url(/simple-icons/icons/bitbucket/bitbucket-128.png);
+}
+.si-github {
+    background-color: #4183c4;
+    background-image: url(/simple-icons/icons/github/github-128.png);
+}
+.si-tumblr {
+    background-color: #2c4762;
+    background-image: url(/simple-icons/icons/tumblr/tumblr-128.png);
+}
+.si-rdio {
+    background-color: #006ed2;
+    background-image: url(/simple-icons/icons/rdio/rdio-128.png);
+}
+.si-disqus {
+    background-color: #2e9fff;
+    background-image: url(/simple-icons/icons/disqus/disqus-128.png);
+}
+.si-dropbox {
+    background-color: #2281cf;
+    background-image: url(/simple-icons/icons/dropbox/dropbox-128.png);
+}
+.si-coderwall {
+    background-color: #3e8dcc;
+    background-image: url(/simple-icons/icons/coderwall/coderwall-128.png);
+}
+.si-instagram {
+    background-color: #3f729b;
+    background-image: url(/simple-icons/icons/instagram/instagram-128.png);
+}
+.si-jsfiddle {
+    background-color: #4679a4;
+    background-image: url(/simple-icons/icons/jsfiddle/jsfiddle-128.png);
+}
+.si-outlook {
+    background-color: #0072c6;
+    background-image: url(/simple-icons/icons/outlook/outlook-128.png);
+}
+.si-w3c {
+    background-color: #0066b0;
+    background-image: url(/simple-icons/icons/w3c/w3c-128.png);
+}
+.si-jquery {
+    background-color: #0867ab;
+    background-image: url(/simple-icons/icons/jquery/jquery-128.png);
+}
+.si-coursera {
+    background-color: #3a6d8e;
+    background-image: url(/simple-icons/icons/coursera/coursera-128.png);
+}
+.si-exfm {
+    background-color: #0097f8;
+    background-image: url(/simple-icons/icons/exfm/exfm-128.png);
+}
+.si-conservatives {
+    background-color: #0087dc;
+    background-image: url(/simple-icons/icons/conservatives/conservatives-128.png);
+}
+.si-drupal {
+    background-color: #0077c0;
+    background-image: url(/simple-icons/icons/drupal/drupal-128.png);
+}
+.si-formspring {
+    background-color: #0076c0;
+    background-image: url(/simple-icons/icons/formspring/formspring-128.png);
+}
+.si-readmill {
+    background-color: #052336;
+    background-image: url(/simple-icons/icons/readmill/readmill-128.png);
+}
+.si-vimeo {
+    background-color: #4bf;
+    background-image: url(/simple-icons/icons/vimeo/vimeo-128.png);
+}
+.si-myspace {
+    background-color: #008dde;
+    background-image: url(/simple-icons/icons/myspace/myspace-128.png);
+}
+.si-bootstrap {
+    background-color: #08c;
+    background-image: url(/simple-icons/icons/bootstrap/bootstrap-128.png);
+}
+.si-codecademy {
+    background-color: #08c;
+    background-image: url(/simple-icons/icons/codecademy/codecademy-128.png);
+}
+.si-aboutme {
+    background-color: #00405d;
+    background-image: url(/simple-icons/icons/aboutme/aboutme-128.png);
+}
+.si-gravatar {
+    background-color: #1e8cbe;
+    background-image: url(/simple-icons/icons/gravatar/gravatar-128.png);
+}
+.si-wordpress {
+    background-color: #21759b;
+    background-image: url(/simple-icons/icons/wordpress/wordpress-128.png);
+}
+.si-superuser {
+    background-color: #2dabe2;
+    background-image: url(/simple-icons/icons/superuser/superuser-128.png);
+}
+.si-foursquare {
+    background-color: #2398c9;
+    background-image: url(/simple-icons/icons/foursquare/foursquare-128.png);
+}
+.si-linkedin {
+    background-color: #007fb1;
+    background-image: url(/simple-icons/icons/linkedin/linkedin-128.png);
+}
+.si-skype {
+    background-color: #00aff0;
+    background-image: url(/simple-icons/icons/skype/skype-128.png);
+}
+.si-twitter {
+    background-color: #00aced;
+    background-image: url(/simple-icons/icons/twitter/twitter-128.png);
+}
+.si-protoio {
+    background-color: #40c8f4;
+    background-image: url(/simple-icons/icons/protoio/protoio-128.png);
+}
+.si-windows {
+    background-color: #00bdf6;
+    background-image: url(/simple-icons/icons/windows/windows-128.png);
+}
+.si-css3 {
+    background-color: #0092bf;
+    background-image: url(/simple-icons/icons/css3/css3-128.png);
+}
+.si-mysql {
+    background-color: #007597;
+    background-image: url(/simple-icons/icons/mysql/mysql-128.png);
+}
+.si-xing {
+    background-color: #006567;
+    background-image: url(/simple-icons/icons/xing/xing-128.png);
+}
+.si-slideshare {
+    background-color: #099;
+    background-image: url(/simple-icons/icons/slideshare/slideshare-128.png);
+}
+.si-pingup {
+    background-color: #00b1ab;
+    background-image: url(/simple-icons/icons/pingup/pingup-128.png);
+}
+.si-layervault {
+    background-color: #26ae90;
+    background-image: url(/simple-icons/icons/layervault/layervault-128.png);
+}
+.si-vine {
+    background-color: #00a47a;
+    background-image: url(/simple-icons/icons/vine/vine-128.png);
+}
+.si-newsvine {
+    background-color: #075b2f;
+    background-image: url(/simple-icons/icons/newsvine/newsvine-128.png);
+}
+.si-forrst {
+    background-color: #5b9a68;
+    background-image: url(/simple-icons/icons/forrst/forrst-128.png);
+}
+.si-xbox {
+    background-color: #107c10;
+    background-image: url(/simple-icons/icons/xbox/xbox-128.png);
+}
+.si-whatsapp {
+    background-color: #64d448;
+    background-image: url(/simple-icons/icons/whatsapp/whatsapp-128.png);
+}
+.si-basecamp {
+    background-color: #66ad4e;
+    background-image: url(/simple-icons/icons/basecamp/basecamp-128.png);
+}
+.si-tripadvisor {
+    background-color: #589442;
+    background-image: url(/simple-icons/icons/tripadvisor/tripadvisor-128.png);
+}
+.si-envato {
+    background-color: #528036;
+    background-image: url(/simple-icons/icons/envato/envato-128.png);
+}
+.si-evernote {
+    background-color: #6bb130;
+    background-image: url(/simple-icons/icons/evernote/evernote-128.png);
+}
+.si-kik {
+    background-color: #87c541;
+    background-image: url(/simple-icons/icons/kik/kik-128.png);
+}
+.si-kickstarter {
+    background-color: #87c442;
+    background-image: url(/simple-icons/icons/kickstarter/kickstarter-128.png);
+}
+.si-zerply {
+    background-color: #9dbc7a;
+    background-image: url(/simple-icons/icons/zerply/zerply-128.png);
+}
+.si-geeklist {
+    background-color: #8cc63e;
+    background-image: url(/simple-icons/icons/geeklist/geeklist-128.png);
+}
+.si-treehouse {
+    background-color: #7fa24c;
+    background-image: url(/simple-icons/icons/treehouse/treehouse-128.png);
+}
+.si-eventstore {
+    background-color: #6ba300;
+    background-image: url(/simple-icons/icons/eventstore/eventstore-128.png);
+}
+.si-spotify {
+    background-color: #80b719;
+    background-image: url(/simple-icons/icons/spotify/spotify-128.png);
+}
+.si-microformats {
+    background-color: #8cc319;
+    background-image: url(/simple-icons/icons/microformats/microformats-128.png);
+}
+.si-android {
+    background-color: #a4c639;
+    background-image: url(/simple-icons/icons/android/android-128.png);
+}
+.si-khanacademy {
+    background-color: #9db63b;
+    background-image: url(/simple-icons/icons/khanacademy/khanacademy-128.png);
+}
+.si-aim {
+    background-color: #f2d523;
+    background-image: url(/simple-icons/icons/aim/aim-128.png);
+}
+.si-imdb {
+    background-color: #f3ce00;
+    background-image: url(/simple-icons/icons/imdb/imdb-128.png);
+}
+.si-goodreads {
+    background-color: #5a471b;
+    background-image: url(/simple-icons/icons/goodreads/goodreads-128.png);
+}
+.si-liberaldemocrats {
+    background-color: #f7b135;
+    background-image: url(/simple-icons/icons/liberaldemocrats/liberaldemocrats-128.png);
+}
+.si-aws {
+    background-color: #f90;
+    background-image: url(/simple-icons/icons/aws/aws-128.png);
+}
+.si-amazon {
+    background-color: #f90;
+    background-image: url(/simple-icons/icons/amazon/amazon-128.png);
+}
+.si-amazonwishlist {
+    background-color: #f90;
+    background-image: url(/simple-icons/icons/amazonwishlist/amazonwishlist-128.png);
+}
+.si-jqueryui {
+    background-color: #fea620;
+    background-image: url(/simple-icons/icons/data:image/png; base64, iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACpElEQVR42u3aS0hUURzH8TPOZDQZhVlIxPSyiB7LXmat2rhoUZGLgigoSOhFpSAVtChEiGKCNq2C6YGDtnAd0WN6UBQkFCVBSCWTxFRQNDYN03fR0nPuA++d48z/Bx8Q4Qz6FQXnHlUqlaqaBJAAEkACSAAJIAEkgASQABJAAkgAj1agA0lcLpMkOrEq7AAn8Bu2LI/OsAJsg63bGXSACJ7A1j1HTZABZuIrbN031AcZoAE5hLlHeIMinPYdc4MMMDvkAEUsRgyrsR8pvENBE2BOJQUYwpRxvo5atFVDgBSURrttAe6jReMu/OwAlMaAbQHShnM3ff7+r9S83gx8sS1Av+FcL7xuGHHN67WAVXaAAgZxFbvQhAgUuiozgHl5vEQSg1UXwDz7A6R9fjPPNHI2BhgwnLsGr7sOpdFnY4DHhnPH4HUdUBoPyhWg3vDfYBZ1mnMLkYfbjWGJ5rXi+Gz4b7AhyADT8BG6NRvOnoXbnYfSWAvdRlAXXADgBXS7aDgXdfm3IIUYlEYPdHuFSNABbkC3URdvSLRjaJyz73HI4ewsZKFbbxjvCR6EaT1QDuLYhL3Yh82Y7uLcOZh2OIwATShAtwI2Qk2wdRiDbkUsDz4AcAemDWMR1ARJ4ANMuxfmc4GtcNpbzU/Eq2V4DadtDzNADTJw2ijaoHzagSyc9hTR8AIAa/AXbnYbzVAubUAf3KyI9eV6ONrl4y3u09iCpWgE+JjP4RQy8LIz5X46nIKfFfDjvz/ws1uIlDtALdIIe/2Yasv9gCiSCGtXELPxgsRufEJQG8Ee22+INOICchP80PMS5k2mKzLzcRwP8RNe9wsZnERist8RSqAVR9BtuFbTjaNoxQK5JCUBJIAEkAASQAJIAAkgASSABJAAEiAY/wCDbJkreqXvjQAAAABJRU5ErkJggg==);
+}
+.si-viadeo {
+    background-color: #f4982b;
+    background-image: url(/simple-icons/icons/viadeo/viadeo-128.png);
+}
+.si-typo3 {
+    background-color: #ff8700;
+    background-image: url(/simple-icons/icons/typo3/typo3-128.png);
+}
+.si-rss {
+    background-color: #ff8300;
+    background-image: url(/simple-icons/icons/rss/rss-128.png);
+}
+.si-blogger {
+    background-color: #f57d00;
+    background-image: url(/simple-icons/icons/blogger/blogger-128.png);
+}
+.si-codeschool {
+    background-color: #c68044;
+    background-image: url(/simple-icons/icons/codeschool/codeschool-128.png);
+}
+.si-flattr {
+    background-color: #f67c1a;
+    background-image: url(/simple-icons/icons/flattr/flattr-128.png);
+}
+.si-stackoverflow {
+    background-color: #f47920;
+    background-image: url(/simple-icons/icons/stackoverflow/stackoverflow-128.png);
+}
+.si-hackernews {
+    background-color: #f60;
+    background-image: url(/simple-icons/icons/hackernews/hackernews-128.png);
+}
+.si-soundcloud {
+    background-color: #f60;
+    background-image: url(/simple-icons/icons/soundcloud/soundcloud-128.png);
+}
+.si-eventbrite {
+    background-color: #f3844c;
+    background-image: url(/simple-icons/icons/eventbrite/eventbrite-128.png);
+}
+.si-coderbits {
+    background-color: #f16522;
+    background-image: url(/simple-icons/icons/coderbits/coderbits-128.png);
+}
+.si-html5 {
+    background-color: #f06529;
+    background-image: url(/simple-icons/icons/html5/html5-128.png);
+}
+.si-reddit {
+    background-color: #ff4500;
+    background-image: url(/simple-icons/icons/reddit/reddit-128.png);
+}
+.si-office {
+    background-color: #eb3c00;
+    background-image: url(/simple-icons/icons/office/office-128.png);
+}
+.si-smashingmagazine {
+    background-color: #e95c33;
+    background-image: url(/simple-icons/icons/smashingmagazine/smashingmagazine-128.png);
+}
+.si-quora {
+    background-color: #a82400;
+    background-image: url(/simple-icons/icons/quora/quora-128.png);
+}
+.si-klout {
+    background-color: #e24a25;
+    background-image: url(/simple-icons/icons/klout/klout-128.png);
+}
+.si-laravel {
+    background-color: #fb502b;
+    background-image: url(/simple-icons/icons/laravel/laravel-128.png);
+}
+.si-jsdb {
+    background-color: #da320b;
+    background-image: url(/simple-icons/icons/jsdb/jsdb-128.png);
+}
+.si-stumbleupon {
+    background-color: #eb4924;
+    background-image: url(/simple-icons/icons/stumbleupon/stumbleupon-128.png);
+}
+.si-ted {
+    background-color: #ff2b06;
+    background-image: url(/simple-icons/icons/ted/ted-128.png);
+}
+.si-yelp {
+    background-color: #c93c27;
+    background-image: url(/simple-icons/icons/yelp/yelp-128.png);
+}
+.si-gmail {
+    background-color: #dd4b39;
+    background-image: url(/simple-icons/icons/gmail/gmail-128.png);
+}
+.si-googleplus {
+    background-color: #d14836;
+    background-image: url(/simple-icons/icons/googleplus/googleplus-128.png);
+}
+.si-path {
+    background-color: #e41f11;
+    background-image: url(/simple-icons/icons/path/path-128.png);
+}
+.si-lastfm {
+    background-color: #d51007;
+    background-image: url(/simple-icons/icons/lastfm/lastfm-128.png);
+}
+.si-youtube {
+    background-color: #cd332d;
+    background-image: url(/simple-icons/icons/youtube/youtube-128.png);
+}
+.si-blip {
+    background-color: #ff1919;
+    background-image: url(/simple-icons/icons/blip/blip-128.png);
+}
+.si-readability {
+    background-color: #870000;
+    background-image: url(/simple-icons/icons/readability/readability-128.png);
+}
+.si-bebo {
+    background-color: #ee1010;
+    background-image: url(/simple-icons/icons/bebo/bebo-128.png);
+}
+.si-pinterest {
+    background-color: #cb2027;
+    background-image: url(/simple-icons/icons/data:image/png; base64, iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADG0lEQVR42u3aTUgUYRzH8W1dU1tRzAoj1zDDaHu1FD30AkUJXYIougQhBUpQIogdCkrCrCiiIjpFIHawCEowumWEkVBSJCpWUqZCW2L5FmW6fS/B8OfZYUyIZ5znC5+LDbP0c13X2fFFo1FPMwOYAcwAZgAzgBnADGAGMAOYAf4/P5IxH2lImu0DpKAYNWjCG/ThCyL4gFbcQgmyZssAubiEXkynYdQj360DBFGDEcykCVxG0E0DhPECdo1hAL2IYAJ2PcdSNwxQiM9Q1Ykz2IYQUhBEGnKxF3UYhapuhHQeYAUikA3gMBKncZ57UNWKJB0HSEIbZE9n8NS9CFW1Og5QDVkLUmZ43vuQ/USuTgOEFD+3EZuf10xkODz3MoxBdlWnAaohK4VPKMITjGII9Q6fIQ2Q9SGowwDx6IS1HsUL3kaM/ON38iBUFekwwGrIzotj4vAMqj6JsVQKoeqQDgPsh2ynOKYAsRpCOnw2VkLVCR0GqIS1CeSIY8oRq/eY6/BZJjulwwAnYe0bFopjLiBWDxy9u1R3XIcBKmBtGIvEMbWI1TEHj7Fb59eAfbA2hVXimDKomkTYwWNUQdUOHQYIYwrWjohj8jAJ2Sv4HTzGXch+IVuHAQJoh7UOJIpj3kF21uF1hX7IOhDQ5Z1gBWRXMAc+LMYwZFsdnHsXVF3X6a1wMrpg7SPibf4TEaQ6OPdDqNqizwDABnzF3+5Y/q0Gsg4H59wOVS8Rp8MA0ho0I0ollq8/huy7+HUpLcBbqNqj+zXB9UiAD2kYhKprNn8ut0BVk9sui2+GXfXYhCysRSX6oaofIbcNUAUnjcOuQRS68YORRsjqMA6ntSPPjZ8MzUMfrE0iE8XodfBdP4dUt340lgdZFwKWV/pyPEI3etCGBpRiids/GyyD7KbNpbWE2fbp8G3IDnjl/oAAOlVXi7wyQAZGYO01/F4ZIAzZaS/dIpMPaz+Q7aUBCmDthtduklonrhRnem2AHPxGlI568Ta5dEyhGX4vDpCARiz38o2SAXOnqBnADGAGMAOYAcwAZgAzgBnADKClP92qs9JOF+dcAAAAAElFTkSuQmCC);
+}
+.si-mendeley {
+    background-color: #b61f2f;
+    background-image: url(/simple-icons/icons/mendeley/mendeley-128.png);
+}
+.si-rails {
+    background-color: #a62c39;
+    background-image: url(/simple-icons/icons/rails/rails-128.png);
+}
+.si-sinaweibo {
+    background-color: #e6162d;
+    background-image: url(/simple-icons/icons/sinaweibo/sinaweibo-128.png);
+}
+.si-pocket {
+    background-color: #ef4056;
+    background-image: url(/simple-icons/icons/pocket/pocket-128.png);
+}
+.si-labour {
+    background-color: #c41230;
+    background-image: url(/simple-icons/icons/labour/labour-128.png);
+}
+.si-dribbble {
+    background-color: #ea4c89;
+    background-image: url(/simple-icons/icons/dribbble/dribbble-128.png);
+}
+.si-modernizr {
+    background-color: #d81a76;
+    background-image: url(/simple-icons/icons/modernizr/modernizr-128.png);
+}
+.si-orkut {
+    background-color: #ed2590;
+    background-image: url(/simple-icons/icons/orkut/orkut-128.png);
+}
+.si-audioboo {
+    background-color: #ae006e;
+    background-image: url(/simple-icons/icons/audioboo/audioboo-128.png);
+}
+.si-justgiving {
+    background-color: #78256d;
+    background-image: url(/simple-icons/icons/justgiving/justgiving-128.png);
+}
+.si-visualstudio {
+    background-color: #68217a;
+    background-image: url(/simple-icons/icons/visualstudio/visualstudio-128.png);
+}
+.si-yahoo {
+    background-color: #731a8b;
+    background-image: url(/simple-icons/icons/yahoo/yahoo-128.png);
+}
+.si-twitch {
+    background-color: #6441a5;
+    background-image: url(/simple-icons/icons/twitch/twitch-128.png);
+}
+.si-heroku {
+    background-color: #6762a6;
+    background-image: url(/simple-icons/icons/heroku/heroku-128.png);
+}
+.si-appdotnet {
+    background-color: #898d90;
+    background-image: url(/simple-icons/icons/appdotnet/appdotnet-128.png);
+}
+.si-apple {
+    background-color: #b9bfc1;
+    background-image: url(/simple-icons/icons/apple/apple-128.png);
+}
+.si-picasa {
+    background-color: #4b5d5f;
+    background-image: url(/simple-icons/icons/picasa/picasa-128.png);
+}
+.si-deviantart {
+    background-color: #4b5d50;
+    background-image: url(/simple-icons/icons/deviantart/deviantart-128.png);
+}
+.si-500px {
+    background-color: #444;
+    background-image: url(/simple-icons/icons/500px/500px-128.png);
+}
+.si-alistapart {
+    background-color: #222;
+    background-image: url(/simple-icons/icons/alistapart/alistapart-128.png);
+}
+.si-trakt {
+    background-color: #222;
+    background-image: url(/simple-icons/icons/trakt/trakt-128.png);
+}
+.si-angellist {
+    background-color: #000;
+    background-image: url(/simple-icons/icons/angellist/angellist-128.png);
+}
+.si-grooveshark {
+    background-color: #000;
+    background-image: url(/simple-icons/icons/grooveshark/grooveshark-128.png);
+}
+.si-mediatemple {
+    background-color: #000;
+    background-image: url(/simple-icons/icons/mediatemple/mediatemple-128.png);
+}
+.si-squarespace {
+    background-color: #000;
+    background-image: url(/simple-icons/icons/squarespace/squarespace-128.png);
+}
+.si-steam {
+    background-color: #000;
+    background-image: url(/simple-icons/icons/steam/steam-128.png);
+}
+.si-wikipedia {
+    background-color: #000;
+    background-image: url(/simple-icons/icons/wikipedia/wikipedia-128.png);
+}
+.si-codepen {
+    background-color: #231f20;
+    background-image: url(/simple-icons/icons/codepen/codepen-128.png);
+}
+.si-govuk {
+    background-color: #231f20;
+    background-image: url(/simple-icons/icons/govuk/govuk-128.png);
+}
