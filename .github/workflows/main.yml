@@ -1,27 +1,30 @@
-name: Main workflow
+name: github pages
 
 on:
   push:
     branches:
-    - hugo
+      - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
-    - name: submodules
-      run: git submodule update --init
-    - name: build
-      uses: peaceiris/actions-hugo@v0.57.1
-      with:
-        args: --gc --minify --cleanDestinationDir
-    - name: clean up scss
-      run: sudo rm -rf ./public/css/*.scss
-    - name: deploy
-      uses: peaceiris/actions-gh-pages@v1.1.0
-      if: contains(github.ref, 'hugo')
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: master
-        PUBLISH_DIR: ./public
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.62.2"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
