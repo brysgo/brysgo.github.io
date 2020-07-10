@@ -19,7 +19,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build
-        run: hugo --gc --minify --cleanDestinationDir
+        run: hugo --minify --cleanDestinationDir
 
       - name: clean up scss
         run: sudo rm -rf ./public/css/*.scss
