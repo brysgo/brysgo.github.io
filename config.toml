@@ -2,7 +2,7 @@ disablePathToLower = true
 baseURL = "http://brysgo.com/"
 languageCode = "en-us"
 title = "BRYSGO"
-theme = "minimal"
+theme = "custom"
 disqusShortname = "brysgo" # delete this to disable disqus comments
 googleAnalytics = ""
 
@@ -17,6 +17,7 @@ googleAnalytics = ""
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    copyright = "© 2020 Bryan Goldstein, All rights reserved."
 
 [[menu.main]]
     url = "/"
