@@ -2,8 +2,8 @@ disablePathToLower = true
 baseURL = "http://brysgo.com/"
 languageCode = "en-us"
 title = "BRYSGO"
-theme = "custom"
-disqusShortname = "minimal" # delete this to disable disqus comments
+theme = "minimal"
+disqusShortname = "brysgo" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
