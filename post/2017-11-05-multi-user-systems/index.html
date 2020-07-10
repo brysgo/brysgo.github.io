@@ -1,0 +1,55 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Why are operating systems still multi-user?</title><style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent: red;--border-width:  5px }</style><link rel=stylesheet href=http://brysgo.com/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script><script>hljs.initHighlightingOnLoad();</script><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script><script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script><script>$(document).on('click',function(){$('.collapse').collapse('hide');})</script><meta name=generator content="Hugo 0.73.0"><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></head><body><nav class="navbar navbar-default navbar-fixed-top"><div class=container><div class=navbar-header><a class="navbar-brand visible-xs" href=#>Why are operating systems still multi-user?</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span><span class=icon-bar></span><span class=icon-bar></span></button></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href=/>Home</a></li><li><a href=/post/>Posts</a></li></ul><ul class="nav navbar-nav navbar-right"><li class=navbar-icon><a href=mailto:brysgo@gmail.com><i class="fa fa-envelope-o"></i></a></li><li class=navbar-icon><a href=https://github.com/brysgo/><i class="fa fa-github"></i></a></li><li class=navbar-icon><a href=https://twitter.com/brysgo/><i class="fa fa-twitter"></i></a></li><li class=navbar-icon><a href=https://www.linkedin.com/in/brysgo/><i class="fa fa-linkedin"></i></a></li><li class=navbar-icon><a href=https://www.stackoverflow.com/brysgo/><i class="fa fa-stack-overflow"></i></a></li></ul></div></div></nav><main><div><h2>Why are operating systems still multi-user?</h2><h5>November 5, 2017</h5><a href=http://brysgo.com/tags/linux><kbd class=item-tag>linux</kbd></a>
+<a href=http://brysgo.com/tags/authorization><kbd class=item-tag>authorization</kbd></a>
+<a href=http://brysgo.com/tags/security><kbd class=item-tag>security</kbd></a>
+<a href=http://brysgo.com/tags/termux><kbd class=item-tag>termux</kbd></a>
+<a href=http://brysgo.com/tags/opinion><kbd class=item-tag>opinion</kbd></a></div><div align=start class=content><p>So I&rsquo;m minding my own business, setting up Arch linux in my unrooted Termux
+installation on my phone, when all of a sudden, <code>makepkg</code> wants me to not be
+root to run a build. Excuse me? What century are we in?</p><p>Let me clarify, when I am running linux in a container to build applications
+the operating system should not be bothering me with arbitrary user systems.</p><p>When was the last time you logged into a multi-user unix system that had other
+users on it? Was it in your CS department in college? Me too.</p><p>We don&rsquo;t share computers anymore, even <a href=https://www.cbsnews.com/news/kids-with-cell-phones-how-young-is-too-young/>toddlers get their own phones</a> with more
+computing power than you had in your desktop when Linux was born. Not only do
+we not share computers, it is actually the opposite, computers share us.
+Many companies have figured that out by now, using the &ldquo;cloud&rdquo; to build multi
+computer operating systems.</p><p>So I say no one is actually leveraging multi user linux systems in a way that is
+intuitive, and you say, well what about enterprise and large institutions. Well,
+if they are managing servers that multiple people log into, they should
+probably think about modernizing the way they orchestrate their systems.</p><p>Let me explain what I mean, and to do so I will divide up the uses of Linux into
+two categories.</p><ol><li>Running a remote service for people to use.</li><li>Running a local machine for someone to use.</li></ol><p>When solving for the first, you might say, &ldquo;I want all my users to log in and
+have complete access to a unix environment.&rdquo; To that, I would ask &ldquo;Do you
+really need a whole unix environment to use service, or can you build a more
+direct interface?&rdquo; If the answer is you need a unix environment, I would say,
+you should build containers for your users and log them into containers.
+However, the answer is much more likely to be no, we just need our users to
+check their email, to which I would say, you probably just want to run an email
+service and have it communicate with some central authorization service.
+To that you might say, &ldquo;That is exactly what I&rsquo;ll do, except I&rsquo;ll just use unix
+permissions for my authorization because it is there.&rdquo; To that I would ask,
+&ldquo;Do you really want your service authorization coupled to your computer operating
+system?&rdquo; Operating systems are made to run hardware to the point where it becomes
+a generic, pluggable system to run software. What if you got new hardware that
+was better, but required a different operating system, do you want to port
+your authorization to the new system? A better way to solve this problem, would
+be to look for a solid, system independent authorization module and use that.</p><p>Now how about the second use case? This takes us back to the fact that we no
+longer share computers, and if we did, it wouldn&rsquo;t be the responsibility of
+the computer operating system to manage this, it would be a service on top.
+Let&rsquo;s look at android for instance, now I will admit I don&rsquo;t know a whole lot
+about how the internals relate to linux, but I do know what the security focus
+has been on, and it hasn&rsquo;t been user level security, it has been app level.
+Users install software from a plethora of sources, and they don&rsquo;t fully understand
+the consequences of doing so. A system like android has built authorization and
+sandboxing around each application, giving it permission to access only what
+it needs to do the job it has. That isn&rsquo;t to say that android doesn&rsquo;t leverage
+the multi-user nature of linux, but it certainly doesn&rsquo;t need to, and it doesn&rsquo;t
+exactly fit cleanly into the paradigm of multi-system users that it is building
+for.</p><p>I am happy to have a discussion about this (maybe it already exists), but I would
+love to see a version of linux that did away with multiple users and instead
+focused on app level security.</p><p>*The views expressed in this article are my own and do not represent those of my employer.</p></div><h4 class=page-header>Related</h4><div class=item><h4><a href=/post/2017-12-07-idiom-shmidiom/>The Dangers of Idiomatic Programming</a></h4><h5>December 7, 2017</h5><a href=http://brysgo.com/tags/idioms><kbd class=item-tag>idioms</kbd></a>
+<a href=http://brysgo.com/tags/thinking><kbd class=item-tag>thinking</kbd></a>
+<a href=http://brysgo.com/tags/programming><kbd class=item-tag>programming</kbd></a>
+<a href=http://brysgo.com/tags/opinion><kbd class=item-tag>opinion</kbd></a></div><div class=item><h4><a href=/post/2017-11-06-job-of-os/>The Job of an OS</a></h4><h5>November 6, 2017</h5><a href=http://brysgo.com/tags/linux><kbd class=item-tag>linux</kbd></a>
+<a href=http://brysgo.com/tags/os><kbd class=item-tag>os</kbd></a>
+<a href=http://brysgo.com/tags/abstraction><kbd class=item-tag>abstraction</kbd></a>
+<a href=http://brysgo.com/tags/opinion><kbd class=item-tag>opinion</kbd></a></div><h4 class=page-header>Comments</h4><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
+var d=document,s=d.createElement('script');s.async=true;s.src='//'+"brysgo"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></main><footer><p class="copyright text-muted">© 2020 Bryan Goldstein, All rights reserved.</p></footer></body></html>
