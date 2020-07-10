@@ -16,10 +16,11 @@ jobs:
           hugo-version: "latest"
       - name: clean up scss
         run: sudo rm -rf ./public/css/*.scss
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v1.1.0
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         if: contains(github.ref, 'hugo')
-        env:
+        with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
