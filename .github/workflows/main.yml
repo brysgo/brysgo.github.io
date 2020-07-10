@@ -24,10 +24,10 @@ jobs:
       - name: clean up scss
         run: sudo rm -rf ./public/css/*.scss
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         if: contains(github.ref, 'hugo')
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./public
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: ./public # The folder the action should deploy.
