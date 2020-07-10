@@ -530,6 +530,10 @@
 .hero-image img {
   border: 7px solid black;
   border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  background-color: white;
 }
 
 @media (min-width: 1200px) {
