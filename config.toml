@@ -8,7 +8,7 @@ googleAnalytics = ""
 
 [params]
     author = "Bryan Goldstein"
-    description = "The blog about nothing"
+    description = ""
     githubUsername = "brysgo"
     accent = "red"
     showBorder = true
