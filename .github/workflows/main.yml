@@ -14,7 +14,6 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
-          args: --gc --minify --cleanDestinationDir
       - name: clean up scss
         run: sudo rm -rf ./public/css/*.scss
       - name: deploy
