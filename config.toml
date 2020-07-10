@@ -3,7 +3,7 @@ baseURL = "http://brysgo.com/"
 languageCode = "en-us"
 title = "BRYSGO"
 theme = "custom"
-disqusShortname = "brysgo" # delete this to disable disqus comments
+disqusShortname = "minimal" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
