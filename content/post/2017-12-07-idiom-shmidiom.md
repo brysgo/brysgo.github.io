@@ -1,19 +1,18 @@
 ---
 categories: philosophy leadership
 tags:
-- idioms
-- thinking
-- programming
-- opinion
+  - quirky
+  - idioms
+  - thinking
+  - programming
+  - opinion
 title: "The Dangers of Idiomatic Programming"
 date: 2017-12-07T02:00:28Z
 ---
 
-What does it mean to be idiomatic? 
+What does it mean to be idiomatic?
 
 "Of, relating to, or conforming to idiom" - Merriam-Webster
-
- 
 
 So what is an idiom?
 
@@ -37,7 +36,7 @@ not the right thing to do. Does this mean that I am a bad person, or that I
 think any less of whomever came up with the golden rule? No.
 
 Now, let's say you have a cabin in the woods. I’m not talking up in
-Westchester, I’m talking Canadian wilderness area. Someone comes across your 
+Westchester, I’m talking Canadian wilderness area. Someone comes across your
 property, and they are obviously lost, probably hungry, cold and tired. You are
 like **really** into the golden rule, super idiomatic, and a very nice person. You
 invite them in, offer them food, share your fire, and even let them use your
@@ -60,9 +59,9 @@ and skilled individual can’t think of every possible situation in which their
 words can be applied. It is far better to understand the reasoning behind those
 words and use the lessons learned to improve your approach going forward.
 
-*This post was inspired by some Wikipedia edits pointed out by Dan Abramov on
+_This post was inspired by some Wikipedia edits pointed out by Dan Abramov on
 Twitter, followed by a barrage of worrisome opinions by an unnamed individual
 I spoke to. All tweets in question along with the Wikipedia edits are MIA at
-the time of writing this*
+the time of writing this_
 
-*As usual, views expressed are my own, and do not represent those of my employer.
+\*As usual, views expressed are my own, and do not represent those of my employer.

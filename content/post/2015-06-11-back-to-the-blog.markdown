@@ -3,6 +3,8 @@ categories: blogging
 date: 2015-06-11T01:19:34Z
 title: Back to the blog...
 url: /2015/06/11/back-to-the-blog/
+tags:
+  - quirky
 ---
 
 Now I know this isn't [my first time promising more blog time][blog-a-day] but I'm renewing my vows.

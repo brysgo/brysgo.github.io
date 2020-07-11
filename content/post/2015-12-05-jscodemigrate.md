@@ -2,10 +2,11 @@
 categories: development tools
 date: 2015-12-05T00:09:33Z
 tags:
-- jscodeshift
-- codemods
-- recast
-- migration
+  - development
+  - jscodeshift
+  - codemods
+  - recast
+  - migration
 title: jscodeshift + rails migrations = jscodemigrate
 url: /2015/12/05/jscodemigrate/
 ---
@@ -35,13 +36,13 @@ handles [database migrations][rails-migrations] I decided to build a code migrat
 eager to hear what people think about the concept.
 
 # TRY IT OUT
+
 [https://github.com/brysgo/jscodemigrate](https://github.com/brysgo/jscodemigrate)
 
-
-[code-fragmenting]:https://xkcd.com/927/
-[coffeelint]:https://github.com/clutchski/coffeelint/issues/195
-[codemod-talk]:https://youtu.be/d0pOgY8__JM
-[facebook-open-source]:http://www.fastcompany.com/3038842/how-facebooks-massive-open-source-push-delivers-better-code-and-better-engineers
-[jscodeshift]:https://github.com/facebook/jscodeshift
-[ast-explorer]:http://astexplorer.net/
-[rails-migrations]:http://blog.lilyjen.com/an-intro-to-rails-migrations/
+[code-fragmenting]: https://xkcd.com/927/
+[coffeelint]: https://github.com/clutchski/coffeelint/issues/195
+[codemod-talk]: https://youtu.be/d0pOgY8__JM
+[facebook-open-source]: http://www.fastcompany.com/3038842/how-facebooks-massive-open-source-push-delivers-better-code-and-better-engineers
+[jscodeshift]: https://github.com/facebook/jscodeshift
+[ast-explorer]: http://astexplorer.net/
+[rails-migrations]: http://blog.lilyjen.com/an-intro-to-rails-migrations/

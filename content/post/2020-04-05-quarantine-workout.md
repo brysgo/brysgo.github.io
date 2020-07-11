@@ -1,6 +1,7 @@
 ---
 categories: quarantine life
 tags:
+  - quirky
   - pandemic
   - covid19
   - lifestyle

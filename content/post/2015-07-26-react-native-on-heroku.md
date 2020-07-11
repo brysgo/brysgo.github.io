@@ -2,10 +2,12 @@
 categories: development tools
 date: 2015-07-26T00:09:33Z
 tags:
-- react-native
-- react
-- heroku
-- paas
+  - development
+  - devops
+  - react-native
+  - react
+  - heroku
+  - paas
 title: React Native on Heroku
 url: /2015/07/26/react-native-on-heroku/
 ---
@@ -36,7 +38,7 @@ My server uses websockets, so this is how I added the proxy...
 <script src="https://gist.github.com/brysgo/17b0536381632eb67c27.js"></script>
 
 You will see that I also added `react-native-env` and made an `environment.plist`
-ala [this blog post][ios-env-article] with a `hostname` so that my application 
+ala [this blog post][ios-env-article] with a `hostname` so that my application
 will know which server to use.
 
 To change environments I just swap out the `environment.plist` with one that has

@@ -3,10 +3,11 @@ categories: development philosophy
 date: 2016-06-21T01:54:33Z
 subtitle: avoid getting stuck with a pile of glass shards
 tags:
-- software
-- engineering
-- complexity
-- abstractions
+  - development
+  - software
+  - engineering
+  - complexity
+  - abstractions
 title: Crystallize your abstractions carefully...
 url: /2016/06/21/crystallize-carfully/
 ---
@@ -17,7 +18,7 @@ for refactoring][rule-of-three] and every time I hear it, I die a little inside.
 If building a new abstraction is so painful, that it is easier to copy and paste
 large chunks of code, you need to rethink the way you are building your
 abstractions. Building the right abstractions isn't just a time consuming
-distraction from building software, it *is* software engineering.
+distraction from building software, it _is_ software engineering.
 
 With that out of the way, let me try and explain how I decide what to abstract
 so that years from now when I'm older some obnoxious young know it all can tell
@@ -67,4 +68,4 @@ about fringe complexity that was added in after the fact.
 
 ![](https://images4.alphacoders.com/105/105864.jpg)
 
-[rule-of-three]:https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)
+[rule-of-three]: https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)

@@ -2,10 +2,11 @@
 categories: development tools
 date: 2015-12-11T00:09:33Z
 tags:
-- jscodeshift
-- codemods
-- recast
-- migration
+  - development
+  - jscodeshift
+  - codemods
+  - recast
+  - migration
 title: jscodemigrate (deps|dependencies)
 url: /2015/12/11/jscodemigrate-deps/
 ---

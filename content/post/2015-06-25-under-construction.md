@@ -2,9 +2,10 @@
 categories: development retro
 date: 2015-06-25T10:07:43Z
 tags:
-- html5
-- retro
-- marquee
+  - development
+  - html5
+  - retro
+  - marquee
 title: Bringing back 'Under Construction' in style
 url: /2015/06/25/under-construction/
 ---
@@ -25,4 +26,5 @@ You will see an under construction banner that uses HTML5 gradients, text shadow
 You're welcome.
 
 > # Update Log
-> - *2015-08-14*: Took the cool construction strip down in favor of a brand banner for my consulting business.
+>
+> - _2015-08-14_: Took the cool construction strip down in favor of a brand banner for my consulting business.

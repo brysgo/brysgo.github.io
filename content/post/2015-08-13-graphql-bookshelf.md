@@ -2,10 +2,11 @@
 categories: development libraries
 date: 2015-08-13T00:09:33Z
 tags:
-- graphql
-- bookshelf
-- knex
-- graphql-js
+  - development
+  - graphql
+  - bookshelf
+  - knex
+  - graphql-js
 title: Graphql + Bookshelf
 url: /2015/08/13/graphql-bookshelf/
 ---
@@ -38,12 +39,12 @@ to open source.
 
 Enjoy!
 
-*Footnote -- I haven't played around with Relay enough yet to know if this will
-work with connection types, but it will almost certainly work for plain old 
-graphql schema.*
+_Footnote -- I haven't played around with Relay enough yet to know if this will
+work with connection types, but it will almost certainly work for plain old
+graphql schema._
 
-[graffiti-mongoose]:https://github.com/RisingStack/graffiti-mongoose
-[bookshelfjs]:http://bookshelfjs.org/
-[tgriesser]:https://github.com/tgriesser
-[graffiti]:https://github.com/RisingStack/graffiti
-[graphql-schema]:https://github.com/brysgo/graphql-bookshelf/tree/master/schema
+[graffiti-mongoose]: https://github.com/RisingStack/graffiti-mongoose
+[bookshelfjs]: http://bookshelfjs.org/
+[tgriesser]: https://github.com/tgriesser
+[graffiti]: https://github.com/RisingStack/graffiti
+[graphql-schema]: https://github.com/brysgo/graphql-bookshelf/tree/master/schema

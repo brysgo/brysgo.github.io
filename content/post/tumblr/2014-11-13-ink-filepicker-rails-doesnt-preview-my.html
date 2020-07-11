@@ -2,19 +2,44 @@
 categories: development hacks
 date: 2014-11-13T19:30:18Z
 tags:
-- filepicker
-- rails
+  - development
+  - filepicker
+  - rails
 title: Ink/filepicker-rails doesn't preview my unsupported image format
 tumblr_url: http://blog.brysgo.com/post/102569031159/ink-filepicker-rails-doesnt-preview-my
 url: /2014/11/13/ink-filepicker-rails-doesnt-preview-my/
 ---
 
-<p>First, before you go any further&hellip; check to make sure the image you&rsquo;re trying isn&rsquo;t just broken.</p>
+<p>
+  First, before you go any further&hellip; check to make sure the image
+  you&rsquo;re trying isn&rsquo;t just broken.
+</p>
 
-<p>I visited the image in the browser and realized that the browser supported the format, so the broken preview had to be somewhere in filepicker.</p>
+<p>
+  I visited the image in the browser and realized that the browser supported the
+  format, so the broken preview had to be somewhere in filepicker.
+</p>
 
-<p>In my case I was using a(n) <code>.ico</code> file and since filepicker.io <a href="https://developers.filepicker.io/docs/web/rest/#blob-images">only supports post processing on <code>.jpg</code> and <code>.png</code></a> I had to come up with a work around.</p>
+<p>
+  In my case I was using a(n) <code>.ico</code> file and since filepicker.io
+  <a href="https://developers.filepicker.io/docs/web/rest/#blob-images"
+    >only supports post processing on <code>.jpg</code> and <code>.png</code></a
+  >
+  I had to come up with a work around.
+</p>
 
-<p>Once I realized the breakage was in the <code>/convert</code> directive that was automatically filled in for me by the <em>rails gods</em>, the search was on. I dug through the application layer and the gem and I couldn&rsquo;t get it to relinquish its post processing madness.</p>
+<p>
+  Once I realized the breakage was in the <code>/convert</code> directive that
+  was automatically filled in for me by the <em>rails gods</em>, the search was
+  on. I dug through the application layer and the gem and I couldn&rsquo;t get
+  it to relinquish its post processing madness.
+</p>
 
-<p>So I did what any programmer would do. I hacked the preview to use the plain filepicker url instead of decorating it and it worked great™. I used javascript but I&rsquo;m sure the tangled mess you end up different will require different scissors. I wrote this in case it should one day help a frustrated programmer in need if nothing else, with the simple knowledge that he is not alone in his plight.</p>
+<p>
+  So I did what any programmer would do. I hacked the preview to use the plain
+  filepicker url instead of decorating it and it worked great™. I used
+  javascript but I&rsquo;m sure the tangled mess you end up different will
+  require different scissors. I wrote this in case it should one day help a
+  frustrated programmer in need if nothing else, with the simple knowledge that
+  he is not alone in his plight.
+</p>

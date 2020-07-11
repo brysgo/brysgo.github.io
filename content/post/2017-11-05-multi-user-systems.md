@@ -1,11 +1,12 @@
 ---
 categories: linux termux
 tags:
-- linux
-- authorization
-- security
-- termux
-- opinion
+  - linux
+  - authorization
+  - security
+  - termux
+  - devops
+  - opinion
 title: "Why are operating systems still multi-user?"
 date: 2017-11-05T14:10:28Z
 ---
@@ -29,7 +30,7 @@ computer operating systems.
 So I say no one is actually leveraging multi user linux systems in a way that is
 intuitive, and you say, well what about enterprise and large institutions. Well,
 if they are managing servers that multiple people log into, they should
-probably think about modernizing the way they orchestrate their systems. 
+probably think about modernizing the way they orchestrate their systems.
 
 Let me explain what I mean, and to do so I will divide up the uses of Linux into
 two categories.
@@ -69,7 +70,7 @@ exactly fit cleanly into the paradigm of multi-system users that it is building
 for.
 
 I am happy to have a discussion about this (maybe it already exists), but I would
-love to see a version of linux that did away with multiple users and instead 
+love to see a version of linux that did away with multiple users and instead
 focused on app level security.
 
-*The views expressed in this article are my own and do not represent those of my employer.
+\*The views expressed in this article are my own and do not represent those of my employer.

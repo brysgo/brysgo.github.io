@@ -4,6 +4,7 @@ tags:
   - pandemic
   - covid19
   - lifestyle
+  - quirky
 title: "Quarantine Rule #2: Play Video Games"
 date: 2020-04-09T23:36:00Z
 ---

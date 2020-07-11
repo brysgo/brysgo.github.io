@@ -18,6 +18,9 @@ jobs:
         with:
           hugo-version: "latest"
 
+      - name: Copy theme modifications
+        run: rsync -a themes/custom/ themes/minimal/
+
       - name: Build
         run: hugo --minify --cleanDestinationDir
 

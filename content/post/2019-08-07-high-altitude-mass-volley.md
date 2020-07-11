@@ -1,10 +1,11 @@
 ---
 categories: space future
 tags:
-- aerospace
-- engineering
-- abstract
-- wishlist
+  - scifi
+  - aerospace
+  - engineering
+  - abstract
+  - wishlist
 title: "High Altitude Mass Volley"
 date: 2019-08-07T02:00:28Z
 ---
@@ -24,6 +25,7 @@ This all started with a jump back in time to Newton’s cannonball. It certainly
 But we are determined to get to space! Violent acceleration can’t stop us. What about a train? Those accelerate slowly and get going really fast. This is actually a great idea. You would need a massively long train, but something like Elon Musk’s hyperloop might do. Aside from the capital costs of this approach, we have to deal with air resistance when we exit the hyperloop. This could potentially be solved by building a hyperloop muzzle that ascends into the sky to where the air is thin. I am a huge fan of this idea and it would drastically lower the cost of sending things to space if we are able to invest enough upfront to make it happen. But is there a way we can do something at lower cost now? Can we overcome the challenge of acceleration, fuel weight, and air resistance without being united in the effort by another cold war?
 
 ## Back to the basics
+
 If we think back to the cannon, it works, we can accelerate small pellets past escape velocity with current technology and we have very sophisticated targeting software that could hit a target from very far away. What if we just had a lot of very small guns shooting a space ship to propel it to orbit?
 
 There are more than a couple problems with this, including:

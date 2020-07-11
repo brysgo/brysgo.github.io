@@ -2,10 +2,11 @@
 categories: development frameworks
 date: 2015-07-25T12:59:33Z
 tags:
-- facebook
-- react
-- relay
-- flux
+  - development
+  - facebook
+  - react
+  - relay
+  - flux
 title: Will Relay replace Flux?
 url: /2015/07/25/relay-vs-flux/
 ---
@@ -47,7 +48,8 @@ Here is the client-side store and here is the view that uses it...
 <script src="https://gist.github.com/brysgo/f9613e71386b00aa4d03.js"></script>
 
 > # Update Log
-> - *2015-07-25*: Published
-> - *2015-08-14*: Add link to relay
+>
+> - _2015-07-25_: Published
+> - _2015-08-14_: Add link to relay
 
-[relay-preview]:https://facebook.github.io/relay/
+[relay-preview]: https://facebook.github.io/relay/
