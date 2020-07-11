@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development team on BRYSGO</title><link>//brysgo.com/categories/development-team/</link><description>Recent content in development team on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 20 Nov 2014 22:52:00 +0000</lastBuildDate><atom:link href="//brysgo.com/categories/development-team/index.xml" rel="self" type="application/rss+xml"/><item><title>Strategies for reviewing massive pull requests</title><link>//brysgo.com/2014/11/20/strategies-for-reviewing-massive-pull-requests/</link><pubDate>Thu, 20 Nov 2014 22:52:00 +0000</pubDate><guid>//brysgo.com/2014/11/20/strategies-for-reviewing-massive-pull-requests/</guid><description>
-&lt;p>Too many massive pull requests are a smell, but sometimes big pull requests are a necessity. It is easy to come across a large pull request and immediately reject it, but you shouldn’t be intimidated by the size of a PR.&lt;/p>
-&lt;p>Your first job when reviewing such a PR is to identify why it is so large. Is there a large piece of functionality being added or Is a common pattern in the code being changed? Maybe the pull request is a large feature combined with pattern changes.&lt;/p>
-&lt;p>If it is the third, I would definitely ask for the PR to be broken up. There is no reason to do a pattern change and new feature in one PR. Otherwise the actions you take will depend largely on what the reason for the PR’s size is.</description></item></channel></rss>
+&lt;p>
+Too many massive pull requests are a smell, but sometimes big pull requests
+are a necessity. It is easy to come across a large pull request and
+immediately reject it, but you shouldn’t be intimidated by the size of a PR.
+&lt;/p>
+&lt;p>
+Your first job when reviewing such a PR is to identify why it is so large. Is
+there a large piece of functionality being added or Is a common pattern in the
+code being changed? Maybe the pull request is a large feature combined with
+pattern changes.
+&lt;/p>
+&lt;p>
+If it is the third, I would definitely ask for the PR to be broken up. There
+is no reason to do a pattern change and new feature in one PR. Otherwise the
+actions you take will depend largely on what the reason for the PR’s size is.</description></item></channel></rss>

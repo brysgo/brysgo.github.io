@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development on BRYSGO</title><link>//brysgo.com/categories/development/</link><description>Recent content in development on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 2014 15:17:00 +0000</lastBuildDate><atom:link href="//brysgo.com/categories/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Linearly dependant Rspec 'behavior'</title><link>//brysgo.com/2014/12/31/linearly-dependant-rspec-behavior/</link><pubDate>Wed, 31 Dec 2014 15:17:00 +0000</pubDate><guid>//brysgo.com/2014/12/31/linearly-dependant-rspec-behavior/</guid><description>
-&lt;p>&lt;strong>The problem:&lt;/strong> You finish writing your test in rspec, and after you have carefully described the scenario, you go to write your next test. For your next test you need to check that after you do everything for the first test, the next thing doesn’t break.&lt;/p>
+&lt;p>
+&lt;strong>The problem:&lt;/strong> You finish writing your test in rspec, and after
+you have carefully described the scenario, you go to write your next test. For
+your next test you need to check that after you do everything for the first
+test, the next thing doesn’t break.
+&lt;/p>
 &lt;p>&lt;strong>Potential hacks:&lt;/strong>&lt;/p>
-&lt;p>a) Well, it is just this one time, I can ignore the description of the spec and just throw in another assertion after my test.&lt;/p>
-&lt;p>While you’re at it, why don’t you just do everything in one test, I’m sure you’ll be able to figure it out when it fails.&lt;/p>
-&lt;p>b) There isn’t that much setup, I can just do the same thing I did in the last test as setup!&lt;/p>
-&lt;p>Lets pretend we don’t care about performance, I hope we can guarantee that the first test won’t change and that the setup state of the second test won’t get out of touch with reality!&lt;/p>
+&lt;p>
+a) Well, it is just this one time, I can ignore the description of the spec
+and just throw in another assertion after my test.
+&lt;/p>
+&lt;p>
+While you’re at it, why don’t you just do everything in one test, I’m sure
+you’ll be able to figure it out when it fails.
+&lt;/p>
+&lt;p>
+b) There isn’t that much setup, I can just do the same thing I did in the last
+test as setup!
+&lt;/p>
+&lt;p>
+Lets pretend we don’t care about performance, I hope we can guarantee that the
+first test won’t change and that the setup state of the second test won’t get
+out of touch with reality!
+&lt;/p>
 &lt;p>&lt;strong>But wait, there’s another solutions…&lt;/strong>&lt;/p>
-&lt;p></description></item><item><title>Contextualizing with DSLs</title><link>//brysgo.com/2014/12/19/contextualizing-with-dsls/</link><pubDate>Fri, 19 Dec 2014 18:40:31 +0000</pubDate><guid>//brysgo.com/2014/12/19/contextualizing-with-dsls/</guid><description>Why do we use domain specific languages? My first reaction to them when I started programming in the real world was to scorn them with the attitude that they introduce unnecessary complication for both the developer and the computer. What good could they possibly do?
-Like any programmer thrown into a stack, I faithfully used the established patterns, knowing that any divergence from the standard usually has a much worse effect than dealing with it.</description></item><item><title>Use your YAML fixtures as documentation</title><link>//brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</link><pubDate>Wed, 10 Dec 2014 21:45:00 +0000</pubDate><guid>//brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</guid><description>
-&lt;p>If you are writing an API sandbox with a local development tool, you will no doubt need fixtures for your API’s modeling.&lt;/p>
-&lt;p>It turns out those fixtures are a great example of how your API is modeled. If you comment on those fixtures, they can be great documentation for the perusing developer.</description></item></channel></rss>
+&lt;p></description></item><item><title>Contextualizing with DSLs</title><link>//brysgo.com/2014/12/19/contextualizing-with-dsls/</link><pubDate>Fri, 19 Dec 2014 18:40:31 +0000</pubDate><guid>//brysgo.com/2014/12/19/contextualizing-with-dsls/</guid><description>Why do we use domain specific languages? My first reaction to them when I started programming in the real world was to scorn them with the attitude that they introduce unnecessary complication for both the developer and the computer. What good could they possibly do? Like any programmer thrown into a stack, I faithfully used the established patterns, knowing that any divergence from the standard usually has a much worse effect than dealing with it.</description></item><item><title>Use your YAML fixtures as documentation</title><link>//brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</link><pubDate>Wed, 10 Dec 2014 21:45:00 +0000</pubDate><guid>//brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</guid><description>
+&lt;p>
+If you are writing an API sandbox with a local development tool, you will no
+doubt need fixtures for your API’s modeling.
+&lt;/p>
+&lt;p>
+It turns out those fixtures are a great example of how your API is modeled. If
+you comment on those fixtures, they can be great documentation for the
+perusing developer.</description></item></channel></rss>
