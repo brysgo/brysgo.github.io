@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
 name: Download posts from google sheets
 jobs:
   download-posts:
