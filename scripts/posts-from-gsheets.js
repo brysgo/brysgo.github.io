@@ -9,7 +9,7 @@ const slugify = require("slugify");
   const SPREADSHEET =
     "https://spreadsheets.google.com/feeds/cells/1UkPZul1YlXjTM-ieRXwMxdfpXfHYs6CamJhjynjAguI/1/public/values?alt=json";
   const dir = "../content/post";
-  const POSTING_INTERVAL = 6.048e8; // 1 week in milliseconds
+  const POSTING_INTERVAL = 2.016e8; // 1/3 of a week in milliseconds
   const LAST_POSTED = fs
     .readdirSync(dir)
     .reduce((latest, cur) => {
