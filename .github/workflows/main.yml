@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - hugo
+  repository_dispatch:
+    types: manual-deploy
 
 jobs:
   build-deploy:
@@ -11,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          ref: hugo
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0
       - name: Setup Hugo
