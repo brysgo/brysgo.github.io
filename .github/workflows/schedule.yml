@@ -1,0 +1,45 @@
+on:
+  schedule:
+    - cron: 0 8,13,17 * * *
+name: Download posts from google sheets
+jobs:
+  download-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: hugo
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: "14"
+      - name: setup yarn version
+        run: cd scripts/ && yarn set version berry --only-if-needed && cd ../
+      - name: run blog post generator
+        run: cd scripts/ && yarn node ./posts-from-gsheets.js && cd ../
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply php-cs-fixer changes
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+
+      - name: Copy theme modifications
+        run: rsync -a themes/custom/ themes/minimal/
+
+      - name: Build
+        run: hugo --minify --cleanDestinationDir
+
+      - name: clean up scss
+        run: sudo rm -rf ./public/css/*.scss
+
+      - name: copy github workflow
+        run: mkdir -p ./public/.github/workflows && cp ./.github/workflows/* ./public/.github/workflows
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        if: contains(github.ref, 'hugo')
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: public # The folder the action should deploy.
