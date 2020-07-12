@@ -1,0 +1,42 @@
+name: Main workflow
+
+on:
+  push:
+    branches:
+      - hugo
+  repository_dispatch:
+    types: manual-deploy
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: hugo
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+
+      - name: Copy theme modifications
+        run: rsync -a themes/custom/ themes/minimal/
+
+      - name: Build
+        run: hugo --minify --cleanDestinationDir
+
+      - name: clean up scss
+        run: sudo rm -rf ./public/css/*.scss
+
+      - name: copy github workflow
+        run: mkdir ./public/.github/ && rsync -a ./.github/ ./public/.github/
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        if: contains(github.ref, 'hugo')
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: public # The folder the action should deploy.
