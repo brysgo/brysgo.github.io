@@ -28,7 +28,7 @@ jobs:
         run: sudo rm -rf ./public/css/*.scss
 
       - name: copy github workflow
-        run: mkdir -p ./public/.github/workflows && cp ./.github/workflows/* ./public/.github/workflows
+        run: mkdir ./public/.github/ && rsync -a ./.github/ ./public/.github/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
