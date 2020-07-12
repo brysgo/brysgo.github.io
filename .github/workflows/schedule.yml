@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: 0 8,13,17 * * *
+    - cron: "* * * * *"
 name: Download posts from google sheets
 jobs:
   download-posts:
@@ -18,28 +18,6 @@ jobs:
         run: cd scripts/ && yarn node ./posts-from-gsheets.js && cd ../
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Apply php-cs-fixer changes
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
-
-      - name: Copy theme modifications
-        run: rsync -a themes/custom/ themes/minimal/
-
-      - name: Build
-        run: hugo --minify --cleanDestinationDir
-
-      - name: clean up scss
-        run: sudo rm -rf ./public/css/*.scss
-
-      - name: copy github workflow
-        run: mkdir -p ./public/.github/workflows && cp ./.github/workflows/* ./public/.github/workflows
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        if: contains(github.ref, 'hugo')
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
+          commit_message: Download new blog posts from spreadsheet
+      - name: trigger deploy
+        run: 'curl -H "Accept: application/vnd.github.everest-preview+json"  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}"  --request POST  --data ''{"event_type": "manual-deploy"}''  https://api.github.com/repos/brysgo/brysgo.github.io/dispatches'
