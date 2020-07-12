@@ -12,8 +12,10 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: "14"
+      - name: setup yarn version
+        run: cd scripts/ && yarn set version berry --only-if-needed && cd ../
       - name: run blog post generator
-        run: cd scripts/ && yarn node ./posts-from-gsheets.js
+        run: cd scripts/ && yarn node ./posts-from-gsheets.js && cd ../
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply php-cs-fixer changes
