@@ -20,4 +20,4 @@ jobs:
         with:
           commit_message: Download new blog posts from spreadsheet
       - name: trigger deploy
-        run: curl -H "Accept: application/vnd.github.everest-preview+json" \ -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \ --request POST \ --data '{"event_type": "manual-deploy"}' \ https://api.github.com/repos/brysgo/brysgo.github.io/dispatches
+        run: 'curl -H "Accept: application/vnd.github.everest-preview+json"  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}"  --request POST  --data ''{"event_type": "manual-deploy"}''  https://api.github.com/repos/brysgo/brysgo.github.io/dispatches'
