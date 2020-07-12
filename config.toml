@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "BRYSGO"
 theme = "minimal"
 disqusShortname = "brysgo" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-1024054-3"
 
 [params]
     author = "Bryan Goldstein"
