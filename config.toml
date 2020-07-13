@@ -54,6 +54,6 @@ googleAnalytics = "UA-1024054-3"
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/brysgo/"
+    url = "https://stackoverflow.com/users/386294/brysgo"
     name = "stack-overflow"
     weight = 5
