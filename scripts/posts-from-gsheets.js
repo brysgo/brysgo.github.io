@@ -3,21 +3,19 @@ const fs = require("fs");
 const path = require("path");
 const md5 = require("md5");
 const slugify = require("slugify");
+const { execSync } = require("child_process");
 
 (async () => {
-  const postedTitleKeys = [];
   const SPREADSHEET =
     "https://spreadsheets.google.com/feeds/cells/1UkPZul1YlXjTM-ieRXwMxdfpXfHYs6CamJhjynjAguI/1/public/values?alt=json";
   const dir = "../content/post";
-  const POSTING_INTERVAL = 8.64e7; // 1 day in milliseconds
-  const LAST_POSTED = fs
+  const postedTitleKeys = fs
     .readdirSync(dir)
-    .reduce((latest, cur) => {
-      postedTitleKeys.push(cur.split("-").slice(3).join("-").split(".")[0]);
-      const { mtime } = fs.lstatSync(path.join(dir, cur));
-      return latest > mtime ? latest : mtime;
-    })
-    .getTime();
+    .map((cur) => cur.split("-").slice(3).join("-").split(".")[0]);
+  const POSTING_INTERVAL = 8.64e7; // 1 day in milliseconds
+  const LAST_POSTED = new Date(
+    execSync(`git log -1 --pretty="format:%ci" ${dir}`)
+  ).getTime();
   const POST_AFTER_DATE = "Post after date";
   const AUTO_SCHEDULE = "Schedule automatically";
   const POST_NOW = "Post now";
