@@ -12,7 +12,7 @@ const { execSync } = require("child_process");
   const postedTitleKeys = fs
     .readdirSync(dir)
     .map((cur) => cur.split("-").slice(3).join("-").split(".")[0]);
-  const POSTING_INTERVAL = 8.64e7; // 1 day in milliseconds
+  const POSTING_INTERVAL = 2.02e8; // 3 times a week in milliseconds
   const LAST_POSTED = new Date(
     execSync(`git log -1 --pretty="format:%ci" ${dir}`)
   ).getTime();
