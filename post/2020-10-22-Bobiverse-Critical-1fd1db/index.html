@@ -1,14 +1,107 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Bobiverse: Critical Analysis of Drift</title><style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:red;--border-width:5px}</style><link rel=stylesheet href=//www.brysgo.com/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script><script>hljs.initHighlightingOnLoad()</script><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script><script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script><script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script><meta name=generator content="Hugo 0.85.0"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-1024054-3"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-1024054-3')</script><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></head><body><nav class="navbar navbar-default navbar-fixed-top"><div class=container><div class=navbar-header><a class="navbar-brand visible-xs" href=#>Bobiverse: Critical Analysis of Drift</a>
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Bobiverse: Critical Analysis of Drift</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:red;--border-width:5px}</style>
+<link rel=stylesheet href=//www.brysgo.com/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.86.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1024054-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-1024054-3')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Bobiverse: Critical Analysis of Drift</a>
 <button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
-<span class=icon-bar></span><span class=icon-bar></span><span class=icon-bar></span></button></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href=/>Home</a></li><li><a href=/post/>Posts</a></li></ul><ul class="nav navbar-nav navbar-right"><li class=navbar-icon><a href=mailto:brysgo@gmail.com><i class="fa fa-envelope-o"></i></a></li><li class=navbar-icon><a href=https://github.com/brysgo/><i class="fa fa-github"></i></a></li><li class=navbar-icon><a href=https://twitter.com/brysgo/><i class="fa fa-twitter"></i></a></li><li class=navbar-icon><a href=https://www.linkedin.com/in/brysgo/><i class="fa fa-linkedin"></i></a></li><li class=navbar-icon><a href=https://stackoverflow.com/users/386294/brysgo><i class="fa fa-stack-overflow"></i></a></li></ul></div></div></nav><main><div><h2>Bobiverse: Critical Analysis of Drift</h2><h5>October 22, 2020</h5><a href=//www.brysgo.com/tags/ai><kbd class=item-tag>ai</kbd></a>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/>Home</a></li>
+<li><a href=/post/>Posts</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:brysgo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/brysgo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/brysgo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/brysgo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://stackoverflow.com/users/386294/brysgo><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div>
+<h2>Bobiverse: Critical Analysis of Drift</h2>
+<h5>October 22, 2020</h5>
+<a href=//www.brysgo.com/tags/ai><kbd class=item-tag>ai</kbd></a>
 <a href=//www.brysgo.com/tags/opinion><kbd class=item-tag>opinion</kbd></a>
 <a href=//www.brysgo.com/tags/scifi><kbd class=item-tag>scifi</kbd></a>
 <a href=//www.brysgo.com/tags/shower-thoughts><kbd class=item-tag>shower thoughts</kbd></a>
 <a href=//www.brysgo.com/tags/rant><kbd class=item-tag>rant</kbd></a>
-<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a></div><div align=start class=content><p>I recently read the book series referred to as the &ldquo;Bobiverse,&rdquo; that tickled my nerd fancy so much that I had to write about it. While I really loved the book, that is not what I&rsquo;m going to write about, instead, like a good dork, I&rsquo;m going to scratch the singular itch that was left lingering throughout the series. I will try not to go too much into detail, but I would recommend giving it a read if you are worried about spoilers.</p><p>Before I begin, I need to summarize drift (for those of you who haven&rsquo;t read the books), it is a concept introduced when a man named Bob, who can replicate himself exactly as he is at the time of replication, discovers that each of his replicants come out with slightly different personalities and are unique in their own way.</p><p>The book constantly postulates that this must be the result of a mysterious quantum effect. Whether the author believes this or not, it had the thrilling effect of pushing me to challenge the perspective of the main character. The result of those thoughts will follow.</p><p>Before I pick at the idea of drift being a quantum effect, we have to understand what the author means when he says this. When bob describes drift as a quantum effect, he talks about how something is missed in the process of copying. Some deeper quantum effect that doesn&rsquo;t get copied. This is followed up later in the series by the theory that quantum information can&rsquo;t be created or destroyed, allowing a Bob to transport digitally, without drift. This seems to imply that some fundamental law of the quantum world conspires to make this information theory true. You could argue that he was simply referring to a macro scale non-determinism like what is exhibited by Schrodinger&rsquo;s cat, but I think the examples above make it clear that isn&rsquo;t the case.</p><p>So why does this explanation make me tick? It isn&rsquo;t the fact that the explanation is impossible, but simply that it is implausible. I&rsquo;m going to stop myself here for a sec, because you are probably having a bit of a laugh at the fact that I&rsquo;m calling I small detail in a book series about exploring the universe &ldquo;implausible,&rdquo; so I&rsquo;ll let you get it out of your system. Now that you&rsquo;re composed I will defend myself by saying that the world building in this book was so good, that in the whole series this is the detail I can zero in on.</p><p>Why is it implausible? The answer is Occam&rsquo;s razor. That explanation is not the simplest one that works. I&rsquo;ll give you another explanation and you tell me if it makes sense.</p><p>A simpler answer to this puzzle lies in the concept of identity. It is a trait possessed by all self aware beings and it is defined by the way a being differentiates itself from it&rsquo;s environment. In the Bobiverse, each Bob is self aware, but the collective, often referred to as &ldquo;The Bob&rdquo; is not. All machines (a category I will assume Bob is a subset of, since he is inside a computer), have state and behavior. In a complex machine like Bob, the state is a function of the behavior, and the behavior is a function of the state. State is internal, Bob&rsquo;s cumulative experience, and external, his place in the environment and specifics of how that environment interacts with him.</p><p>Before we continue with the concept of identity, I want to jump back to the quantum information experiment performed by the bob&rsquo;s to figure out if they were the same person when they transport themselves. The experiment performed involved transporting one bob, and replicating another. The question is, how do you tell if there is drift when you don&rsquo;t have the original copy to compare with? Now if instead of this quantum assumption, we attribute the fact that replicants are different to their identity, we can look at the results of the same experiment differently.</p><p>To understand this a little better, we can take a classic from the seventies, the Stanford Prison Experiment. Worth a google if you haven&rsquo;t heard of it, but it basically demonstrates how people&rsquo;s behavior can change drastically in a position of power. Imagine two identical bobs were placed on the opposite side of the Stanford Prison Experiment with only classical (i.e. verbal) communication between them. Do you think an outsider would perceive the two as having the same personality? Do you think they would perceive each-other as being the same person?</p><p>Now do you still think this difference is produced by an artifact of quantum physics? Or maybe it is a result of the reaction to the different sets of information provided post split that causes the individuals to diverge in order to meet the needs of their environment? Let me know what you think in the comments :-)</p></div><h4 class=page-header>Related</h4><div class=item><h4><a href=/post/2020-10-08-What-is-life-7c954f/>What is life?</a></h4><h5>October 8, 2020</h5><a href=//www.brysgo.com/tags/life><kbd class=item-tag>life</kbd></a>
+<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a>
+</div>
+<div align=start class=content><p>I recently read the book series referred to as the &ldquo;Bobiverse,&rdquo; that tickled my nerd fancy so much that I had to write about it. While I really loved the book, that is not what I&rsquo;m going to write about, instead, like a good dork, I&rsquo;m going to scratch the singular itch that was left lingering throughout the series. I will try not to go too much into detail, but I would recommend giving it a read if you are worried about spoilers.</p>
+<p>Before I begin, I need to summarize drift (for those of you who haven&rsquo;t read the books), it is a concept introduced when a man named Bob, who can replicate himself exactly as he is at the time of replication, discovers that each of his replicants come out with slightly different personalities and are unique in their own way.</p>
+<p>The book constantly postulates that this must be the result of a mysterious quantum effect. Whether the author believes this or not, it had the thrilling effect of pushing me to challenge the perspective of the main character. The result of those thoughts will follow.</p>
+<p>Before I pick at the idea of drift being a quantum effect, we have to understand what the author means when he says this. When bob describes drift as a quantum effect, he talks about how something is missed in the process of copying. Some deeper quantum effect that doesn&rsquo;t get copied. This is followed up later in the series by the theory that quantum information can&rsquo;t be created or destroyed, allowing a Bob to transport digitally, without drift. This seems to imply that some fundamental law of the quantum world conspires to make this information theory true. You could argue that he was simply referring to a macro scale non-determinism like what is exhibited by Schrodinger&rsquo;s cat, but I think the examples above make it clear that isn&rsquo;t the case.</p>
+<p>So why does this explanation make me tick? It isn&rsquo;t the fact that the explanation is impossible, but simply that it is implausible. I&rsquo;m going to stop myself here for a sec, because you are probably having a bit of a laugh at the fact that I&rsquo;m calling I small detail in a book series about exploring the universe &ldquo;implausible,&rdquo; so I&rsquo;ll let you get it out of your system. Now that you&rsquo;re composed I will defend myself by saying that the world building in this book was so good, that in the whole series this is the detail I can zero in on.</p>
+<p>Why is it implausible? The answer is Occam&rsquo;s razor. That explanation is not the simplest one that works. I&rsquo;ll give you another explanation and you tell me if it makes sense.</p>
+<p>A simpler answer to this puzzle lies in the concept of identity. It is a trait possessed by all self aware beings and it is defined by the way a being differentiates itself from it&rsquo;s environment. In the Bobiverse, each Bob is self aware, but the collective, often referred to as &ldquo;The Bob&rdquo; is not. All machines (a category I will assume Bob is a subset of, since he is inside a computer), have state and behavior. In a complex machine like Bob, the state is a function of the behavior, and the behavior is a function of the state. State is internal, Bob&rsquo;s cumulative experience, and external, his place in the environment and specifics of how that environment interacts with him.</p>
+<p>Before we continue with the concept of identity, I want to jump back to the quantum information experiment performed by the bob&rsquo;s to figure out if they were the same person when they transport themselves. The experiment performed involved transporting one bob, and replicating another. The question is, how do you tell if there is drift when you don&rsquo;t have the original copy to compare with? Now if instead of this quantum assumption, we attribute the fact that replicants are different to their identity, we can look at the results of the same experiment differently.</p>
+<p>To understand this a little better, we can take a classic from the seventies, the Stanford Prison Experiment. Worth a google if you haven&rsquo;t heard of it, but it basically demonstrates how people&rsquo;s behavior can change drastically in a position of power. Imagine two identical bobs were placed on the opposite side of the Stanford Prison Experiment with only classical (i.e. verbal) communication between them. Do you think an outsider would perceive the two as having the same personality? Do you think they would perceive each-other as being the same person?</p>
+<p>Now do you still think this difference is produced by an artifact of quantum physics? Or maybe it is a result of the reaction to the different sets of information provided post split that causes the individuals to diverge in order to meet the needs of their environment? Let me know what you think in the comments :-)</p>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/post/2020-10-08-What-is-life-7c954f/>What is life?</a></h4>
+<h5>October 8, 2020</h5>
+<a href=//www.brysgo.com/tags/life><kbd class=item-tag>life</kbd></a>
 <a href=//www.brysgo.com/tags/shower-thoughts><kbd class=item-tag>shower thoughts</kbd></a>
-<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a></div><div class=item><h4><a href=/post/2020-09-10-dollartrong-AI-f769ed/>$trong AI</a></h4><h5>September 10, 2020</h5><a href=//www.brysgo.com/tags/ai><kbd class=item-tag>ai</kbd></a>
+<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/post/2020-09-10-dollartrong-AI-f769ed/>$trong AI</a></h4>
+<h5>September 10, 2020</h5>
+<a href=//www.brysgo.com/tags/ai><kbd class=item-tag>ai</kbd></a>
 <a href=//www.brysgo.com/tags/opinion><kbd class=item-tag>opinion</kbd></a>
-<a href=//www.brysgo.com/tags/shower-thoughts><kbd class=item-tag>shower thoughts</kbd></a></div><div class=item><h4><a href=/post/2020-08-19-End-of-Work-Beginnin-75f8b0/>End of Work = Beginning of Creativity</a></h4><h5>August 19, 2020</h5><a href=//www.brysgo.com/tags/ai><kbd class=item-tag>ai</kbd></a>
+<a href=//www.brysgo.com/tags/shower-thoughts><kbd class=item-tag>shower thoughts</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/post/2020-08-19-End-of-Work-Beginnin-75f8b0/>End of Work = Beginning of Creativity</a></h4>
+<h5>August 19, 2020</h5>
+<a href=//www.brysgo.com/tags/ai><kbd class=item-tag>ai</kbd></a>
 <a href=//www.brysgo.com/tags/scifi><kbd class=item-tag>scifi</kbd></a>
-<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a></div><h4 class=page-header>Comments</h4><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//brysgo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></main><footer><p class="copyright text-muted">© 2020 Bryan Goldstein, All rights reserved.</p></footer></body></html>
+<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//brysgo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© 2020 Bryan Goldstein, All rights reserved.</p>
+</footer>
+</body>
+</html>

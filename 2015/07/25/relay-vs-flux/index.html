@@ -1,32 +1,133 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Will Relay replace Flux?</title><style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:red;--border-width:5px}</style><link rel=stylesheet href=//www.brysgo.com/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script><script>hljs.initHighlightingOnLoad()</script><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script><script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script><script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script><meta name=generator content="Hugo 0.85.0"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-1024054-3"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-1024054-3')</script><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></head><body><nav class="navbar navbar-default navbar-fixed-top"><div class=container><div class=navbar-header><a class="navbar-brand visible-xs" href=#>Will Relay replace Flux?</a>
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Will Relay replace Flux?</title>
+<style>html body{font-family:raleway,sans-serif;background-color:#fff}:root{--accent:red;--border-width:5px}</style>
+<link rel=stylesheet href=//www.brysgo.com/css/main.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css integrity=sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.86.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1024054-3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-1024054-3')</script>
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=#>Will Relay replace Flux?</a>
 <button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
-<span class=icon-bar></span><span class=icon-bar></span><span class=icon-bar></span></button></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href=/>Home</a></li><li><a href=/post/>Posts</a></li></ul><ul class="nav navbar-nav navbar-right"><li class=navbar-icon><a href=mailto:brysgo@gmail.com><i class="fa fa-envelope-o"></i></a></li><li class=navbar-icon><a href=https://github.com/brysgo/><i class="fa fa-github"></i></a></li><li class=navbar-icon><a href=https://twitter.com/brysgo/><i class="fa fa-twitter"></i></a></li><li class=navbar-icon><a href=https://www.linkedin.com/in/brysgo/><i class="fa fa-linkedin"></i></a></li><li class=navbar-icon><a href=https://stackoverflow.com/users/386294/brysgo><i class="fa fa-stack-overflow"></i></a></li></ul></div></div></nav><main><div><h2>Will Relay replace Flux?</h2><h5>July 25, 2015</h5><a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href=/>Home</a></li>
+<li><a href=/post/>Posts</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=mailto:brysgo@gmail.com><i class="fa fa-envelope-o"></i></a></li>
+<li class=navbar-icon><a href=https://github.com/brysgo/><i class="fa fa-github"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/brysgo/><i class="fa fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/brysgo/><i class="fa fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://stackoverflow.com/users/386294/brysgo><i class="fa fa-stack-overflow"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div>
+<h2>Will Relay replace Flux?</h2>
+<h5>July 25, 2015</h5>
+<a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
 <a href=//www.brysgo.com/tags/facebook><kbd class=item-tag>facebook</kbd></a>
 <a href=//www.brysgo.com/tags/react><kbd class=item-tag>react</kbd></a>
 <a href=//www.brysgo.com/tags/relay><kbd class=item-tag>relay</kbd></a>
-<a href=//www.brysgo.com/tags/flux><kbd class=item-tag>flux</kbd></a></div><div align=start class=content><blockquote><p><a href=https://facebook.github.io/relay/>Relay</a> is out in preview! Have a look.</p></blockquote><p>When people talk about Relay they think of it as the server-client link in the
-Facebook stack, but is that really all it is?</p><p>Flux still has a place on the client because you need to manage temporary app
-state, right?</p><p>I think it doesn&rsquo;t. Flux is an architecture for unidirectional data flow that
+<a href=//www.brysgo.com/tags/flux><kbd class=item-tag>flux</kbd></a>
+</div>
+<div align=start class=content><blockquote>
+<p><a href=https://facebook.github.io/relay/>Relay</a> is out in preview! Have a look.</p>
+</blockquote>
+<p>When people talk about Relay they think of it as the server-client link in the
+Facebook stack, but is that really all it is?</p>
+<p>Flux still has a place on the client because you need to manage temporary app
+state, right?</p>
+<p>I think it doesn&rsquo;t. Flux is an architecture for unidirectional data flow that
 separates out input from the user and the server so that it can react without
 getting tangled up. It does so at the high cost of tremendous verbosity and a
-significant drop in top down readability.</p><p>Enter Relay. Relay is a higher level abstraction that wraps React components in
+significant drop in top down readability.</p>
+<p>Enter Relay. Relay is a higher level abstraction that wraps React components in
 containers that declaratively specify data to sync with the server. Since Relay
 uses GraphQL to communicate with the server, it doesn&rsquo;t seem like there is a
 solution for temporary app state. Relay does, however, provide a much cleaner
 way to organize the data of your app, so why would you go back to Flux instead
-of creating a solution on the same level of abstraction?</p><p>GraphQL server in the browser? Why not? You could create an in-memory GraphQL
-database for temporary app state if you need to.</p><p>React transmit is a Relay framework which replaces GraphQL with plain old
+of creating a solution on the same level of abstraction?</p>
+<p>GraphQL server in the browser? Why not? You could create an in-memory GraphQL
+database for temporary app state if you need to.</p>
+<p>React transmit is a Relay framework which replaces GraphQL with plain old
 JS Promises. I have been using it for the time being to structure the data of
 my apps. I have also been fortunate enough to stumble upon the temporary state
 issue and solved it the way I suggested above, by querying local stores from
-Transmit instead of querying the server.</p><p>Basically, it needs to choose a random ID between 0 and 999 and keep some memory
-of which ones have already been chosen.</p><p>Here is the client-side store and here is the view that uses it&mldr;</p><blockquote><h1 id=update-log>Update Log</h1><ul><li><em>2015-07-25</em>: Published</li><li><em>2015-08-14</em>: Add link to relay</li></ul></blockquote></div><h4 class=page-header>Related</h4><div class=item><h4><a href=/post/2020-08-14-GitHub-Inbox-Zero-9892d6/>GitHub Inbox Zero</a></h4><h5>August 14, 2020</h5><a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
+Transmit instead of querying the server.</p>
+<p>Basically, it needs to choose a random ID between 0 and 999 and keep some memory
+of which ones have already been chosen.</p>
+<p>Here is the client-side store and here is the view that uses it&mldr;</p>
+<blockquote>
+<h1 id=update-log>Update Log</h1>
+<ul>
+<li><em>2015-07-25</em>: Published</li>
+<li><em>2015-08-14</em>: Add link to relay</li>
+</ul>
+</blockquote>
+</div>
+<h4 class=page-header>Related</h4>
+<div class=item>
+<h4><a href=/post/2020-08-14-GitHub-Inbox-Zero-9892d6/>GitHub Inbox Zero</a></h4>
+<h5>August 14, 2020</h5>
+<a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
 <a href=//www.brysgo.com/tags/devops><kbd class=item-tag>devops</kbd></a>
 <a href=//www.brysgo.com/tags/quarantine><kbd class=item-tag>quarantine</kbd></a>
-<a href=//www.brysgo.com/tags/open-source><kbd class=item-tag>open source</kbd></a></div><div class=item><h4><a href=/post/2020-08-08-the-yin-and-yang-of-dc939a/>the yin and yang of utility</a></h4><h5>August 8, 2020</h5><a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
+<a href=//www.brysgo.com/tags/open-source><kbd class=item-tag>open source</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/post/2020-08-08-the-yin-and-yang-of-dc939a/>the yin and yang of utility</a></h4>
+<h5>August 8, 2020</h5>
+<a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
 <a href=//www.brysgo.com/tags/quirky><kbd class=item-tag>quirky</kbd></a>
 <a href=//www.brysgo.com/tags/life><kbd class=item-tag>life</kbd></a>
 <a href=//www.brysgo.com/tags/shower-thoughts><kbd class=item-tag>shower thoughts</kbd></a>
-<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a></div><div class=item><h4><a href=/post/2020-08-06-coming-soon-peersta-415acc/>coming soon: peerstate</a></h4><h5>August 6, 2020</h5><a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
+<a href=//www.brysgo.com/tags/philosophy><kbd class=item-tag>philosophy</kbd></a>
+</div>
+<div class=item>
+<h4><a href=/post/2020-08-06-coming-soon-peersta-415acc/>coming soon: peerstate</a></h4>
+<h5>August 6, 2020</h5>
+<a href=//www.brysgo.com/tags/development><kbd class=item-tag>development</kbd></a>
 <a href=//www.brysgo.com/tags/backstory><kbd class=item-tag>backstory</kbd></a>
-<a href=//www.brysgo.com/tags/open-source><kbd class=item-tag>open source</kbd></a></div><h4 class=page-header>Comments</h4><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//brysgo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></main><footer><p class="copyright text-muted">© 2020 Bryan Goldstein, All rights reserved.</p></footer></body></html>
+<a href=//www.brysgo.com/tags/open-source><kbd class=item-tag>open source</kbd></a>
+</div>
+<h4 class=page-header>Comments</h4>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//brysgo.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</main>
+<footer>
+<p class="copyright text-muted">© 2020 Bryan Goldstein, All rights reserved.</p>
+</footer>
+</body>
+</html>
