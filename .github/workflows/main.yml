@@ -21,9 +21,6 @@ jobs:
         with:
           hugo-version: "latest"
 
-      - name: Copy theme modifications
-        run: rsync -a themes/custom/ themes/minimal/
-
       - name: Build
         run: hugo --minify --cleanDestinationDir
 
@@ -32,6 +29,9 @@ jobs:
 
       - name: copy github workflow
         run: mkdir ./public/.github/ && rsync -a ./.github/ ./public/.github/
+
+      - name: touch nojekyll
+        run: touch ./public/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
