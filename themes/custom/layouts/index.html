@@ -1,9 +1,295 @@
 {{ partial "header" . }}
 
 <main>
-  <iframe
-    src="/landing_page"
-    style="width: 100%; height: 100%; position: absolute; top: 40px; left: 0;"
-  >
-  </iframe>
+  <div class="site-wrapper">
+    <!-- Hero Area  -->
+    <section class="hero-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="hero-image">
+              <img src="/landing_page/image/hero-image.png" alt="Bryan Goldstein" />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="hero-content">
+              <h1>Bryan Goldstein</h1>
+              <p>
+                Born and raised in the suburbs of NYC I quickly became
+                identifiable by my obsessions, all of which have led me to
+                this point.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Area  -->
+    <section class="feature-section">
+      <div class="shape">
+        <img src="/landing_page/image/landing-1-shape.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>What would you say... you do here?</h2>
+        </div>
+        <div class="row mb-d-30">
+          <div class="col-md-6 col-lg-4 mb--30">
+            <div class="feature-card">
+              <div class="card-icon">
+                <i class="icon icon-users-mm"></i>
+              </div>
+              <div class="card-content">
+                <h3>Web Developer</h3>
+                <p>
+                  I specialize in modern web technologies, with a strong focus on React and GraphQL. 
+                  I am an active contributor to open source projects and passionate about building scalable web applications.
+                </p>
+                <a href="/tags/development" class="btn btn-link right-icon"
+                  >Learn more <i class="icon icon-minimal-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb--30">
+            <div class="feature-card">
+              <div class="card-icon">
+                <i class="icon icon-send"></i>
+              </div>
+              <div class="card-content">
+                <h3>DevOps Enthusiast</h3>
+                <p>
+                  I am driven by a passion for automation and efficiency. 
+                  My expertise includes building CI/CD pipelines and leveraging modern DevOps tooling to streamline development workflows.
+                </p>
+                <a href="/tags/devops" class="btn btn-link right-icon"
+                  >Learn more <i class="icon icon-minimal-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb--30">
+            <div class="feature-card">
+              <div class="card-icon">
+                <i class="icon icon-settings"></i>
+              </div>
+              <div class="card-content">
+                <h3>AI Researcher</h3>
+                <p>
+                  Fascinated by the intersection of computer science and cognitive modeling, I am constantly exploring new frontiers in Artificial Intelligence and Machine Learning.
+                </p>
+                <a href="/tags/ai" class="btn btn-link right-icon"
+                  >Learn more <i class="icon icon-minimal-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="content-section-01">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Recent Insights</h2>
+            </div>
+            <div class="row">
+                {{ range first 3 (where .Site.RegularPages "Type" "post") }}
+                <div class="col-md-4 mb--30">
+                    <div class="feature-card" style="height: 100%;">
+                        <div class="card-content">
+                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                            <p>{{ .Summary | truncate 150 }}</p>
+                            <a href="{{ .Permalink }}" class="btn btn-link right-icon">Read more <i class="icon icon-minimal-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Area  -->
+    <section class="content-section-01">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 col-sm-6 col-10">
+            <div class="content-img">
+              <img src="/landing_page/image/content-image-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-xl-5 offset-xl-1 col-sm-6">
+            <div class="content-right-content">
+              <h2>Science fiction that becomes science fact</h2>
+              <p>
+                Driven by the infinite possibilities of our future, I am energized by the challenge of making the impossible possible through innovative engineering and creative problem-solving.
+              </p>
+              <div class="content-link">
+                <a href="/tags/scifi"
+                  >Learn more <i class="icon icon-minimal-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section-02">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 offset-xl-1 col-sm-6 col-10 order-sm-2">
+            <div class="content-img">
+              <img src="/landing_page/image/content-image-2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-5 col-sm-6 order-sm-1">
+            <div class="content-left-content">
+              <h2>A friend that stays weird</h2>
+              <p>
+                Authenticity is at the core of everything I do. I believe in embracing our quirks and staying true to ourselves in a world that often demands conformity.
+              </p>
+              <ul class="content-list">
+                <li>
+                  <span><i class="icon icon-check-2"></i></span>Creative Thinker
+                </li>
+                <li>
+                  <span><i class="icon icon-check-2"></i></span>Lifelong Learner
+                </li>
+                <li>
+                  <span><i class="icon icon-check-2"></i></span>Passionately Curious
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section-03">
+      <div class="shape">
+        <img src="/landing_page/image/landing-4.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-5 col-sm-6 col-10">
+            <div class="content-img">
+              <img src="/landing_page/image/content-image-3.png" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-7 col-sm-6">
+            <div class="content-left-content">
+              <h2>Boundless Adventure</h2>
+              <p>
+                Whether it's climbing, skiing, camping, or exploring new technologies, I am always on the lookout for the next big adventure. I thrive on challenges and love sharing my obsessions with others.
+              </p>
+              <div class="content-bottom-part">
+                <div class="content-btn">
+                  <a
+                    href="https://brysgo.youcanbook.me"
+                    class="btn btn--primary"
+                    >Schedule A Meeting</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="pricing-section">
+      <div class="shape">
+        <img src="/landing_page/image/landing-2-shape.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2>Featured Projects</h2>
+              <p>
+                A selection of projects that I am currently focused on.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="custom-tab-wrapper monthly" id="pricing-tab-7">
+          <div class="row mb-d-30">
+            <div class="col-lg-4">
+              <div class="pricing-card">
+                <div class="card-head">
+                  <h6>BCG Platinion</h6>
+                </div>
+
+                <div class="card-content">
+                  <h3>
+                    Risk/Portfolio Optimization
+                  </h3>
+                  <br />
+                  <p>
+                    I'm building a tool that will be used to asses a certain
+                    area of risk and advise on investment in mitigation
+                    efforts. It leverages AWS, React, graphql, tensorflowjs
+                    and lots of other cool technologies.
+                  </p>
+                  <div class="card-btn">
+                    <a href="https://www.bcg.com/en-us/capabilities/technology-digital/smarter-way-to-quantify-cybersecurity-risk.aspx" class="btn btn--primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="pricing-card active">
+                <div class="card-head">
+                  <h6>
+                    Sptball
+                  </h6>
+                  <span class="card-badge">Closed Beta</span>
+                </div>
+
+                <div class="card-content">
+                  <h3>
+                    Communication Platform
+                  </h3>
+                  <br />
+                  <p>
+                    A collaborative platform designed to help researchers effectively communicate and build a collective knowledge base.
+                  </p>
+
+                  <div class="card-btn">
+                    <a href="https://sptball.com/login" class="btn btn--primary">Sign Up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="pricing-card">
+                <div class="card-head">
+                  <h6>macronizer</h6>
+                </div>
+
+                <div class="card-content">
+                  <h3>AI Simulation Research</h3>
+                  <br />
+                  <p>
+                    Exploring complex systems through simulation, this project focuses on using Conway's Game of Life as an analog to teach AI about emergent behaviors.
+                  </p>
+
+                  <div class="card-btn">
+                    <a href="/tags/ai" class="btn btn--primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </main>
+
+{{ partial "footer" . }}

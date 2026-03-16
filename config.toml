@@ -1,14 +1,14 @@
 disablePathToLower = true
-baseURL = "//www.brysgo.com/"
+baseURL = "https://www.brysgo.com/"
 languageCode = "en-us"
 title = "BRYSGO"
-theme = "minimal"
+theme = ["custom", "minimal"]
 disqusShortname = "brysgo" # delete this to disable disqus comments
 googleAnalytics = "UA-1024054-3"
 
 [params]
     author = "Bryan Goldstein"
-    description = ""
+    description = "Personal blog of Bryan Goldstein. Exploring Web Development, DevOps, AI, and more."
     githubUsername = "brysgo"
     accent = "red"
     showBorder = true
@@ -18,6 +18,11 @@ googleAnalytics = "UA-1024054-3"
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
     copyright = "© 2020 Bryan Goldstein, All rights reserved."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [[menu.main]]
     url = "/"

@@ -1,0 +1,29 @@
+<!-- highlight.js -->
+{{ if .Site.Params.highlight | default false }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    {{ range .Site.Params.highlightLanguages }}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>
+    {{ end }}
+    <script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
+
+<!-- custom -->
+{{ range .Site.Params.js }} <script src="{{ . | absURL }}"></script> {{ end }}
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- bootstrap -->
+{{ if .IsHome }}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+{{ else }}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+{{ end }}
+
+<!-- dismiss expanded navigation bar with click -->
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+{{ if .IsHome }}
+<script src="/landing_page/plugins/meanmenu/jquery.meanmenu.js"></script>
+<script src="/landing_page/js/active.js"></script>
+{{ end }}
