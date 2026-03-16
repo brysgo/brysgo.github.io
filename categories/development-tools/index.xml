@@ -1,17 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development tools on BRYSGO</title><link>//www.brysgo.com/categories/development-tools/</link><description>Recent content in development tools on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Dec 2015 13:41:33 +0000</lastBuildDate><atom:link href="//www.brysgo.com/categories/development-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>GraphiQL Bookmarklet</title><link>//www.brysgo.com/2015/12/19/graphiql-bookmarklet/</link><pubDate>Sat, 19 Dec 2015 13:41:33 +0000</pubDate><guid>//www.brysgo.com/2015/12/19/graphiql-bookmarklet/</guid><description>I&amp;rsquo;m sure most of you, if you have done any work with graphql, have heard of graphiql. It is an indespensible tool for writing and testing graphql queries.
-The problem is that now that I&amp;rsquo;m not using express at the moment. I don&amp;rsquo;t want to go through the trouble of trying to fit graphiql into my stack.
-To solve it, a graphiql bookmarklet: Enjoy!</description></item><item><title>jscodemigrate (deps|dependencies)</title><link>//www.brysgo.com/2015/12/11/jscodemigrate-deps/</link><pubDate>Fri, 11 Dec 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/12/11/jscodemigrate-deps/</guid><description>If you haven&amp;rsquo;t yet read about jscodemigrate, read about it here. If you already know about jscodemigrate then stick around because there is a new feature, and it is ready for you to use, just npm install jscodemigrate@latest --save-dev.
-You already know that you can run all of your jscodeshift scripts at once and easily maintain your project with a directory full of timestamped codemods, but now, you can make it easy for those who depend on your npm packages to respond quickly to your API changes.</description></item><item><title>jscodeshift + rails migrations = jscodemigrate</title><link>//www.brysgo.com/2015/12/05/jscodemigrate/</link><pubDate>Sat, 05 Dec 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/12/05/jscodemigrate/</guid><description>I&amp;rsquo;ve worked on lots of projects big and small, but as time went on they all suffered from the same problem. Changing standards and updated api&amp;rsquo;s left code fragmented as the codebase grew.
-From the time I started working on coffeelint, the problem has been stewing in my head. Subconciously on the lookout for a solution, I heard about codemods. Let me preface by saying I&amp;rsquo;ve been quite obsessed with everything facebook engineering has been doing in open source lately.</description></item><item><title>React Native on Heroku</title><link>//www.brysgo.com/2015/07/26/react-native-on-heroku/</link><pubDate>Sun, 26 Jul 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/07/26/react-native-on-heroku/</guid><description>As a web developer doing iOS development with react native, I need a staging environment for the product manager to review changes to the app.
-On the web, that means using Heroku, but with a react native app it is a bit more complicated.
-My react native app has two components, the packager (for serving the client code) and the server (for interacting with the app).
-Heroku only lets one process bind to an external port, so it wasn&amp;rsquo;t easy to do without creating two heroku apps.</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>//www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>//www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>Now that Relay is out in preview, it will probably replace Flux entirely.
-Why React? A few months ago, the release of React Native by Facebook convinced me to make the leap to React.
-I spent a while working on a React Native app and quickly learned that I needed to bring in Flux. After watching a few videos and reading a few blogs, I added my own implementation of flux to my react native app.</description></item><item><title>Web Development on a Nexus 9</title><link>//www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</link><pubDate>Wed, 11 Mar 2015 10:41:18 +0000</pubDate><guid>//www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</guid><description>
-&lt;p>
-I recently did something a little crazy. I am a professional web developer,
-and I decided I was going to move all of my development to the cloud. This
-paradigm that has brought so much convenience into every corner of my life was
-going to close the final gap. It took me a little while, but I have 99%
-percent of what I had going on my Macbook Pro, so here is my setup.
-&lt;/p></description></item><item><title>Teaspoon with Capybara-Webkit</title><link>//www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</link><pubDate>Fri, 02 Jan 2015 11:00:38 +0000</pubDate><guid>//www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</guid><description>Do you use teaspoon to run your javascript tests? Do you use Capybara-Webkitto run your feature tests? Now you can run your teaspoon suite faster without having to install and boot up phantomjs. Just use the new Capybara-Webkit driver for teaspoon!You may also have more success with it on your CI server, as that is what caused us to make this change.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development Tools on BRYSGO</title><link>https://www.brysgo.com/categories/development-tools/</link><description>Recent content in Development Tools on BRYSGO</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 19 Dec 2015 13:41:33 +0000</lastBuildDate><atom:link href="https://www.brysgo.com/categories/development-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>GraphiQL Bookmarklet</title><link>https://www.brysgo.com/2015/12/19/graphiql-bookmarklet/</link><pubDate>Sat, 19 Dec 2015 13:41:33 +0000</pubDate><guid>https://www.brysgo.com/2015/12/19/graphiql-bookmarklet/</guid><description>&lt;p&gt;I&amp;rsquo;m sure most of you, if you have done any work with graphql, have heard of
+&lt;a href="https://github.com/graphql/graphiql"&gt;graphiql&lt;/a&gt;. It is an indespensible tool for writing and testing graphql queries.&lt;/p&gt;
+&lt;p&gt;The problem is that now that I&amp;rsquo;m
+&lt;a href="https://github.com/rmosolgo/graphql-relay-ruby"&gt;not using express at the moment&lt;/a&gt;. I don&amp;rsquo;t want to go
+through the trouble of trying to fit graphiql into my stack.&lt;/p&gt;
+&lt;h1 id="to-solve-it-a-graphiql-bookmarklet"&gt;To solve it, &lt;a href="javascript:(function()%7B'use%20strict'%3Bfunction%20loadScript(url)%20%7Breturn%20new%20Promise(function%20(callback)%20%7Bvar%20head%20%3D%20document.getElementsByTagName('head')%5B0%5D%3Bvar%20script%20%3D%20document.createElement('script')%3Bscript.type%20%3D%20'text%2Fjavascript'%3Bscript.src%20%3D%20url%3Bscript.onreadystatechange%20%3D%20callback%3Bscript.onload%20%3D%20callback%3Bhead.appendChild(script)%3B%7D)%3B%7Dfunction%20loadStyle(url)%20%7Breturn%20new%20Promise(function%20(callback)%20%7Bvar%20head%20%3D%20document.getElementsByTagName('head')%5B0%5D%3Bvar%20link%20%3D%20document.createElement('link')%3Blink.type%20%3D%20'text%2Fcss'%3Blink.rel%20%3D%20'stylesheet'%3Blink.href%20%3D%20url%3Blink.onreadystatechange%20%3D%20callback%3Blink.onload%20%3D%20callback%3Bhead.appendChild(link)%3B%7D)%3B%7DloadScript('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Freact%2F0.14.3%2Freact.js').then(function%20()%20%7Breturn%20Promise.all(%5BloadStyle('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fgraphiql%2F0.4.5%2Fgraphiql.css')%2C%20loadScript('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Freact%2F0.14.3%2Freact-dom.js')%2C%20loadScript('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fgraphiql%2F0.4.5%2Fgraphiql.js')%5D).then(function%20()%20%7Bfunction%20graphQLFetcher(graphQLParams)%20%7Breturn%20fetch(window.location.origin%20%2B%20'%2Fgraphql'%2C%20%7Bmethod%3A%20'post'%2Cheaders%3A%20%7B%20'Content-Type'%3A%20'application%2Fjson'%20%7D%2Cbody%3A%20JSON.stringify(graphQLParams)%7D).then(function%20(response)%20%7Breturn%20response.json()%3B%7D)%3B%7DsetTimeout(function%20()%20%7Breturn%20ReactDOM.render(React.createElement(GraphiQL%2C%20%7B%20fetcher%3A%20graphQLFetcher%20%7D)%2C%20document.body)%3B%7D%2C%200)%3B%7D)%3B%7D)%7D)()"&gt;a graphiql bookmarklet&lt;/a&gt;:&lt;/h1&gt;
+&lt;script src="https://gist.github.com/brysgo/c06b5b2e6c7a8d4380e5.js"&gt;&lt;/script&gt;
+&lt;h1 id="enjoy"&gt;Enjoy!&lt;/h1&gt;</description></item><item><title>jscodemigrate (deps|dependencies)</title><link>https://www.brysgo.com/2015/12/11/jscodemigrate-deps/</link><pubDate>Fri, 11 Dec 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/12/11/jscodemigrate-deps/</guid><description>&lt;p&gt;If you haven&amp;rsquo;t yet read about jscodemigrate, read about it &lt;a href="https://www.brysgo.com/development/tools/2015/12/05/jscodemigrate.html"&gt;here&lt;/a&gt;.
+If you already know about jscodemigrate then stick around because there is a new
+feature, and it is ready for you to use, just &lt;code&gt;npm install jscodemigrate@latest --save-dev&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You already know that you can run all of your jscodeshift scripts at once and
+easily maintain your project with a directory full of timestamped codemods, but
+now, you can make it easy for those who depend on your npm packages to respond
+quickly to your API changes.&lt;/p&gt;</description></item><item><title>jscodeshift + rails migrations = jscodemigrate</title><link>https://www.brysgo.com/2015/12/05/jscodemigrate/</link><pubDate>Sat, 05 Dec 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/12/05/jscodemigrate/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked on lots of projects big and small, but as time went on they all
+suffered from the same problem. &lt;a href="https://xkcd.com/927/"&gt;Changing standards and updated api&amp;rsquo;s left
+code fragmented as the codebase grew&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.tlnt.com/media/2012/12/lumberg-office-space_320.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;From the time I started working on &lt;a href="https://github.com/clutchski/coffeelint/issues/195"&gt;coffeelint&lt;/a&gt;, the problem has been stewing in
+my head. Subconciously on the lookout for a solution, I heard about &lt;a href="https://youtu.be/d0pOgY8__JM"&gt;codemods&lt;/a&gt;.
+Let me preface by saying I&amp;rsquo;ve been quite obsessed with everything facebook
+engineering &lt;a href="http://www.fastcompany.com/3038842/how-facebooks-massive-open-source-push-delivers-better-code-and-better-engineers"&gt;has been doing&lt;/a&gt; in open source lately. Needless to say I took notice.&lt;/p&gt;</description></item><item><title>React Native on Heroku</title><link>https://www.brysgo.com/2015/07/26/react-native-on-heroku/</link><pubDate>Sun, 26 Jul 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/07/26/react-native-on-heroku/</guid><description>&lt;p&gt;As a web developer doing iOS development with react native, I need a staging
+environment for the product manager to review changes to the app.&lt;/p&gt;
+&lt;img src="https://www.brysgo.com/assets/heroku-logo.png" style="height:200px;width:200px;float:right;margin:15px;"/&gt;
+&lt;p&gt;On the web, that means using Heroku, but with a react native app it is a bit
+more complicated.&lt;/p&gt;
+&lt;p&gt;My react native app has two components, the packager (for serving the client
+code) and the server (for interacting with the app).&lt;/p&gt;
+&lt;p&gt;Heroku only lets one process bind to an external port, so it wasn&amp;rsquo;t easy to do
+without creating two heroku apps.&lt;/p&gt;</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;Now that &lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview, it will probably replace Flux entirely.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="why-react"&gt;Why React?&lt;/h1&gt;
+&lt;p&gt;A few months ago, the release of &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; by Facebook convinced me to make
+the leap to &lt;a href="http://facebook.github.io/react/"&gt;React&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I spent a while working on a &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; app and quickly learned that I needed
+to bring in &lt;a href="https://facebook.github.io/flux/"&gt;Flux&lt;/a&gt;. After watching a few videos and reading a few blogs, I added my own
+implementation of flux to my react native app.&lt;/p&gt;</description></item><item><title>Web Development on a Nexus 9</title><link>https://www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</link><pubDate>Wed, 11 Mar 2015 10:41:18 +0000</pubDate><guid>https://www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</guid><description>&lt;p&gt;
+ I recently did something a little crazy. I am a professional web developer,
+ and I decided I was going to move all of my development to the cloud. This
+ paradigm that has brought so much convenience into every corner of my life was
+ going to close the final gap. It took me a little while, but I have 99%
+ percent of what I had going on my Macbook Pro, so here is my setup.
+&lt;/p&gt;</description></item><item><title>Teaspoon with Capybara-Webkit</title><link>https://www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</link><pubDate>Fri, 02 Jan 2015 11:00:38 +0000</pubDate><guid>https://www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</guid><description>&lt;p&gt;
+ Do you use
+ &lt;a href="https://github.com/modeset/teaspoon" target="_blank"&gt;teaspoon&lt;/a&gt; to
+ run your javascript tests?
+&lt;/p&gt;
+&lt;p&gt;
+ Do you use
+ &lt;a href="https://github.com/thoughtbot/capybara-webkit" target="_blank"
+ &gt;Capybara-Webkit&lt;/a
+ &gt;
+ to run your feature tests?
+&lt;/p&gt;
+&lt;p&gt;
+ Now you can run your teaspoon suite faster without having to install and boot
+ up phantomjs.
+ &lt;strong
+ &gt;Just use the new
+ &lt;a href="https://github.com/modeset/teaspoon/wiki/Using-Capybara-Webkit"
+ &gt;Capybara-Webkit driver for teaspoon&lt;/a
+ &gt;!&lt;/strong
+ &gt;
+ You may also have more success with it on your CI server, as that is what
+ caused us to make this change.
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;img
+ src="https://31.media.tumblr.com/14a72ca6b3c8408634787273308418df/tumblr_inline_nhgs8cSeaT1r60sb8.png"
+ /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description></item></channel></rss>

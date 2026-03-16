@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>meteorjs on BRYSGO</title><link>//www.brysgo.com/tags/meteorjs/</link><description>Recent content in meteorjs on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 04 Dec 2014 23:27:00 +0000</lastBuildDate><atom:link href="//www.brysgo.com/tags/meteorjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Voltrb first impressions</title><link>//www.brysgo.com/2014/12/04/voltrb-first-impressions/</link><pubDate>Thu, 04 Dec 2014 23:27:00 +0000</pubDate><guid>//www.brysgo.com/2014/12/04/voltrb-first-impressions/</guid><description>
-&lt;p>What do you get when you cross meteorjs with rails?&lt;/p>
-&lt;p>The answer is quite simply, voltrb.&lt;/p>
-&lt;p>
-Getting started is not quite as easy as meteor or rails, which isn’t
-surprising considering how fresh it is.
-&lt;/p>
-&lt;p>
-So far I built a search box that creates new items on submit, but searches
-through existing items as you type. I’m building the site that will go here:
-&lt;a href="http://www.procedur.al">http://www.procedur.al&lt;/a>.
-&lt;/p>
-&lt;p>
-I love how you get default models and collections for each storage method and
-you can optionally create models that are autoloaded if they exist. This
-reminds me if ember, only I don’t have to leave ruby!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meteorjs on BRYSGO</title><link>https://www.brysgo.com/tags/meteorjs/</link><description>Recent content in Meteorjs on BRYSGO</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 04 Dec 2014 23:27:00 +0000</lastBuildDate><atom:link href="https://www.brysgo.com/tags/meteorjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Voltrb first impressions</title><link>https://www.brysgo.com/2014/12/04/voltrb-first-impressions/</link><pubDate>Thu, 04 Dec 2014 23:27:00 +0000</pubDate><guid>https://www.brysgo.com/2014/12/04/voltrb-first-impressions/</guid><description>&lt;p&gt;What do you get when you cross meteorjs with rails?&lt;/p&gt;
+&lt;p&gt;The answer is quite simply, voltrb.&lt;/p&gt;
+&lt;p&gt;
+ Getting started is not quite as easy as meteor or rails, which isn’t
+ surprising considering how fresh it is.
+&lt;/p&gt;
+&lt;p&gt;
+ So far I built a search box that creates new items on submit, but searches
+ through existing items as you type. I’m building the site that will go here:
+ &lt;a href="http://www.procedur.al"&gt;http://www.procedur.al&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+ I love how you get default models and collections for each storage method and
+ you can optionally create models that are autoloaded if they exist. This
+ reminds me if ember, only I don’t have to leave ruby!</description></item></channel></rss>

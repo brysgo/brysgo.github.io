@@ -1,262 +1,546 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on BRYSGO</title><link>//www.brysgo.com/post/</link><description>Recent content in Posts on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Oct 2020 12:27:19 +0000</lastBuildDate><atom:link href="//www.brysgo.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Bobiverse: Critical Analysis of Drift</title><link>//www.brysgo.com/post/2020-10-22-Bobiverse-Critical-1fd1db/</link><pubDate>Thu, 22 Oct 2020 12:27:19 +0000</pubDate><guid>//www.brysgo.com/post/2020-10-22-Bobiverse-Critical-1fd1db/</guid><description>I recently read the book series referred to as the &amp;ldquo;Bobiverse,&amp;rdquo; that tickled my nerd fancy so much that I had to write about it. While I really loved the book, that is not what I&amp;rsquo;m going to write about, instead, like a good dork, I&amp;rsquo;m going to scratch the singular itch that was left lingering throughout the series. I will try not to go too much into detail, but I would recommend giving it a read if you are worried about spoilers.</description></item><item><title>My Mixed Image of Success</title><link>//www.brysgo.com/post/2020-10-20-My-Mixed-Image-of-Su-947ff8/</link><pubDate>Tue, 20 Oct 2020 13:06:03 +0000</pubDate><guid>//www.brysgo.com/post/2020-10-20-My-Mixed-Image-of-Su-947ff8/</guid><description>I recently had an epiphany about the mixed image of success that I project and why it is so confusing from an outsider looking in. I&amp;rsquo;m writing this to turn my inner monologue outwards in the off chance that someone else has experienced the same thing, but also to help others understand where I&amp;rsquo;m coming from.
-I haven&amp;rsquo;t had a long history of success with women, but I&amp;rsquo;ve been in enough situations where women were competing for my attention that my standards were unrealistically high, and my game unfortunately low.</description></item><item><title>What is life?</title><link>//www.brysgo.com/post/2020-10-08-What-is-life-7c954f/</link><pubDate>Thu, 08 Oct 2020 08:05:22 +0000</pubDate><guid>//www.brysgo.com/post/2020-10-08-What-is-life-7c954f/</guid><description>After googling the definition of Life and I was a bit disappointed to find that the best definitions were anchored in functions we associate with life, but I couldn&amp;rsquo;t quite put my finger on why this made me sad.
-&amp;ldquo;the condition that distinguishes animals and plants from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.&amp;rdquo;
-Setting aside the use of a word to define itself (in this case &amp;ldquo;animals and plants&amp;rdquo; are synonymous with life and &amp;ldquo;inorganic&amp;rdquo; is just another way of saying &amp;ldquo;not living.</description></item><item><title>$trong AI</title><link>//www.brysgo.com/post/2020-09-10-dollartrong-AI-f769ed/</link><pubDate>Thu, 10 Sep 2020 08:05:20 +0000</pubDate><guid>//www.brysgo.com/post/2020-09-10-dollartrong-AI-f769ed/</guid><description>When it was announced not too long ago, GPT-3 set a new standard for the size of an AI model at a whopping 175 billion parameters, and an estimated cost of at least $4.6 million. Ever since the first closed beta examples started showing up, it has been blowing people&amp;rsquo;s minds and causing everyone to think about what is next.
-One of the best things about programming (and open source in particular) is that everyone can play and have access to everything they need to build cool stuff.</description></item><item><title>End of Work = Beginning of Creativity</title><link>//www.brysgo.com/post/2020-08-19-End-of-Work-Beginnin-75f8b0/</link><pubDate>Wed, 19 Aug 2020 08:07:06 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-19-End-of-Work-Beginnin-75f8b0/</guid><description>When most people hear the end of work, they might picture the world looking glazed over and staring at the television with a bag of cheese puffs in their hand making an occasional nasal laugh. So why am I so excited for the end of work?
-The reason is that while I do believe the future will be that way for some, I think the vast majority will have a much different experience.</description></item><item><title>Vegan Insomnia Beef in Ginger Sauce</title><link>//www.brysgo.com/post/2020-08-16-Vegan-Insomnia-Beef-cc6199/</link><pubDate>Sun, 16 Aug 2020 17:04:36 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-16-Vegan-Insomnia-Beef-cc6199/</guid><description>I&amp;rsquo;ve been going back and forth for a little while with my sister about trying to recreate a seitan ginger beef dish from a restaurant that we like in Vermont. It is a little tricky for me since I&amp;rsquo;ve never done a seitan beef before and because of the whole low FODMAP thing, but I finally decided to give it a try. After substituting pretty much every ingredient in the recipes I found, I finally created what I lovingly refer to as insomnia beef, since I associate eating it with not being the least bit tired (probably because of the high protein content and the cocoa nibs I threw in).</description></item><item><title>GitHub Inbox Zero</title><link>//www.brysgo.com/post/2020-08-14-GitHub-Inbox-Zero-9892d6/</link><pubDate>Fri, 14 Aug 2020 08:04:58 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-14-GitHub-Inbox-Zero-9892d6/</guid><description>I recently reached inbox zero on GitHub for the first time in a long time. A while ago I got freaked out by the possibility of people stealing my secret keys through CI and I disabled my CI tokens on my zillion GitHub repos. It was all broken windows from there. Before I knew it my GitHub was a graveyard of packages with out of date dependencies that I had no time to update.</description></item><item><title>Dumpling Pancakes</title><link>//www.brysgo.com/post/2020-08-11-Dumpling-Pancakes-07c1af/</link><pubDate>Tue, 11 Aug 2020 08:05:06 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-11-Dumpling-Pancakes-07c1af/</guid><description>I think it is safe to say that a lot of people like dumplings 🥟- and more safe to say that they are too complicated and time consuming for most people to make themselves (yes, you could order them but that is besides the point). I realized I could make dumplings by dipping the protein in a thick batter instead of wrapping it.
-The benefit was this was a little bit easier, however, it still required an action per small food piece.</description></item><item><title>the yin and yang of utility</title><link>//www.brysgo.com/post/2020-08-08-the-yin-and-yang-of-dc939a/</link><pubDate>Sat, 08 Aug 2020 17:04:06 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-08-the-yin-and-yang-of-dc939a/</guid><description>I just did some dehydrating exercise in the sun, so this will be what amounts to some pontificating shower thoughts. But you already clicked on the link so you might as well read it.
-While trying to solve the knapsack problem I got to thinking about the realities of maximizing utility. Since I am a software engineer and engineering is just building tools to maximize utility, I let my mind frolic down that sweet sweet rabbit hole.</description></item><item><title>coming soon: peerstate</title><link>//www.brysgo.com/post/2020-08-06-coming-soon-peersta-415acc/</link><pubDate>Thu, 06 Aug 2020 08:05:02 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-06-coming-soon-peersta-415acc/</guid><description>All of my open source projects start with trying to build something, getting frustrated, saying in my head &amp;ldquo;I wish I could just do this,&amp;rdquo; then obsessively investigating what it would take to be able to &amp;ldquo;just do this.&amp;rdquo;
-Sometimes this inspiration comes on a work project, but more often, it comes when I am working on a side project, or playing with some new open source thing. My first example of such a project, was when I was working on an investment project called Herd.</description></item><item><title>Health Pro's and Con's of Cooking with Discrete Ingredients</title><link>//www.brysgo.com/post/2020-08-03-Health-Pros-and-Con-d615f2/</link><pubDate>Mon, 03 Aug 2020 08:04:30 +0000</pubDate><guid>//www.brysgo.com/post/2020-08-03-Health-Pros-and-Con-d615f2/</guid><description>Remember when I mentioned that cooking with discrete ingredients has side effects? Well, in reality, all food has side effects, they are just drowned out by the popular proportions of everything that are hard coded into the common foods that everyone eats.
-When you start experimenting with specific ingredients, you throw that all away. Suddenly, you will find yourself rapidly trying to diagnose something with Google and fix it with another ingredient that you normally eat all the time.</description></item><item><title>Open Source: Chasing the Dream</title><link>//www.brysgo.com/post/2020-07-31-Open-Source-Chasing-997a1e/</link><pubDate>Fri, 31 Jul 2020 17:04:07 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-31-Open-Source-Chasing-997a1e/</guid><description>I love open source. I love to imagine writing code a certain way, trying to find something that does it, failing to find said thing and building it. I love publishing it and watching people use it. I don&amp;rsquo;t love maintaining it, I don&amp;rsquo;t love the thought of having to improve it with the responsibility involved with making sure those improvements don&amp;rsquo;t break anything for anyone using your thing in a way you didn&amp;rsquo;t intend it to be used.</description></item><item><title>Holding in the Idea Vomit</title><link>//www.brysgo.com/post/2020-07-29-Holding-in-the-Idea-1541f1/</link><pubDate>Wed, 29 Jul 2020 08:04:18 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-29-Holding-in-the-Idea-1541f1/</guid><description>Yesterday I had an idea. Congratulations me, now there are two options, I can:
-Take the red pill - see how deep the rabbit hole goes Take the blue pill - be blissfully ignorant of whether my new idea will work The free spirit I am, has lots of trouble with #2 because I am insatiably curious and hate myself. But I recognize that I need to learn how to do this, or I will spend my life jumping from rabbit hole to rabbit hole like a prairie dog.</description></item><item><title>My AI Story (3/3)</title><link>//www.brysgo.com/post/2020-07-26-My-AI-Story-33-11a67c/</link><pubDate>Sun, 26 Jul 2020 17:04:03 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-26-My-AI-Story-33-11a67c/</guid><description>After graduating with my BS in Computer Science, AI moved to side project status as I took a job as a Full Stack Software Engineer at Pivotal Labs. The side project years of my AI life made slow progress. I managed to play with some algorithms that one time when I was trying to learn golang. I eventually implemented my logic gate pool genetic algorithm as part of a more ambitions side project I called thoughtnet.</description></item><item><title>project review time</title><link>//www.brysgo.com/post/2020-07-24-project-review-time-1a1913/</link><pubDate>Fri, 24 Jul 2020 08:04:17 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-24-project-review-time-1a1913/</guid><description>I recently got a good review at work and it helped me start to course correct a dangerous internal narrative. For the last year of projects I&amp;rsquo;ve been on, I&amp;rsquo;ve heard: &amp;ldquo;you are a genius, but you have to work on your communication&amp;rdquo; &amp;ndash; which in my brain translates to &amp;ldquo;we need to soften the blow of this feedback, but you are a piece of shit to work with&amp;rdquo;
-Truth is, when you hear something enough times, you start to believe it.</description></item><item><title>My AI Story (2/3)</title><link>//www.brysgo.com/post/2020-07-21-My-AI-Story-23-e5cf6d/</link><pubDate>Tue, 21 Jul 2020 17:03:40 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-21-My-AI-Story-23-e5cf6d/</guid><description>Learning in school was very difficult for me because I was more of a hands on learner and school was very heavy on lecturing. When I am in situations that frustrate me, I try and solve them with technology. This was what I had planned to do with my ed tech company &amp;ldquo;Socrenchus.&amp;rdquo; Before Socrenchus though, I was interning in Mountain View and I got to meet some of the AI great&amp;rsquo;s.</description></item><item><title>Seitan is a dish best served cold</title><link>//www.brysgo.com/post/2020-07-19-Seitan-is-a-dish-bes-3e4706/</link><pubDate>Sun, 19 Jul 2020 08:03:49 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-19-Seitan-is-a-dish-bes-3e4706/</guid><description>My first kitchen obsession of the quarantine season, was Seitan. The reason being that it is delicious, and I can make it entirely with ingredients shipped via Amazon. While this mostly appeals to me because I didn&amp;rsquo;t much feel like going to the super market, it also helped that I&amp;rsquo;m a huge nerd and I like the idea of creating something out of simple powdered ingredients.
-It was a bumpy road to getting it right.</description></item><item><title>My AI Story (1/3)</title><link>//www.brysgo.com/post/2020-07-16-My-AI-Story-13-e86392/</link><pubDate>Thu, 16 Jul 2020 17:03:56 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-16-My-AI-Story-13-e86392/</guid><description>If I&amp;rsquo;m going to start writing about AI, I figure I should give some backstory first on my life in AI.
-My first introduction to AI was probably when I was 9 years old and snuck downstairs to watch the first Matrix movie that I wasn&amp;rsquo;t supposed to be watching. This did a great deal to feed what has become an AI obsession over the years.
-In high school, after I had been programming on my own for a while with only stack overflow to guide me (plus a couple people who volunteered to help me with my shareware), I started pondering about AI from the perspective of how it worked.</description></item><item><title>Kitchen Experiments: the weirdest way to cook</title><link>//www.brysgo.com/post/2020-07-15-Kitchen-Experiments-274184/</link><pubDate>Wed, 15 Jul 2020 17:03:27 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-15-Kitchen-Experiments-274184/</guid><description>As COVID-19 settled in and the outside food procurement grew fraught with uncertainty, I turned to something I managed to avoid for a very long time&amp;hellip; cooking.
-My solution to this problem was to geek out on my love of science, minimalism, and efficiency to create tasty, weird, nutritious food that doesn&amp;rsquo;t upset my stomach or other parts of my body. You may be wondering about that last one, but I can assure you, when you start playing with discrete chemical ingredients to make your food, having the wrong combination of foods can lead to a unique experience.</description></item><item><title>A letter to police</title><link>//www.brysgo.com/post/2020-07-12-A-letter-to-police-5086c8/</link><pubDate>Sun, 12 Jul 2020 17:03:29 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-12-A-letter-to-police-5086c8/</guid><description>I&amp;rsquo;m not usually outwardly political, but I have something to get off my chest. I recently overheard a police officer talking about how it won&amp;rsquo;t be worth it if he has to get insurance so he won&amp;rsquo;t get sued. I didn&amp;rsquo;t feel comfortable enough to get into a debate with him, which later made me even more uncomfortable, so I will address the issue here.
-When you signed up to be a public servant and put yourself in harms way to protect your community, it was one of the noblest and bravest things you could do.</description></item><item><title>New Landing Page - New Commitment</title><link>//www.brysgo.com/post/2020-07-11-new-landing-page/</link><pubDate>Sat, 11 Jul 2020 07:36:00 +0000</pubDate><guid>//www.brysgo.com/post/2020-07-11-new-landing-page/</guid><description>I&amp;rsquo;ve decided to redo my landing page in response to a realization that I need to sell myself a bit better. While this post isn&amp;rsquo;t related to the topics tagged above, it is a placeholder for my commitment to put some more effort into publishing here.</description></item><item><title>Quarantine Rule #2: Play Video Games</title><link>//www.brysgo.com/post/2020-04-09-video-games/</link><pubDate>Thu, 09 Apr 2020 23:36:00 +0000</pubDate><guid>//www.brysgo.com/post/2020-04-09-video-games/</guid><description>While we are physically isolated from each-other, we are missing the ability to go out and make new experiences with the people we care about as well as spontaneous experiences with people we&amp;rsquo;ve never seen before.
-We are all connected with each-other via the internet, but the internet lacks the richness of experiences that you get in the real world. While this is true to some degree, if you dive into the world of video games, you will quickly realize that it can provide some pretty incredible experiences that make you forget you are at home in your apartment.</description></item><item><title>Quarantine Rule #1: Exercise every day</title><link>//www.brysgo.com/post/2020-04-05-quarantine-workout/</link><pubDate>Sun, 05 Apr 2020 19:46:00 +0000</pubDate><guid>//www.brysgo.com/post/2020-04-05-quarantine-workout/</guid><description>It may sound like a lot, but if you are like me and your quarantine space is limited to a studio apartment, then it is probably the most essential thing you can do to stay sane. The three groups of exercise I alternate between are:
-Anaerobic Aerobic Stretching As an experienced introvert, it may not come as a surprise to you that exercise is one of the things I tend to go long periods neglecting, but in this new COVID-19 world, I decided it was mission critical so I went on a YouTube research quest to figure out what I was going to do for exercise.</description></item><item><title>Quarantine Tips from Experienced Introvert</title><link>//www.brysgo.com/post/2020-04-05-quarantine-life/</link><pubDate>Sun, 05 Apr 2020 19:13:00 +0000</pubDate><guid>//www.brysgo.com/post/2020-04-05-quarantine-life/</guid><description>The year is 2003. It is a lovely spring day and I can see out my window where the trees and birds sing. Then a yell comes from downstairs, it is my mother telling me it is so nice out I should come outside. The temptation is strong, but the draw of my new computer that I had been obsessing over is even stronger.
-Fast-forward to 2020. COVID-19 terrorizes the world and we are all forced to quarantine until god knows when.</description></item><item><title>High Altitude Mass Volley</title><link>//www.brysgo.com/post/2019-08-07-high-altitude-mass-volley/</link><pubDate>Wed, 07 Aug 2019 02:00:28 +0000</pubDate><guid>//www.brysgo.com/post/2019-08-07-high-altitude-mass-volley/</guid><description>Preamble I have always been interested in space, but this idea for getting there cheaper has been brewing for a few years, and while I’ve yet to sit down and do the math, it has gotten to a place where it seems intuitive enough to work.
-Before I go into the solution, let’s look at the problem. At present, out best way of getting to space involves stacking explosives as high as we can, sitting on top with a countdown, and hoping that we planned for all the eventualities.</description></item><item><title>The Dangers of Idiomatic Programming</title><link>//www.brysgo.com/post/2017-12-07-idiom-shmidiom/</link><pubDate>Thu, 07 Dec 2017 02:00:28 +0000</pubDate><guid>//www.brysgo.com/post/2017-12-07-idiom-shmidiom/</guid><description>What does it mean to be idiomatic?
-&amp;ldquo;Of, relating to, or conforming to idiom&amp;rdquo; - Merriam-Webster
-So what is an idiom?
-&amp;ldquo;The syntactical, grammatical, or structural form peculiar to a language&amp;rdquo; - Merriam-Webster
-When we talk about idiomatic programming, we are talking about doing things because it is &amp;ldquo;the way&amp;rdquo; to do them, or because so-and-so says this is a rule that can’t be broken.
-Why is it important to see past these idioms and understand why they are &amp;ldquo;the way?</description></item><item><title>The Job of an OS</title><link>//www.brysgo.com/post/2017-11-06-job-of-os/</link><pubDate>Mon, 06 Nov 2017 14:10:28 +0000</pubDate><guid>//www.brysgo.com/post/2017-11-06-job-of-os/</guid><description>It started with a gitter chat then a tweet, followed by a blog post.
-&amp;hellip;
-Well, I&amp;rsquo;ve had some time to digest my thoughts, and I think it is time for, a second blog post.
-Whenever I think something needs redefining, the first thing I like to do is look for a definition (shocking right?). The Merriam-Webster dictionary defines and Operating System as:
-Software that controls the operation of a computer and directs the processing of programs (as by assigning storage space in memory and controlling input and output functions)</description></item><item><title>Why are operating systems still multi-user?</title><link>//www.brysgo.com/post/2017-11-05-multi-user-systems/</link><pubDate>Sun, 05 Nov 2017 14:10:28 +0000</pubDate><guid>//www.brysgo.com/post/2017-11-05-multi-user-systems/</guid><description>So I&amp;rsquo;m minding my own business, setting up Arch linux in my unrooted Termux installation on my phone, when all of a sudden, makepkg wants me to not be root to run a build. Excuse me? What century are we in?
-Let me clarify, when I am running linux in a container to build applications the operating system should not be bothering me with arbitrary user systems.
-When was the last time you logged into a multi-user unix system that had other users on it?</description></item><item><title>Future of Flight: Spontaneous trip to Paris</title><link>//www.brysgo.com/post/2017-10-17-future-airplanes/</link><pubDate>Tue, 17 Oct 2017 15:10:28 +0000</pubDate><guid>//www.brysgo.com/post/2017-10-17-future-airplanes/</guid><description>I want to go to France, I didn&amp;rsquo;t plan to go, I was just waking on the highline and was like, I think I want to go to Paris. I take out my phone, and open my air travel app and put in Paris. It tells me how much it costs, and I click accept. It takes me to a border patrol and security flow where I need to answer some lame questions, but it isn&amp;rsquo;t so bad.</description></item><item><title>Crystallize your abstractions carefully...</title><link>//www.brysgo.com/2016/06/21/crystallize-carfully/</link><pubDate>Tue, 21 Jun 2016 01:54:33 +0000</pubDate><guid>//www.brysgo.com/2016/06/21/crystallize-carfully/</guid><description>For as long as I&amp;rsquo;ve been a developer I have been reminded of the rule of three for refactoring and every time I hear it, I die a little inside.
-If building a new abstraction is so painful, that it is easier to copy and paste large chunks of code, you need to rethink the way you are building your abstractions. Building the right abstractions isn&amp;rsquo;t just a time consuming distraction from building software, it is software engineering.</description></item><item><title>Imaginary Lines</title><link>//www.brysgo.com/2016/04/01/imaginary-lines/</link><pubDate>Fri, 01 Apr 2016 01:13:33 +0000</pubDate><guid>//www.brysgo.com/2016/04/01/imaginary-lines/</guid><description>If I had to sum up the job of a software engineer in laymen&amp;rsquo;s terms, I would tell you that we draw imaginary lines around imaginary concepts until those concepts can map to both a specific set of instructions for a machine and a common understanding for programmers.
-Why am I stating the obvious? Well, it is quite simply to emphasize just how important it is where we draw those lines.</description></item><item><title>GraphiQL Bookmarklet</title><link>//www.brysgo.com/2015/12/19/graphiql-bookmarklet/</link><pubDate>Sat, 19 Dec 2015 13:41:33 +0000</pubDate><guid>//www.brysgo.com/2015/12/19/graphiql-bookmarklet/</guid><description>I&amp;rsquo;m sure most of you, if you have done any work with graphql, have heard of graphiql. It is an indespensible tool for writing and testing graphql queries.
-The problem is that now that I&amp;rsquo;m not using express at the moment. I don&amp;rsquo;t want to go through the trouble of trying to fit graphiql into my stack.
-To solve it, a graphiql bookmarklet: Enjoy!</description></item><item><title>jscodemigrate (deps|dependencies)</title><link>//www.brysgo.com/2015/12/11/jscodemigrate-deps/</link><pubDate>Fri, 11 Dec 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/12/11/jscodemigrate-deps/</guid><description>If you haven&amp;rsquo;t yet read about jscodemigrate, read about it here. If you already know about jscodemigrate then stick around because there is a new feature, and it is ready for you to use, just npm install jscodemigrate@latest --save-dev.
-You already know that you can run all of your jscodeshift scripts at once and easily maintain your project with a directory full of timestamped codemods, but now, you can make it easy for those who depend on your npm packages to respond quickly to your API changes.</description></item><item><title>jscodeshift + rails migrations = jscodemigrate</title><link>//www.brysgo.com/2015/12/05/jscodemigrate/</link><pubDate>Sat, 05 Dec 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/12/05/jscodemigrate/</guid><description>I&amp;rsquo;ve worked on lots of projects big and small, but as time went on they all suffered from the same problem. Changing standards and updated api&amp;rsquo;s left code fragmented as the codebase grew.
-From the time I started working on coffeelint, the problem has been stewing in my head. Subconciously on the lookout for a solution, I heard about codemods. Let me preface by saying I&amp;rsquo;ve been quite obsessed with everything facebook engineering has been doing in open source lately.</description></item><item><title>Graphql + Bookshelf</title><link>//www.brysgo.com/2015/08/13/graphql-bookshelf/</link><pubDate>Thu, 13 Aug 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/08/13/graphql-bookshelf/</guid><description>I recently switched over the project I was working on from MongoDB to PostgreSQL. The reason for the switch is not what I&amp;rsquo;m writing to discuss, but I&amp;rsquo;ll just say that the unpredictability of mongodb was starting to become an issue in development. The thought was that if it was already difficult before the data starts pouring in, it will probably be a nightmare one the product is in use. And that meant switching from graffiti-mongoose, to my own graphql database glue.</description></item><item><title>React Native on Heroku</title><link>//www.brysgo.com/2015/07/26/react-native-on-heroku/</link><pubDate>Sun, 26 Jul 2015 00:09:33 +0000</pubDate><guid>//www.brysgo.com/2015/07/26/react-native-on-heroku/</guid><description>As a web developer doing iOS development with react native, I need a staging environment for the product manager to review changes to the app.
-On the web, that means using Heroku, but with a react native app it is a bit more complicated.
-My react native app has two components, the packager (for serving the client code) and the server (for interacting with the app).
-Heroku only lets one process bind to an external port, so it wasn&amp;rsquo;t easy to do without creating two heroku apps.</description></item><item><title>Will Relay replace Flux?</title><link>//www.brysgo.com/2015/07/25/relay-vs-flux/</link><pubDate>Sat, 25 Jul 2015 12:59:33 +0000</pubDate><guid>//www.brysgo.com/2015/07/25/relay-vs-flux/</guid><description>Relay is out in preview! Have a look.
-When people talk about Relay they think of it as the server-client link in the Facebook stack, but is that really all it is?
-Flux still has a place on the client because you need to manage temporary app state, right?
-I think it doesn&amp;rsquo;t. Flux is an architecture for unidirectional data flow that separates out input from the user and the server so that it can react without getting tangled up.</description></item><item><title>Why I'm Excited for Facebook's Relay and GraphQL</title><link>//www.brysgo.com/2015/07/08/why-relay/</link><pubDate>Wed, 08 Jul 2015 12:59:33 +0000</pubDate><guid>//www.brysgo.com/2015/07/08/why-relay/</guid><description>Relay is out in preview! Have a look.
-I want to tell you in as few words as possible why I am so excited to get my hands on Relay and GraphQL.
-React is widely popular because it is simple and declarative, making it very deterministic and easy to work with. React is also fully composable, making it imensly powerful with high potential for writing reusable code.
-Relay is a mirror image of React, except instead of composing beautiful views for the web and native mobile devices using JSX, you can compose data from your database for your views using graphql.</description></item><item><title>Bringing back 'Under Construction' in style</title><link>//www.brysgo.com/2015/06/25/under-construction/</link><pubDate>Thu, 25 Jun 2015 10:07:43 +0000</pubDate><guid>//www.brysgo.com/2015/06/25/under-construction/</guid><description>I&amp;rsquo;m just going to go ahead and say what&amp;rsquo;s on everyone&amp;rsquo;s mind already. Where did all those great under construction pages from the 90s go with the animated gifs and text scrolling accross the screen.
-Since I know you all missed those pages so much, I brought them back. If you visit any of my websites that I have yet to utilize:
-worthy.gift unravel.space solve.technology socrenchus.com stackoverachieve.com stackoverachiever.com You will see an under construction banner that uses HTML5 gradients, text shadow, and of course, a marquee tag.</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>//www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>//www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>Now that Relay is out in preview, it will probably replace Flux entirely.
-Why React? A few months ago, the release of React Native by Facebook convinced me to make the leap to React.
-I spent a while working on a React Native app and quickly learned that I needed to bring in Flux. After watching a few videos and reading a few blogs, I added my own implementation of flux to my react native app.</description></item><item><title>Back to the blog...</title><link>//www.brysgo.com/2015/06/11/back-to-the-blog/</link><pubDate>Thu, 11 Jun 2015 01:19:34 +0000</pubDate><guid>//www.brysgo.com/2015/06/11/back-to-the-blog/</guid><description>Now I know this isn&amp;rsquo;t my first time promising more blog time but I&amp;rsquo;m renewing my vows.
-I&amp;rsquo;m not going to be so rigid with my every day blog promise, but I will make an effort where possible. Also, I plan on doing something which I haven&amp;rsquo;t done before which is try to keep my blog posts up to date.
-If you go back through my blog posts you will see edits and updates to make sure I can stay proud of my blog instead of being unconfident of stale blog posts.</description></item><item><title>Switched to Jekyll!</title><link>//www.brysgo.com/2015/06/05/switched-to-jekyll/</link><pubDate>Fri, 05 Jun 2015 10:07:43 +0000</pubDate><guid>//www.brysgo.com/2015/06/05/switched-to-jekyll/</guid><description>Just switched my blog to Jekyll because it is easier to manage. I will probably continue using tumblr here and there to reblog interesting things, but not to write my posts.
-Also didn&amp;rsquo;t feel like deleting the intro post, so here it is&amp;hellip;
-You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</description></item><item><title>Minimalist? or just boring?</title><link>//www.brysgo.com/2015/06/03/minimalist-or-just-boring/</link><pubDate>Wed, 03 Jun 2015 17:40:36 +0000</pubDate><guid>//www.brysgo.com/2015/06/03/minimalist-or-just-boring/</guid><description>
-&lt;blockquote>&lt;strong>EDIT:&lt;/strong> Blog is now on Jekyll and has replaced main website, katamari is playable on any blog page so no fake text is needed.&lt;/blockquote>
-&lt;p>I consider myself a pretty minimalist individual. I follow the time tested principles of YAGNI and build my systems in small, single purpose components.&lt;/p>&lt;p>I’ve had a very simple website for quite some time now. All it has is my name and a list of social media / web profile links. When I look at it, I see simplicity, but I began to fear that when others look at it, they see &lt;b>boring.&lt;/b>&lt;/p>&lt;blockquote>&lt;p>Try it out at&lt;/p>&lt;p>&lt;b>&lt;a href="http://www.brysgo.com">http://www.brysgo.com&lt;/a>&lt;/b>&lt;/p>&lt;/blockquote>&lt;figure class="tmblr-full" data-orig-height="1185" data-orig-width="1247">&lt;img src="https://40.media.tumblr.com/ec75fd19a4ffd14cd85ca11f6fac5a1c/tumblr_inline_npe6bchsee1r60sb8_540.png" data-orig-height="1185" data-orig-width="1247"/>&lt;/figure></description></item><item><title>Avoiding Tunnel Vision</title><link>//www.brysgo.com/2015/06/02/avoiding-tunnel-vision/</link><pubDate>Tue, 02 Jun 2015 18:51:37 +0000</pubDate><guid>//www.brysgo.com/2015/06/02/avoiding-tunnel-vision/</guid><description>
-&lt;p>
-This is a blog post to advocate for something that is generally frowned upon
-in software development. If you want to join the angry crowd and throw rotten
-tomatoes, you are welcome to.
-&lt;/p>
-&lt;figure data-orig-width="480" data-orig-height="360" class="tmblr-full">
-&lt;img
-src="https://36.media.tumblr.com/16e1827841b75b6bd61488f880867af3/tumblr_inline_npca0h9cHd1r60sb8_540.jpg"
-data-orig-width="480"
-data-orig-height="360"
-/>
-&lt;/figure></description></item><item><title>Wishlist: Chromebook search/ctrl</title><link>//www.brysgo.com/2015/04/29/chromebook-search-ctrl/</link><pubDate>Wed, 29 Apr 2015 15:11:44 +0000</pubDate><guid>//www.brysgo.com/2015/04/29/chromebook-search-ctrl/</guid><description>In order to do development on my Chromebook, I need to change the search key to a control key. Problem is the search key is really sexy, and while I can make the control key the search key, it just isn&amp;rsquo;t the same. Also, sometimes I actually try and use Ctrl like a control key and everything is wonky.
-So here is my request. I want to be able to set the search key to bring up the search if I haven’t pressed any keys in combination with it, but if I have, it should act like a control key.</description></item><item><title>2015 Chromebook Pixel</title><link>//www.brysgo.com/2015/04/29/2015-chromebook-pixel/</link><pubDate>Wed, 29 Apr 2015 15:03:30 +0000</pubDate><guid>//www.brysgo.com/2015/04/29/2015-chromebook-pixel/</guid><description>
-&lt;p>
-I just got a Chromebook pixel today and it is gorgeous. It embodies simplicity
-and minimalism while still being completely functional.
-&lt;/p>
-&lt;figure class="tmblr-full" data-orig-height="2506" data-orig-width="2306">
-&lt;img
-src="https://41.media.tumblr.com/3ba69eaeab41e5c7ee1983168c747e9c/tumblr_inline_nnl0vc6MnW1r60sb8_540.jpg"
-data-orig-height="2506"
-data-orig-width="2306"
-/>
-&lt;/figure></description></item><item><title>Web Development on a Nexus 9</title><link>//www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</link><pubDate>Wed, 11 Mar 2015 10:41:18 +0000</pubDate><guid>//www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</guid><description>
-&lt;p>
-I recently did something a little crazy. I am a professional web developer,
-and I decided I was going to move all of my development to the cloud. This
-paradigm that has brought so much convenience into every corner of my life was
-going to close the final gap. It took me a little while, but I have 99%
-percent of what I had going on my Macbook Pro, so here is my setup.
-&lt;/p></description></item><item><title>Giving 1-π/4 of your wealth to charity</title><link>//www.brysgo.com/2015/01/14/giving-1-4-of-your-wealth-to-charity/</link><pubDate>Wed, 14 Jan 2015 19:43:00 +0000</pubDate><guid>//www.brysgo.com/2015/01/14/giving-1-4-of-your-wealth-to-charity/</guid><description>
-&lt;p>&lt;span>As a New Yorker, I often feel guilty for how filthy it is and how there are people who have to live on our filthy streets.&lt;/span>&lt;/p>
-&lt;p>&lt;span>I try to give (not on the street) like a good person, but I always feel like it isn’t enough. So I did what I do everyday and attempted to solve my problems with emotionless calculations.&lt;/span>&lt;/p>
-&lt;p>&lt;span>I’m not super religious, but the first place I look when I’m in a moral dilemma is to my religion. I vaguely remember from pre-school that one of the commandments (the extended version) instructs us to leave the corners of our fields.&lt;/span>&lt;/p>
-&lt;p>&lt;span>Here comes the math. The area of a circle, the shape used to plow a field, is πr^&lt;/span>&lt;span>2&lt;/span>&lt;span> and the formula for a square (the presumed average shape of a field) is x^&lt;/span>&lt;span>2&lt;/span>&lt;span>.&lt;/span>&lt;/p>
-&lt;p>&lt;span>&lt;img src="https://31.media.tumblr.com/769ec843225540e5a8cd57427af73d20/tumblr_inline_ni70sty2sf1r60sb8.jpg"/>&lt;/span>&lt;/p>
-&lt;p>&lt;span></description></item><item><title>The Seesaw First Five Days</title><link>//www.brysgo.com/2015/01/09/the-seesaw-first-five-days/</link><pubDate>Fri, 09 Jan 2015 17:57:29 +0000</pubDate><guid>//www.brysgo.com/2015/01/09/the-seesaw-first-five-days/</guid><description>The Seesaw First Five Daysfrancinegoldsteinmarketblog:
-January 8, 2015
-Happy new year! Volatility is alive and well!
-Let’s recap the first five days: the S&amp;amp;P 500 Index sold off 2.7% for the first three days and then surged 3.0% for the next two days.
-The sharp stock market volatility has proved especially challenging for all but the nimblest&amp;hellip;
-Thanks for the advice, seems like a fairly low risk / low maintenance way to maintain a portfolio.</description></item><item><title>18 Years of Crohn's, 1 Week of Soylent 1.3</title><link>//www.brysgo.com/2015/01/03/18-years-of-crohns-1-week-of-soylent-1-3/</link><pubDate>Sat, 03 Jan 2015 12:01:24 +0000</pubDate><guid>//www.brysgo.com/2015/01/03/18-years-of-crohns-1-week-of-soylent-1-3/</guid><description>
-&lt;blockquote>
-&lt;p>
-&lt;strong>UPDATE:&lt;/strong> The nutritionist suggested I stop soylent after
-version 1.4 made me irregular and wasn't helping me keep on weight. 1.5
-looks better but I am going to wait a little before diving back in.
-&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;em>Here is a quick synopsis of my case&amp;hellip;&lt;/em>&lt;/p>
-&lt;blockquote>
-&lt;p>
-&lt;em
->I was diagnosed with Crohn&amp;rsquo;s disease when I was 7 years old. I have
-managed to avoid surgery, but was a frequent flyer in the emergency room
-for flare ups. I was on remicade for about ten years and have been on
-mercaptopurine and mesalamine since I was diagnosed. I was
-on antibiotics from the time I was diagnosed until I graduated college,
-and somewhere in that span I was briefly on growth hormones and steroids.
-Additionally, I am most recently back on antibiotics and budesonide.&lt;/em
->
-&lt;/p>
-&lt;/blockquote>
-&lt;p>
-My most recent flare up a few months ago is what put me on budesonide and a
-few weeks before I started soylent I went back on antibiotics (tinidazole and
-ciprofloxacin). I ordered soylent months ago and was delighted when Soylent
-V1.3 arrived in the midst of me trying to control my symptoms.</description></item><item><title>Teaspoon with Capybara-Webkit</title><link>//www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</link><pubDate>Fri, 02 Jan 2015 11:00:38 +0000</pubDate><guid>//www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</guid><description>Do you use teaspoon to run your javascript tests? Do you use Capybara-Webkitto run your feature tests? Now you can run your teaspoon suite faster without having to install and boot up phantomjs. Just use the new Capybara-Webkit driver for teaspoon!You may also have more success with it on your CI server, as that is what caused us to make this change.</description></item><item><title>Linearly dependant Rspec 'behavior'</title><link>//www.brysgo.com/2014/12/31/linearly-dependant-rspec-behavior/</link><pubDate>Wed, 31 Dec 2014 15:17:00 +0000</pubDate><guid>//www.brysgo.com/2014/12/31/linearly-dependant-rspec-behavior/</guid><description>
-&lt;p>
-&lt;strong>The problem:&lt;/strong> You finish writing your test in rspec, and after
-you have carefully described the scenario, you go to write your next test. For
-your next test you need to check that after you do everything for the first
-test, the next thing doesn’t break.
-&lt;/p>
-&lt;p>&lt;strong>Potential hacks:&lt;/strong>&lt;/p>
-&lt;p>
-a) Well, it is just this one time, I can ignore the description of the spec
-and just throw in another assertion after my test.
-&lt;/p>
-&lt;p>
-While you’re at it, why don’t you just do everything in one test, I’m sure
-you’ll be able to figure it out when it fails.
-&lt;/p>
-&lt;p>
-b) There isn’t that much setup, I can just do the same thing I did in the last
-test as setup!
-&lt;/p>
-&lt;p>
-Lets pretend we don’t care about performance, I hope we can guarantee that the
-first test won’t change and that the setup state of the second test won’t get
-out of touch with reality!
-&lt;/p>
-&lt;p>&lt;strong>But wait, there’s another solutions…&lt;/strong>&lt;/p>
-&lt;p></description></item><item><title>How-to : Submit your Tumblr blog sitemap to Google Webmaster tools</title><link>//www.brysgo.com/2014/12/30/how-to-submit-your-tumblr-blog-sitemap-to-google/</link><pubDate>Tue, 30 Dec 2014 19:04:58 +0000</pubDate><guid>//www.brysgo.com/2014/12/30/how-to-submit-your-tumblr-blog-sitemap-to-google/</guid><description> How-to : Submit your Tumblr blog sitemap to Google Webmaster toolsaepearson:
-A friend of mine, Paul, asked me today about how he may go about submitting a sitemap to Google Webmaster tools for his Tumblr blog.
-I found the surprisingly simple solution!
-1 - First, you’ll need to sign up for Google Webmaster Tools:
-http://www.google.com/webmasters/
-2 - Now you’ll&amp;hellip;</description></item><item><title>Wishlist: Google Calendar Trips</title><link>//www.brysgo.com/2014/12/23/wishlist-google-calendar-trips/</link><pubDate>Tue, 23 Dec 2014 15:24:53 +0000</pubDate><guid>//www.brysgo.com/2014/12/23/wishlist-google-calendar-trips/</guid><description>Google calendar has many features I rely on, one of my favorites is the integration with Google now that helps you get where you need to go on time.
-I use the to make sure I always leave time for the subway. However, sometimes my trips are a little longer. Google already knows when I&amp;rsquo;m going on a flight, why not add trips to my calendar.
-If I&amp;rsquo;m going on a train to long island two hours of my time are spent on the train.</description></item><item><title>Contextualizing with DSLs</title><link>//www.brysgo.com/2014/12/19/contextualizing-with-dsls/</link><pubDate>Fri, 19 Dec 2014 18:40:31 +0000</pubDate><guid>//www.brysgo.com/2014/12/19/contextualizing-with-dsls/</guid><description>Why do we use domain specific languages? My first reaction to them when I started programming in the real world was to scorn them with the attitude that they introduce unnecessary complication for both the developer and the computer. What good could they possibly do? Like any programmer thrown into a stack, I faithfully used the established patterns, knowing that any divergence from the standard usually has a much worse effect than dealing with it.</description></item><item><title>Use your YAML fixtures as documentation</title><link>//www.brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</link><pubDate>Wed, 10 Dec 2014 21:45:00 +0000</pubDate><guid>//www.brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</guid><description>
-&lt;p>
-If you are writing an API sandbox with a local development tool, you will no
-doubt need fixtures for your API’s modeling.
-&lt;/p>
-&lt;p>
-It turns out those fixtures are a great example of how your API is modeled. If
-you comment on those fixtures, they can be great documentation for the
-perusing developer.</description></item><item><title>Voltrb first impressions</title><link>//www.brysgo.com/2014/12/04/voltrb-first-impressions/</link><pubDate>Thu, 04 Dec 2014 23:27:00 +0000</pubDate><guid>//www.brysgo.com/2014/12/04/voltrb-first-impressions/</guid><description>
-&lt;p>What do you get when you cross meteorjs with rails?&lt;/p>
-&lt;p>The answer is quite simply, voltrb.&lt;/p>
-&lt;p>
-Getting started is not quite as easy as meteor or rails, which isn’t
-surprising considering how fresh it is.
-&lt;/p>
-&lt;p>
-So far I built a search box that creates new items on submit, but searches
-through existing items as you type. I’m building the site that will go here:
-&lt;a href="http://www.procedur.al">http://www.procedur.al&lt;/a>.
-&lt;/p>
-&lt;p>
-I love how you get default models and collections for each storage method and
-you can optionally create models that are autoloaded if they exist. This
-reminds me if ember, only I don’t have to leave ruby!</description></item><item><title>The wonderful distributed world wide web!</title><link>//www.brysgo.com/2014/12/01/the-wonderful-distributed-world-wide-web/</link><pubDate>Mon, 01 Dec 2014 23:05:17 +0000</pubDate><guid>//www.brysgo.com/2014/12/01/the-wonderful-distributed-world-wide-web/</guid><description>…umm, I mean let’s all use the same service so we don’t have to manage or own hardware. There are advantages and disadvantages to distributing the internet. One of the advantages initially were that it was the only way to host anything. There were no easy services for sharing content. There are of course many other advantages to the distribution of the internet, like fault tolerance, but those were quickly forgotten.</description></item><item><title>Commit to a single way</title><link>//www.brysgo.com/2014/11/26/commit-to-a-single-way/</link><pubDate>Wed, 26 Nov 2014 13:13:06 +0000</pubDate><guid>//www.brysgo.com/2014/11/26/commit-to-a-single-way/</guid><description>Software engineers are responsible for adding new and unforeseen complexity to established, carefully thought out systems. It tends to be a reflex when told to add complexity, that we special case the complexity and fall through to the system you had before. This works in many cases and is great if the complexity being added is a footnote that you don&amp;rsquo;t intend to come back to. Complexity that is essential to the long term success of your product needs to be &amp;ldquo;native.</description></item><item><title>Strategies for reviewing massive pull requests</title><link>//www.brysgo.com/2014/11/20/strategies-for-reviewing-massive-pull-requests/</link><pubDate>Thu, 20 Nov 2014 22:52:00 +0000</pubDate><guid>//www.brysgo.com/2014/11/20/strategies-for-reviewing-massive-pull-requests/</guid><description>
-&lt;p>
-Too many massive pull requests are a smell, but sometimes big pull requests
-are a necessity. It is easy to come across a large pull request and
-immediately reject it, but you shouldn’t be intimidated by the size of a PR.
-&lt;/p>
-&lt;p>
-Your first job when reviewing such a PR is to identify why it is so large. Is
-there a large piece of functionality being added or Is a common pattern in the
-code being changed? Maybe the pull request is a large feature combined with
-pattern changes.
-&lt;/p>
-&lt;p>
-If it is the third, I would definitely ask for the PR to be broken up. There
-is no reason to do a pattern change and new feature in one PR. Otherwise the
-actions you take will depend largely on what the reason for the PR’s size is.</description></item><item><title>Why is consistency in code so difficult?</title><link>//www.brysgo.com/2014/11/19/why-is-consistency-in-code-so-difficult/</link><pubDate>Wed, 19 Nov 2014 22:39:00 +0000</pubDate><guid>//www.brysgo.com/2014/11/19/why-is-consistency-in-code-so-difficult/</guid><description>
-&lt;p>
-Why is it we can’t just agree on a pattern to use when programming and get
-everything done already?
-&lt;/p>
-&lt;p>
-The fact is that while language level stylistic differences are very easy to
-agree on, the patterns in which you use the tools provided by the language
-emerge proportional to the size of the system.
-&lt;/p>
-&lt;p>
-So you can come to a new pattern, agree on it, come to the next, agree on it,
-etc… but there will always be more patterns.
-&lt;/p>
-&lt;p>
-Okay well, we can’t agree on patterns, at least we can agree on philosophies
-for coming up with new patterns?</description></item><item><title>A RoseFactory by any other name...</title><link>//www.brysgo.com/2014/11/18/a-rosefactory-by-any-other-name/</link><pubDate>Tue, 18 Nov 2014 22:54:00 +0000</pubDate><guid>//www.brysgo.com/2014/11/18/a-rosefactory-by-any-other-name/</guid><description>
-&lt;blockquote>
-&lt;p>
-There are only two hard things in Computer Science: cache invalidation and
-naming things.
-&lt;/p>
-&lt;p>— Phil Karlton&lt;/p>
-&lt;/blockquote>
-&lt;p>
-Lets hold on to cache invalidation for another post&lt;a
-href="https://www.youtube.com/watch?v=g-4-gLlF0uw"
->…&lt;/a
->
-&lt;/p>
-&lt;p>
-Naming things (or should I say labeling them&lt;a
-href="https://www.youtube.com/watch?v=g-4-gLlF0uw"
->…&lt;/a
->) is a very hard problem.
-&lt;/p>
-&lt;h2>Why is it a hard problem?&lt;/h2>
-&lt;p>
-Consider this, imagine you are building a piece of IKEA furniture. You get all
-the pieces in the box and you have to put them together. Now imagine that all
-the pieces had a succinct description that you used to put them together. Now
-imagine that you couldn’t see or feel the pieces and all you had to work with
-were these descriptions.
-&lt;/p>
-&lt;p>
-&lt;img
-alt=""
-src="http://photos1.blogger.com/blogger2/1715/1669/1600/larson-oct-1987.gif"
-/>
-&lt;/p>
-&lt;p></description></item><item><title>UX that grows complexity with the user, not the product</title><link>//www.brysgo.com/2014/11/15/ux-that-grows-complexity-with-the-user-not-the/</link><pubDate>Sat, 15 Nov 2014 18:44:00 +0000</pubDate><guid>//www.brysgo.com/2014/11/15/ux-that-grows-complexity-with-the-user-not-the/</guid><description>
-&lt;p>
-Have you ever played a videogame where you sit down, turn on the game, and are
-overwhelmed with a thousand cool things you can do?*
-&lt;/p>
-&lt;p>NO&lt;/p>
-&lt;p>
-Why not? Because that game company went out of business long ago. Games start
-with one thing the user can do, waits until the user is comfortable, then
-introduces the next thing.</description></item><item><title>Blogs on blogs on blogs</title><link>//www.brysgo.com/2014/11/15/if-i-write-a-blog-in-the-forest-does-it-make-a/</link><pubDate>Sat, 15 Nov 2014 13:41:46 +0000</pubDate><guid>//www.brysgo.com/2014/11/15/if-i-write-a-blog-in-the-forest-does-it-make-a/</guid><description>I’ve decided to write a blog post every day, even if it is crappy. Why? Is it so I can feel important? Maybe, but I would never admit that. The reason I’m sticking to is that I want to get better at reflecting on important parts of my day. It may help me appreciate all the interesting things I come across daily that are quickly relegated to a distant memory.</description></item><item><title>OO code isn't spaghetti proof</title><link>//www.brysgo.com/2014/11/15/oo-code-isnt-spaghetti-proof/</link><pubDate>Sat, 15 Nov 2014 02:11:50 +0000</pubDate><guid>//www.brysgo.com/2014/11/15/oo-code-isnt-spaghetti-proof/</guid><description>Today I had another terrifying, tear swallowing pull request moment. It involved clearly abstracted pieces of our system being clearly and purposefully coupled. If this doesn&amp;rsquo;t bring you to your knees let me try and illustrate why this is so bad. You are the kind of developer that pardon my french, &amp;ldquo;gets shit done.&amp;rdquo; Because you are such a doer, you connect the first input with the desired output.</description></item><item><title>Ink/filepicker-rails doesn't preview my unsupported image format</title><link>//www.brysgo.com/2014/11/13/ink-filepicker-rails-doesnt-preview-my/</link><pubDate>Thu, 13 Nov 2014 19:30:18 +0000</pubDate><guid>//www.brysgo.com/2014/11/13/ink-filepicker-rails-doesnt-preview-my/</guid><description>First, before you go any further&amp;hellip; check to make sure the image you&amp;rsquo;re trying isn&amp;rsquo;t just broken. I visited the image in the browser and realized that the browser supported the format, so the broken preview had to be somewhere in filepicker. In my case I was using a(n) .ico file and since filepicker.io only supports post processing on .jpg and .pngI had to come up with a work around.</description></item><item><title>Soylent mission one</title><link>//www.brysgo.com/2014/08/19/this-is-the-first-thing-im-going-to-try-when-i/</link><pubDate>Tue, 19 Aug 2014 10:46:55 +0000</pubDate><guid>//www.brysgo.com/2014/08/19/this-is-the-first-thing-im-going-to-try-when-i/</guid><description>UPDATE: I got a later version of soylent and used a different recipe and it was yummy. This is the first thing I&amp;rsquo;m going to try when I get my soylent&amp;hellip;
-leecaubleblog:
-Baked Soylent
-This is not my first attempt to bake with Soylent. During beta testing I made a few batches of peanut butter cookies. I made a few mistakes with this batch of brownies but overall the taste and texture are OK.</description></item><item><title>Wishlist: Coding in the Cloud (without falling from the sky)</title><link>//www.brysgo.com/2014/07/28/wishlist-coding-in-the-cloud-without-falling/</link><pubDate>Mon, 28 Jul 2014 09:01:01 +0000</pubDate><guid>//www.brysgo.com/2014/07/28/wishlist-coding-in-the-cloud-without-falling/</guid><description>As a diehard Google fanboy, it is my duty to figure out how I can switch to a Chromebook as my primary laptop. The only way I can see myself doing that is if I were provided a web based programming experience that was better than coding on metal.
-Enter Bryan&amp;rsquo;s fantasy world, where a flourishing space economy affords us with cheap vacations to the moon and once a year visits to grandma on the mars colony.</description></item><item><title>Wishlist Series</title><link>//www.brysgo.com/2014/07/27/wishlist-series/</link><pubDate>Sun, 27 Jul 2014 21:55:14 +0000</pubDate><guid>//www.brysgo.com/2014/07/27/wishlist-series/</guid><description>Those of you who know me already know I am a man of many wishes and dreams. That means as a developer, I dream up, try to start, and abandon many&amp;hellip;many projects. When I work occasionally to get these projects out of my head and into code, I will pull on any open source threads I am given. The really cool part about this is I usually end up finding the people who are already trying to do what I am setting out to do.</description></item><item><title>Bye CVS</title><link>//www.brysgo.com/2014/05/09/my-breakup-with-cvs-after-7-years-of-patronage/</link><pubDate>Fri, 09 May 2014 19:32:32 +0000</pubDate><guid>//www.brysgo.com/2014/05/09/my-breakup-with-cvs-after-7-years-of-patronage/</guid><description>I was about to leave a scathing review of the CVS on east 72nd and 2nd, including the manager, Marc, when I read a little bit about how CVS treats it’s employees like crap and I decided against it.
-The only thing that keeps me coming back to the place is that I have a really nice pharmacist named Bobby. I wish I could take him with me when I go somewhere else, but I know I can’t.</description></item><item><title>Machine Learning in Go</title><link>//www.brysgo.com/2013/11/23/machine-learning-in-go/</link><pubDate>Sat, 23 Nov 2013 21:53:42 +0000</pubDate><guid>//www.brysgo.com/2013/11/23/machine-learning-in-go/</guid><description>For a while now I have been curious about Go. There doesn&amp;rsquo;t seem to be much to it, but it is getting more and more popular. Another itch I&amp;rsquo;ve had for a really long time is to write my own machine learning/AI framework. After looking at Golang a bit more, I couldn&amp;rsquo;t shake the feeling that it would be the perfect language for my machine learning framework. I did some searching and while there were people talking about writing machine learning frameworks in Go, no one was actually doing it.</description></item><item><title>Monopolistic ISPs</title><link>//www.brysgo.com/2013/11/09/monopolistic-isps/</link><pubDate>Sat, 09 Nov 2013 09:39:01 +0000</pubDate><guid>//www.brysgo.com/2013/11/09/monopolistic-isps/</guid><description>I am on the lowest tier of TWC broadband in NYC and I feel like I&amp;rsquo;m connecting from a third world country. For $20 a month I don&amp;rsquo;t expect the fastest internet, but I expect it to be just as reliable as the next persons internet. One thing I&amp;rsquo;m not going to do is pay more to the same people who can&amp;rsquo;t provide decent service in the first place.</description></item><item><title>Look ma, I inspired a webcomic!</title><link>//www.brysgo.com/2013/10/23/look-ma-i-inspired-a-webcomic/</link><pubDate>Wed, 23 Oct 2013 10:52:02 +0000</pubDate><guid>//www.brysgo.com/2013/10/23/look-ma-i-inspired-a-webcomic/</guid><description>paircomix: Stop pronouncing my typos!
-Never</description></item><item><title>Was Frankenstein('s Monster) a Zombie?</title><link>//www.brysgo.com/2013/10/08/was-frankenstein-s-monster-a-zombie/</link><pubDate>Tue, 08 Oct 2013 22:08:00 +0000</pubDate><guid>//www.brysgo.com/2013/10/08/was-frankenstein-s-monster-a-zombie/</guid><description>The primary definition of a zombie, according to Google is as follows:
-a corpse said to be revived by witchcraft, esp. in certain African and Caribbean religions. Early religions lacked the scientific methods to explain everyday events and defaulted to labeling things that couldn&amp;rsquo;t otherwise be explained as witchcraft. It is through that stretch of the definition of a zombie that allow the walkers on AMC&amp;rsquo;s The Walking Dead to be labeled zombies.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on BRYSGO</title><link>https://www.brysgo.com/post/</link><description>Recent content in Posts on BRYSGO</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 Oct 2020 12:27:19 +0000</lastBuildDate><atom:link href="https://www.brysgo.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Bobiverse: Critical Analysis of Drift</title><link>https://www.brysgo.com/post/2020-10-22-Bobiverse-Critical--1fd1db/</link><pubDate>Thu, 22 Oct 2020 12:27:19 +0000</pubDate><guid>https://www.brysgo.com/post/2020-10-22-Bobiverse-Critical--1fd1db/</guid><description>&lt;p&gt;I recently read the book series referred to as the &amp;ldquo;Bobiverse,&amp;rdquo; that tickled my nerd fancy so much that I had to write about it. While I really loved the book, that is not what I&amp;rsquo;m going to write about, instead, like a good dork, I&amp;rsquo;m going to scratch the singular itch that was left lingering throughout the series. I will try not to go too much into detail, but I would recommend giving it a read if you are worried about spoilers.&lt;/p&gt;</description></item><item><title>My Mixed Image of Success</title><link>https://www.brysgo.com/post/2020-10-20-My-Mixed-Image-of-Su-947ff8/</link><pubDate>Tue, 20 Oct 2020 13:06:03 +0000</pubDate><guid>https://www.brysgo.com/post/2020-10-20-My-Mixed-Image-of-Su-947ff8/</guid><description>&lt;p&gt;I recently had an epiphany about the mixed image of success that I project and why it is so confusing from an outsider looking in. I&amp;rsquo;m writing this to turn my inner monologue outwards in the off chance that someone else has experienced the same thing, but also to help others understand where I&amp;rsquo;m coming from.&lt;/p&gt;
+&lt;p&gt;I haven&amp;rsquo;t had a long history of success with women, but I&amp;rsquo;ve been in enough situations where women were competing for my attention that my standards were unrealistically high, and my game unfortunately low. This was always really puzzling to me and I would enjoy being successful in the situations where I was and not waste time chasing women in situations where I wasn&amp;rsquo;t.&lt;/p&gt;</description></item><item><title>What is life?</title><link>https://www.brysgo.com/post/2020-10-08-What-is-life-7c954f/</link><pubDate>Thu, 08 Oct 2020 08:05:22 +0000</pubDate><guid>https://www.brysgo.com/post/2020-10-08-What-is-life-7c954f/</guid><description>&lt;p&gt;After googling the definition of Life and I was a bit disappointed to find that the best definitions were anchored in functions we associate with life, but I couldn&amp;rsquo;t quite put my finger on why this made me sad.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;the condition that distinguishes animals and plants from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Setting aside the use of a word to define itself (in this case &amp;ldquo;animals and plants&amp;rdquo; are synonymous with life and &amp;ldquo;inorganic&amp;rdquo; is just another way of saying &amp;ldquo;not living.&amp;rdquo;), all of the things listed here felt like something that could easily be used to describe something that isn&amp;rsquo;t alive.&lt;/p&gt;</description></item><item><title>$trong AI</title><link>https://www.brysgo.com/post/2020-09-10-dollartrong-AI-f769ed/</link><pubDate>Thu, 10 Sep 2020 08:05:20 +0000</pubDate><guid>https://www.brysgo.com/post/2020-09-10-dollartrong-AI-f769ed/</guid><description>&lt;p&gt;When it was announced not too long ago, GPT-3 set a new standard for the size of an AI model at a whopping 175 billion parameters, and an &lt;a href="https://lambdalabs.com/blog/demystifying-gpt-3/"&gt;estimated cost of at least $4.6 million&lt;/a&gt;. Ever since the first closed beta examples started showing up, it has been blowing people&amp;rsquo;s minds and causing everyone to think about what is next.&lt;/p&gt;
+&lt;p&gt;One of the best things about programming (and open source in particular) is that everyone can play and have access to everything they need to build cool stuff. If I want to create an AI, I can download Tensorflow and convince myself that I can build the best AI in the world! Sure, I probably can&amp;rsquo;t, but that is besides the point because just the opportunity provides me with inspiration and the hope that there a global community of people working on this really cool problem.&lt;/p&gt;</description></item><item><title>End of Work = Beginning of Creativity</title><link>https://www.brysgo.com/post/2020-08-19-End-of-Work-Beginnin-75f8b0/</link><pubDate>Wed, 19 Aug 2020 08:07:06 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-19-End-of-Work-Beginnin-75f8b0/</guid><description>&lt;p&gt;When most people hear the end of work, they might picture the world looking glazed over and staring at the television with a bag of cheese puffs in their hand making an occasional nasal laugh. So why am I so excited for the end of work?&lt;/p&gt;
+&lt;p&gt;The reason is that while I do believe the future will be that way for some, I think the vast majority will have a much different experience. The end of work doesn&amp;rsquo;t mean the humans are no longer useful. A stochastic gradient is only useful because it is just that, stochastic. This means that the greatest asset a human will have is the ability to gain a different perspective on things and use that to provide value.&lt;/p&gt;</description></item><item><title>Vegan Insomnia Beef in Ginger Sauce</title><link>https://www.brysgo.com/post/2020-08-16-Vegan-Insomnia-Beef--cc6199/</link><pubDate>Sun, 16 Aug 2020 17:04:36 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-16-Vegan-Insomnia-Beef--cc6199/</guid><description>&lt;p&gt;I&amp;rsquo;ve been going back and forth for a little while with my sister about trying to recreate a seitan ginger beef dish from a restaurant that we like in Vermont. It is a little tricky for me since I&amp;rsquo;ve never done a seitan beef before and because of the whole low FODMAP thing, but I finally decided to give it a try. After substituting pretty much every ingredient in the recipes I found, I finally created what I lovingly refer to as insomnia beef, since I associate eating it with not being the least bit tired (probably because of the high protein content and the cocoa nibs I threw in).&lt;/p&gt;</description></item><item><title>GitHub Inbox Zero</title><link>https://www.brysgo.com/post/2020-08-14-GitHub-Inbox-Zero-9892d6/</link><pubDate>Fri, 14 Aug 2020 08:04:58 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-14-GitHub-Inbox-Zero-9892d6/</guid><description>&lt;p&gt;I recently reached inbox zero on GitHub for the first time in a long time. A while ago I got freaked out by the possibility of people stealing my secret keys through CI and I disabled my CI tokens on my zillion GitHub repos. It was all broken windows from there. Before I knew it my GitHub was a graveyard of packages with out of date dependencies that I had no time to update.&lt;/p&gt;</description></item><item><title>Dumpling Pancakes</title><link>https://www.brysgo.com/post/2020-08-11-Dumpling-Pancakes-07c1af/</link><pubDate>Tue, 11 Aug 2020 08:05:06 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-11-Dumpling-Pancakes-07c1af/</guid><description>&lt;p&gt;I think it is safe to say that a lot of people like dumplings 🥟- and more safe to say that they are too complicated and time consuming for most people to make themselves (yes, you could order them but that is besides the point). I realized I could make dumplings by dipping the protein in a thick batter instead of wrapping it.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/yb81CL7CjyLTW75ap4uC7mLnk4LZt9Udr2ujZgQC5DpQPsxZeSVESs2mnlPJlV5_vpdJBJvN0i_n-lZtcdwzQ2wPrZ9ZVM5FqgicQgwkoXTQkVdT4UP7VZo-Ca7ZHmrOtwxlcEdqlgE=w504-h672-no" alt="batter dipped dumplings"&gt;&lt;/p&gt;
+&lt;p&gt;The benefit was this was a little bit easier, however, it still required an action per small food piece. The solution to this lazy chef challenge came accidentally when I was running out of my protein (seitan in this case) and I didn&amp;rsquo;t realize, so I made a bowl of batter, and was only going to get a couple small dumpling pieces out of it. The forces of not wanting to waste food or be hungry drove me to create a dumpling pancake.&lt;/p&gt;</description></item><item><title>the yin and yang of utility</title><link>https://www.brysgo.com/post/2020-08-08-the-yin-and-yang-of--dc939a/</link><pubDate>Sat, 08 Aug 2020 17:04:06 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-08-the-yin-and-yang-of--dc939a/</guid><description>&lt;p&gt;I just did some dehydrating exercise in the sun, so this will be what amounts to some pontificating shower thoughts. But you already clicked on the link so you might as well read it.&lt;/p&gt;
+&lt;p&gt;While trying to solve the &lt;a href="https://en.wikipedia.org/wiki/Knapsack_problem"&gt;knapsack problem&lt;/a&gt; I got to thinking about the realities of maximizing utility. Since I am a software engineer and engineering is just building tools to maximize &lt;a href="https://en.wiktionary.org/wiki/utility"&gt;utility&lt;/a&gt;, I let my mind frolic down that sweet sweet rabbit hole.&lt;/p&gt;</description></item><item><title>coming soon: peerstate</title><link>https://www.brysgo.com/post/2020-08-06-coming-soon-peersta-415acc/</link><pubDate>Thu, 06 Aug 2020 08:05:02 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-06-coming-soon-peersta-415acc/</guid><description>&lt;p&gt;All of my open source projects start with trying to build something, getting frustrated, saying in my head &amp;ldquo;I wish I could just do this,&amp;rdquo; then obsessively investigating what it would take to be able to &amp;ldquo;just do this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Sometimes this inspiration comes on a work project, but more often, it comes when I am working on a side project, or playing with some new open source thing. My first example of such a project, was when I was working on an investment project called Herd. It was my first react native app, and I was frustrated that I couldn&amp;rsquo;t use environment variables. At the time, react native was very new and I couldn&amp;rsquo;t find a good way to use environment variables, so I learned how to write a babel plugin, made one for my environment variables (rather quickly), pushed it to npm, and forgot about it.&lt;/p&gt;</description></item><item><title>Health Pro's and Con's of Cooking with Discrete Ingredients</title><link>https://www.brysgo.com/post/2020-08-03-Health-Pros-and-Con-d615f2/</link><pubDate>Mon, 03 Aug 2020 08:04:30 +0000</pubDate><guid>https://www.brysgo.com/post/2020-08-03-Health-Pros-and-Con-d615f2/</guid><description>&lt;p&gt;Remember when I mentioned that cooking with discrete ingredients has side effects? Well, in reality, all food has side effects, they are just drowned out by the popular proportions of everything that are hard coded into the common foods that everyone eats.&lt;/p&gt;
+&lt;p&gt;When you start experimenting with specific ingredients, you throw that all away. Suddenly, you will find yourself rapidly trying to diagnose something with Google and fix it with another ingredient that you normally eat all the time.&lt;/p&gt;</description></item><item><title>Open Source: Chasing the Dream</title><link>https://www.brysgo.com/post/2020-07-31-Open-Source-Chasing-997a1e/</link><pubDate>Fri, 31 Jul 2020 17:04:07 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-31-Open-Source-Chasing-997a1e/</guid><description>&lt;p&gt;I love open source. I love to imagine writing code a certain way, trying to find something that does it, failing to find said thing and building it. I love publishing it and watching people use it. I don&amp;rsquo;t love maintaining it, I don&amp;rsquo;t love the thought of having to improve it with the responsibility involved with making sure those improvements don&amp;rsquo;t break anything for anyone using your thing in a way you didn&amp;rsquo;t intend it to be used.&lt;/p&gt;</description></item><item><title>Holding in the Idea Vomit</title><link>https://www.brysgo.com/post/2020-07-29-Holding-in-the-Idea--1541f1/</link><pubDate>Wed, 29 Jul 2020 08:04:18 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-29-Holding-in-the-Idea--1541f1/</guid><description>&lt;p&gt;Yesterday I had an idea. Congratulations me, now there are two options, I can:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take the red pill - see how deep the rabbit hole goes&lt;/li&gt;
+&lt;li&gt;Take the blue pill - be blissfully ignorant of whether my new idea will work&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The free spirit I am, has lots of trouble with #2 because I am insatiably curious and hate myself. But I recognize that I need to learn how to do this, or I will spend my life jumping from rabbit hole to rabbit hole like a prairie dog.&lt;/p&gt;</description></item><item><title>My AI Story (3/3)</title><link>https://www.brysgo.com/post/2020-07-26-My-AI-Story-33-11a67c/</link><pubDate>Sun, 26 Jul 2020 17:04:03 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-26-My-AI-Story-33-11a67c/</guid><description>&lt;p&gt;After graduating with my BS in Computer Science, AI moved to side project status as I took a job as a Full Stack Software Engineer at Pivotal Labs. The side project years of my AI life made slow progress. I managed to play with some algorithms that one time when I was trying to learn golang. I eventually implemented my logic gate pool genetic algorithm as part of a more ambitions side project I called thoughtnet. Jobs had passed at this point as I went from Pivotal, to SchoolKeep, to freelancing, to BCG. I played with the thoughtnet algorithm from time to time, but always was demotivated by it&amp;rsquo;s fundamental inability to benefit from hardware acceleration. While BCG has an incredible culture where you become very close with your colleagues, it has been the kind of demanding job that doesn&amp;rsquo;t leave much time for side projects.&lt;/p&gt;</description></item><item><title>project review time</title><link>https://www.brysgo.com/post/2020-07-24-project-review-time-1a1913/</link><pubDate>Fri, 24 Jul 2020 08:04:17 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-24-project-review-time-1a1913/</guid><description>&lt;p&gt;I recently got a good review at work and it helped me start to course correct a dangerous internal narrative. For the last year of projects I&amp;rsquo;ve been on, I&amp;rsquo;ve heard: &amp;ldquo;you are a genius, but you have to work on your communication&amp;rdquo; &amp;ndash; which in my brain translates to &amp;ldquo;we need to soften the blow of this feedback, but you are a piece of shit to work with&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Truth is, when you hear something enough times, you start to believe it. So I was just coming to terms with the fact that I&amp;rsquo;ll always be shitty to work with, when I got put on a team with some very nice people, including the rock-star Jr. PL who gave me this review.&lt;/p&gt;</description></item><item><title>My AI Story (2/3)</title><link>https://www.brysgo.com/post/2020-07-21-My-AI-Story-23-e5cf6d/</link><pubDate>Tue, 21 Jul 2020 17:03:40 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-21-My-AI-Story-23-e5cf6d/</guid><description>&lt;p&gt;Learning in school was very difficult for me because I was more of a hands on learner and school was very heavy on lecturing. When I am in situations that frustrate me, I try and solve them with technology. This was what I had planned to do with my ed tech company &amp;ldquo;Socrenchus.&amp;rdquo; Before Socrenchus though, I was interning in Mountain View and I got to meet some of the AI great&amp;rsquo;s. I saw an article about his interest in education technology, and I cold emailed &lt;a href="https://norvig.com/"&gt;Peter Norvig&lt;/a&gt;, who was working in the same building as me, to ask if he wanted to get lunch.&lt;/p&gt;</description></item><item><title>Seitan is a dish best served cold</title><link>https://www.brysgo.com/post/2020-07-19-Seitan-is-a-dish-bes-3e4706/</link><pubDate>Sun, 19 Jul 2020 08:03:49 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-19-Seitan-is-a-dish-bes-3e4706/</guid><description>&lt;p&gt;My first kitchen obsession of the quarantine season, was Seitan. The reason being that it is delicious, and I can make it entirely with ingredients shipped via Amazon. While this mostly appeals to me because I didn&amp;rsquo;t much feel like going to the super market, it also helped that I&amp;rsquo;m a huge nerd and I like the idea of creating something out of simple powdered ingredients.&lt;/p&gt;
+&lt;p&gt;It was a bumpy road to getting it right. My first instinct was to see what it tasted like plain, so I mixed it with water and ate it. It was very chewy, but also not bad. I could see how one could crave this stuff the way you might crave peanut butter.&lt;/p&gt;</description></item><item><title>My AI Story (1/3)</title><link>https://www.brysgo.com/post/2020-07-16-My-AI-Story-13-e86392/</link><pubDate>Thu, 16 Jul 2020 17:03:56 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-16-My-AI-Story-13-e86392/</guid><description>&lt;p&gt;If I&amp;rsquo;m going to start writing about AI, I figure I should give some backstory first on my life in AI.&lt;/p&gt;
+&lt;p&gt;My first introduction to AI was probably when I was 9 years old and snuck downstairs to watch the first Matrix movie that I wasn&amp;rsquo;t supposed to be watching. This did a great deal to feed what has become an AI obsession over the years.&lt;/p&gt;
+&lt;p&gt;In high school, after I had been programming on my own for a while with only stack overflow to guide me (plus a couple people who volunteered to help me with my shareware), I started pondering about AI from the perspective of how it worked.&lt;/p&gt;</description></item><item><title>Kitchen Experiments: the weirdest way to cook</title><link>https://www.brysgo.com/post/2020-07-15-Kitchen-Experiments-274184/</link><pubDate>Wed, 15 Jul 2020 17:03:27 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-15-Kitchen-Experiments-274184/</guid><description>&lt;p&gt;As COVID-19 settled in and the outside food procurement grew fraught with uncertainty, I turned to something I managed to avoid for a very long time&amp;hellip; cooking.&lt;/p&gt;
+&lt;p&gt;My solution to this problem was to geek out on my love of science, minimalism, and efficiency to create tasty, weird, nutritious food that doesn&amp;rsquo;t upset my stomach or other parts of my body. You may be wondering about that last one, but I can assure you, when you start playing with discrete chemical ingredients to make your food, having the wrong combination of foods can lead to a &lt;em&gt;unique&lt;/em&gt; experience.&lt;/p&gt;</description></item><item><title>A letter to police</title><link>https://www.brysgo.com/post/2020-07-12-A-letter-to-police-5086c8/</link><pubDate>Sun, 12 Jul 2020 17:03:29 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-12-A-letter-to-police-5086c8/</guid><description>&lt;p&gt;I&amp;rsquo;m not usually outwardly political, but I have something to get off my chest. I recently overheard a police officer talking about how it won&amp;rsquo;t be worth it if he has to get insurance so he won&amp;rsquo;t get sued. I didn&amp;rsquo;t feel comfortable enough to get into a debate with him, which later made me even more uncomfortable, so I will address the issue here.&lt;/p&gt;
+&lt;p&gt;When you signed up to be a public servant and put yourself in harms way to protect your community, it was one of the noblest and bravest things you could do. Now the thing your community needs protection from is a little closer to home. Don&amp;rsquo;t take this personally, it is not a reflection on you as an individual, but some details of the police and societal culture have evolved over the years to create a smell that hangs around among your ranks.&lt;/p&gt;</description></item><item><title>New Landing Page - New Commitment</title><link>https://www.brysgo.com/post/2020-07-11-new-landing-page/</link><pubDate>Sat, 11 Jul 2020 07:36:00 +0000</pubDate><guid>https://www.brysgo.com/post/2020-07-11-new-landing-page/</guid><description>&lt;p&gt;I&amp;rsquo;ve decided to redo my landing page in response to a realization that I need to sell myself a bit better. While this post isn&amp;rsquo;t related to the topics tagged above, it is a placeholder for my commitment to put some more effort into publishing here.&lt;/p&gt;</description></item><item><title>Quarantine Rule #2: Play Video Games</title><link>https://www.brysgo.com/post/2020-04-09-video-games/</link><pubDate>Thu, 09 Apr 2020 23:36:00 +0000</pubDate><guid>https://www.brysgo.com/post/2020-04-09-video-games/</guid><description>&lt;p&gt;While we are physically isolated from each-other, we are missing the ability to go out and make new experiences with the people we care about as well as spontaneous experiences with people we&amp;rsquo;ve never seen before.&lt;/p&gt;
+&lt;p&gt;We are all connected with each-other via the internet, but the internet lacks the richness of experiences that you get in the real world. While this is true to some degree, if you dive into the world of video games, you will quickly realize that it can provide some pretty incredible experiences that make you forget you are at home in your apartment.&lt;/p&gt;</description></item><item><title>Quarantine Rule #1: Exercise every day</title><link>https://www.brysgo.com/post/2020-04-05-quarantine-workout/</link><pubDate>Sun, 05 Apr 2020 19:46:00 +0000</pubDate><guid>https://www.brysgo.com/post/2020-04-05-quarantine-workout/</guid><description>&lt;p&gt;It may sound like a lot, but if you are like me and your quarantine space is limited to a studio apartment, then it is probably the most essential thing you can do to stay sane. The three groups of exercise I alternate between are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Anaerobic&lt;/li&gt;
+&lt;li&gt;Aerobic&lt;/li&gt;
+&lt;li&gt;Stretching&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As an experienced introvert, it may not come as a surprise to you that exercise is one of the things I tend to go long periods neglecting, but in this new COVID-19 world, I decided it was mission critical so I went on a YouTube research quest to figure out what I was going to do for exercise.&lt;/p&gt;</description></item><item><title>Quarantine Tips from Experienced Introvert</title><link>https://www.brysgo.com/post/2020-04-05-quarantine-life/</link><pubDate>Sun, 05 Apr 2020 19:13:00 +0000</pubDate><guid>https://www.brysgo.com/post/2020-04-05-quarantine-life/</guid><description>&lt;p&gt;The year is 2003. It is a lovely spring day and I can see out my window where the trees and birds sing. Then a yell comes from downstairs, it is my mother telling me it is so nice out I should come outside. The temptation is strong, but the draw of my new computer that I had been obsessing over is even stronger.&lt;/p&gt;
+&lt;p&gt;Fast-forward to 2020. COVID-19 terrorizes the world and we are all forced to quarantine until god knows when. That temptation to go outside and play, to socialize and do things in person is gone. Now suddenly that world that I&amp;rsquo;ve been so drawn to my entire life is the world everyone else is suddenly living in.&lt;/p&gt;</description></item><item><title>High Altitude Mass Volley</title><link>https://www.brysgo.com/post/2019-08-07-high-altitude-mass-volley/</link><pubDate>Wed, 07 Aug 2019 02:00:28 +0000</pubDate><guid>https://www.brysgo.com/post/2019-08-07-high-altitude-mass-volley/</guid><description>&lt;h2 id="preamble"&gt;Preamble&lt;/h2&gt;
+&lt;p&gt;I have always been interested in space, but this idea for getting there cheaper has been brewing for a few years, and while I’ve yet to sit down and do the math, it has gotten to a place where it seems intuitive enough to work.&lt;/p&gt;
+&lt;p&gt;Before I go into the solution, let’s look at the problem. At present, out best way of getting to space involves stacking explosives as high as we can, sitting on top with a countdown, and hoping that we planned for all the eventualities.&lt;/p&gt;</description></item><item><title>The Dangers of Idiomatic Programming</title><link>https://www.brysgo.com/post/2017-12-07-idiom-shmidiom/</link><pubDate>Thu, 07 Dec 2017 02:00:28 +0000</pubDate><guid>https://www.brysgo.com/post/2017-12-07-idiom-shmidiom/</guid><description>&lt;p&gt;What does it mean to be idiomatic?&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Of, relating to, or conforming to idiom&amp;rdquo; - Merriam-Webster&lt;/p&gt;
+&lt;p&gt;So what is an idiom?&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The syntactical, grammatical, or structural form peculiar to a language&amp;rdquo; - Merriam-Webster&lt;/p&gt;
+&lt;p&gt;When we talk about idiomatic programming, we are talking about doing things because it is &amp;ldquo;the way&amp;rdquo; to do them, or because so-and-so says this is a rule that can’t be broken.&lt;/p&gt;
+&lt;p&gt;Why is it important to see past these idioms and understand &lt;strong&gt;why&lt;/strong&gt; they are &amp;ldquo;the way?&amp;rdquo;&lt;/p&gt;</description></item><item><title>The Job of an OS</title><link>https://www.brysgo.com/post/2017-11-06-job-of-os/</link><pubDate>Mon, 06 Nov 2017 14:10:28 +0000</pubDate><guid>https://www.brysgo.com/post/2017-11-06-job-of-os/</guid><description>&lt;p&gt;It started with a &lt;a href="https://www.brysgo.com/text/termux_gitter_multi_user_linux.txt"&gt;gitter chat&lt;/a&gt; then
+&lt;a href="https://twitter.com/brysgo/status/927162173331267584"&gt;a tweet&lt;/a&gt;, followed by a
+&lt;a href="https://www.brysgo.com/post/2017-11-05-multi-user-systems%22"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Well, I&amp;rsquo;ve had some time to digest my thoughts, and I think it is time for,
+&lt;strong&gt;a second blog post&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Whenever I think something needs redefining, the first thing I like to do is
+look for a definition (shocking right?). The Merriam-Webster dictionary defines
+and Operating System as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Software that controls the operation of a computer and directs the processing of programs (as by assigning storage space in memory and controlling input and output functions)&lt;/p&gt;</description></item><item><title>Why are operating systems still multi-user?</title><link>https://www.brysgo.com/post/2017-11-05-multi-user-systems/</link><pubDate>Sun, 05 Nov 2017 14:10:28 +0000</pubDate><guid>https://www.brysgo.com/post/2017-11-05-multi-user-systems/</guid><description>&lt;p&gt;So I&amp;rsquo;m minding my own business, setting up Arch linux in my unrooted Termux
+installation on my phone, when all of a sudden, &lt;code&gt;makepkg&lt;/code&gt; wants me to not be
+root to run a build. Excuse me? What century are we in?&lt;/p&gt;
+&lt;p&gt;Let me clarify, when I am running linux in a container to build applications
+the operating system should not be bothering me with arbitrary user systems.&lt;/p&gt;
+&lt;p&gt;When was the last time you logged into a multi-user unix system that had other
+users on it? Was it in your CS department in college? Me too.&lt;/p&gt;</description></item><item><title>Future of Flight: Spontaneous trip to Paris</title><link>https://www.brysgo.com/post/2017-10-17-future-airplanes/</link><pubDate>Tue, 17 Oct 2017 15:10:28 +0000</pubDate><guid>https://www.brysgo.com/post/2017-10-17-future-airplanes/</guid><description>&lt;p&gt;I want to go to France, I didn&amp;rsquo;t plan to go, I was just waking on the highline and was like, I think I want to go to Paris. I take out my phone, and open my air travel app and put in Paris. It tells me how much it costs, and I click accept. It takes me to a border patrol and security flow where I need to answer some lame questions, but it isn&amp;rsquo;t so bad.&lt;/p&gt;</description></item><item><title>Crystallize your abstractions carefully...</title><link>https://www.brysgo.com/2016/06/21/crystallize-carfully/</link><pubDate>Tue, 21 Jun 2016 01:54:33 +0000</pubDate><guid>https://www.brysgo.com/2016/06/21/crystallize-carfully/</guid><description>&lt;p&gt;For as long as I&amp;rsquo;ve been a developer I have been reminded of the &lt;a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)"&gt;rule of three
+for refactoring&lt;/a&gt; and every time I hear it, I die a little inside.&lt;/p&gt;
+&lt;p&gt;If building a new abstraction is so painful, that it is easier to copy and paste
+large chunks of code, you need to rethink the way you are building your
+abstractions. Building the right abstractions isn&amp;rsquo;t just a time consuming
+distraction from building software, it &lt;em&gt;is&lt;/em&gt; software engineering.&lt;/p&gt;</description></item><item><title>Imaginary Lines</title><link>https://www.brysgo.com/2016/04/01/imaginary-lines/</link><pubDate>Fri, 01 Apr 2016 01:13:33 +0000</pubDate><guid>https://www.brysgo.com/2016/04/01/imaginary-lines/</guid><description>&lt;p&gt;If I had to sum up the job of a software engineer in laymen&amp;rsquo;s terms, I would
+tell you that we draw imaginary lines around imaginary concepts until those
+concepts can map to both a specific set of instructions for a machine and a
+common understanding for programmers.&lt;/p&gt;
+&lt;p&gt;Why am I stating the obvious? Well, it is quite simply to emphasize just how
+important it is where we draw those lines.&lt;/p&gt;</description></item><item><title>GraphiQL Bookmarklet</title><link>https://www.brysgo.com/2015/12/19/graphiql-bookmarklet/</link><pubDate>Sat, 19 Dec 2015 13:41:33 +0000</pubDate><guid>https://www.brysgo.com/2015/12/19/graphiql-bookmarklet/</guid><description>&lt;p&gt;I&amp;rsquo;m sure most of you, if you have done any work with graphql, have heard of
+&lt;a href="https://github.com/graphql/graphiql"&gt;graphiql&lt;/a&gt;. It is an indespensible tool for writing and testing graphql queries.&lt;/p&gt;
+&lt;p&gt;The problem is that now that I&amp;rsquo;m
+&lt;a href="https://github.com/rmosolgo/graphql-relay-ruby"&gt;not using express at the moment&lt;/a&gt;. I don&amp;rsquo;t want to go
+through the trouble of trying to fit graphiql into my stack.&lt;/p&gt;
+&lt;h1 id="to-solve-it-a-graphiql-bookmarklet"&gt;To solve it, &lt;a href="javascript:(function()%7B'use%20strict'%3Bfunction%20loadScript(url)%20%7Breturn%20new%20Promise(function%20(callback)%20%7Bvar%20head%20%3D%20document.getElementsByTagName('head')%5B0%5D%3Bvar%20script%20%3D%20document.createElement('script')%3Bscript.type%20%3D%20'text%2Fjavascript'%3Bscript.src%20%3D%20url%3Bscript.onreadystatechange%20%3D%20callback%3Bscript.onload%20%3D%20callback%3Bhead.appendChild(script)%3B%7D)%3B%7Dfunction%20loadStyle(url)%20%7Breturn%20new%20Promise(function%20(callback)%20%7Bvar%20head%20%3D%20document.getElementsByTagName('head')%5B0%5D%3Bvar%20link%20%3D%20document.createElement('link')%3Blink.type%20%3D%20'text%2Fcss'%3Blink.rel%20%3D%20'stylesheet'%3Blink.href%20%3D%20url%3Blink.onreadystatechange%20%3D%20callback%3Blink.onload%20%3D%20callback%3Bhead.appendChild(link)%3B%7D)%3B%7DloadScript('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Freact%2F0.14.3%2Freact.js').then(function%20()%20%7Breturn%20Promise.all(%5BloadStyle('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fgraphiql%2F0.4.5%2Fgraphiql.css')%2C%20loadScript('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Freact%2F0.14.3%2Freact-dom.js')%2C%20loadScript('https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fgraphiql%2F0.4.5%2Fgraphiql.js')%5D).then(function%20()%20%7Bfunction%20graphQLFetcher(graphQLParams)%20%7Breturn%20fetch(window.location.origin%20%2B%20'%2Fgraphql'%2C%20%7Bmethod%3A%20'post'%2Cheaders%3A%20%7B%20'Content-Type'%3A%20'application%2Fjson'%20%7D%2Cbody%3A%20JSON.stringify(graphQLParams)%7D).then(function%20(response)%20%7Breturn%20response.json()%3B%7D)%3B%7DsetTimeout(function%20()%20%7Breturn%20ReactDOM.render(React.createElement(GraphiQL%2C%20%7B%20fetcher%3A%20graphQLFetcher%20%7D)%2C%20document.body)%3B%7D%2C%200)%3B%7D)%3B%7D)%7D)()"&gt;a graphiql bookmarklet&lt;/a&gt;:&lt;/h1&gt;
+&lt;script src="https://gist.github.com/brysgo/c06b5b2e6c7a8d4380e5.js"&gt;&lt;/script&gt;
+&lt;h1 id="enjoy"&gt;Enjoy!&lt;/h1&gt;</description></item><item><title>jscodemigrate (deps|dependencies)</title><link>https://www.brysgo.com/2015/12/11/jscodemigrate-deps/</link><pubDate>Fri, 11 Dec 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/12/11/jscodemigrate-deps/</guid><description>&lt;p&gt;If you haven&amp;rsquo;t yet read about jscodemigrate, read about it &lt;a href="https://www.brysgo.com/development/tools/2015/12/05/jscodemigrate.html"&gt;here&lt;/a&gt;.
+If you already know about jscodemigrate then stick around because there is a new
+feature, and it is ready for you to use, just &lt;code&gt;npm install jscodemigrate@latest --save-dev&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You already know that you can run all of your jscodeshift scripts at once and
+easily maintain your project with a directory full of timestamped codemods, but
+now, you can make it easy for those who depend on your npm packages to respond
+quickly to your API changes.&lt;/p&gt;</description></item><item><title>jscodeshift + rails migrations = jscodemigrate</title><link>https://www.brysgo.com/2015/12/05/jscodemigrate/</link><pubDate>Sat, 05 Dec 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/12/05/jscodemigrate/</guid><description>&lt;p&gt;I&amp;rsquo;ve worked on lots of projects big and small, but as time went on they all
+suffered from the same problem. &lt;a href="https://xkcd.com/927/"&gt;Changing standards and updated api&amp;rsquo;s left
+code fragmented as the codebase grew&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.tlnt.com/media/2012/12/lumberg-office-space_320.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;From the time I started working on &lt;a href="https://github.com/clutchski/coffeelint/issues/195"&gt;coffeelint&lt;/a&gt;, the problem has been stewing in
+my head. Subconciously on the lookout for a solution, I heard about &lt;a href="https://youtu.be/d0pOgY8__JM"&gt;codemods&lt;/a&gt;.
+Let me preface by saying I&amp;rsquo;ve been quite obsessed with everything facebook
+engineering &lt;a href="http://www.fastcompany.com/3038842/how-facebooks-massive-open-source-push-delivers-better-code-and-better-engineers"&gt;has been doing&lt;/a&gt; in open source lately. Needless to say I took notice.&lt;/p&gt;</description></item><item><title>Graphql + Bookshelf</title><link>https://www.brysgo.com/2015/08/13/graphql-bookshelf/</link><pubDate>Thu, 13 Aug 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/08/13/graphql-bookshelf/</guid><description>&lt;p&gt;I recently switched over the project I was working on from MongoDB to PostgreSQL.
+The reason for the switch is not what I&amp;rsquo;m writing to discuss, but I&amp;rsquo;ll just say
+that the unpredictability of mongodb was starting to become an issue in development.
+The thought was that if it was already difficult before the data starts pouring in,
+it will probably be a nightmare one the product is in use. And that meant switching
+from &lt;a href="https://github.com/RisingStack/graffiti-mongoose"&gt;graffiti-mongoose&lt;/a&gt;, to my own graphql database glue.&lt;/p&gt;</description></item><item><title>React Native on Heroku</title><link>https://www.brysgo.com/2015/07/26/react-native-on-heroku/</link><pubDate>Sun, 26 Jul 2015 00:09:33 +0000</pubDate><guid>https://www.brysgo.com/2015/07/26/react-native-on-heroku/</guid><description>&lt;p&gt;As a web developer doing iOS development with react native, I need a staging
+environment for the product manager to review changes to the app.&lt;/p&gt;
+&lt;img src="https://www.brysgo.com/assets/heroku-logo.png" style="height:200px;width:200px;float:right;margin:15px;"/&gt;
+&lt;p&gt;On the web, that means using Heroku, but with a react native app it is a bit
+more complicated.&lt;/p&gt;
+&lt;p&gt;My react native app has two components, the packager (for serving the client
+code) and the server (for interacting with the app).&lt;/p&gt;
+&lt;p&gt;Heroku only lets one process bind to an external port, so it wasn&amp;rsquo;t easy to do
+without creating two heroku apps.&lt;/p&gt;</description></item><item><title>Will Relay replace Flux?</title><link>https://www.brysgo.com/2015/07/25/relay-vs-flux/</link><pubDate>Sat, 25 Jul 2015 12:59:33 +0000</pubDate><guid>https://www.brysgo.com/2015/07/25/relay-vs-flux/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview! Have a look.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When people talk about Relay they think of it as the server-client link in the
+Facebook stack, but is that really all it is?&lt;/p&gt;
+&lt;p&gt;Flux still has a place on the client because you need to manage temporary app
+state, right?&lt;/p&gt;
+&lt;p&gt;I think it doesn&amp;rsquo;t. Flux is an architecture for unidirectional data flow that
+separates out input from the user and the server so that it can react without
+getting tangled up. It does so at the high cost of tremendous verbosity and a
+significant drop in top down readability.&lt;/p&gt;</description></item><item><title>Why I'm Excited for Facebook's Relay and GraphQL</title><link>https://www.brysgo.com/2015/07/08/why-relay/</link><pubDate>Wed, 08 Jul 2015 12:59:33 +0000</pubDate><guid>https://www.brysgo.com/2015/07/08/why-relay/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview! Have a look.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I want to tell you in as few words as possible why I am so excited to get my
+hands on &lt;a href="http://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html"&gt;Relay&lt;/a&gt; and &lt;a href="https://github.com/facebook/graphql"&gt;GraphQL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;React is widely popular because it is simple and declarative, making it very
+deterministic and easy to work with. React is also fully composable, making
+it imensly powerful with high potential for writing reusable code.&lt;/p&gt;
+&lt;p&gt;Relay is a mirror image of React, except instead of composing beautiful views
+for the web and native mobile devices using JSX, you can compose data from your
+database for your views using graphql.&lt;/p&gt;</description></item><item><title>Bringing back 'Under Construction' in style</title><link>https://www.brysgo.com/2015/06/25/under-construction/</link><pubDate>Thu, 25 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/25/under-construction/</guid><description>&lt;p&gt;I&amp;rsquo;m just going to go ahead and say what&amp;rsquo;s on everyone&amp;rsquo;s mind already. Where did all those great under construction pages from the 90s go with the animated gifs and text scrolling accross the screen.&lt;/p&gt;
+&lt;p&gt;Since I know you all missed those pages so much, I brought them back. If you visit any of my websites that I have yet to utilize:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://worthy.gift"&gt;worthy.gift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://unravel.space"&gt;unravel.space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://solve.technology"&gt;solve.technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://socrenchus.com"&gt;socrenchus.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://stackoverachieve.com"&gt;stackoverachieve.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://stackoverachiever.com"&gt;stackoverachiever.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will see an under construction banner that uses HTML5 gradients, text shadow, and of course, a marquee tag.&lt;/p&gt;</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;Now that &lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview, it will probably replace Flux entirely.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="why-react"&gt;Why React?&lt;/h1&gt;
+&lt;p&gt;A few months ago, the release of &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; by Facebook convinced me to make
+the leap to &lt;a href="http://facebook.github.io/react/"&gt;React&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I spent a while working on a &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; app and quickly learned that I needed
+to bring in &lt;a href="https://facebook.github.io/flux/"&gt;Flux&lt;/a&gt;. After watching a few videos and reading a few blogs, I added my own
+implementation of flux to my react native app.&lt;/p&gt;</description></item><item><title>Back to the blog...</title><link>https://www.brysgo.com/2015/06/11/back-to-the-blog/</link><pubDate>Thu, 11 Jun 2015 01:19:34 +0000</pubDate><guid>https://www.brysgo.com/2015/06/11/back-to-the-blog/</guid><description>&lt;p&gt;Now I know this isn&amp;rsquo;t &lt;a href="https://www.brysgo.com/blogging/2014/11/15/if-i-write-a-blog-in-the-forest-does-it-make-a.html"&gt;my first time promising more blog time&lt;/a&gt; but I&amp;rsquo;m renewing my vows.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not going to be so rigid with my every day blog promise, but I will make an effort where possible. Also,
+I plan on doing something which I haven&amp;rsquo;t done before which is try to keep my blog posts up to date.&lt;/p&gt;
+&lt;p&gt;If you go back through my blog posts you will see edits and updates to make sure I can stay proud of my blog
+instead of being unconfident of stale blog posts.&lt;/p&gt;</description></item><item><title>Switched to Jekyll!</title><link>https://www.brysgo.com/2015/06/05/switched-to-jekyll/</link><pubDate>Fri, 05 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/05/switched-to-jekyll/</guid><description>&lt;p&gt;Just switched my blog to Jekyll because it is easier to manage. I will probably continue using tumblr here and there to reblog interesting things, but not to write my posts.&lt;/p&gt;
+&lt;p&gt;Also didn&amp;rsquo;t feel like deleting the intro post, so here it is&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;</description></item><item><title>Minimalist? or just boring?</title><link>https://www.brysgo.com/2015/06/03/minimalist-or-just-boring/</link><pubDate>Wed, 03 Jun 2015 17:40:36 +0000</pubDate><guid>https://www.brysgo.com/2015/06/03/minimalist-or-just-boring/</guid><description>&lt;blockquote&gt;&lt;strong&gt;EDIT:&lt;/strong&gt; Blog is now on Jekyll and has replaced main website, katamari is playable on any blog page so no fake text is needed.&lt;/blockquote&gt;
+
+&lt;p&gt;I consider myself a pretty minimalist individual. I follow the time tested principles of YAGNI and build my systems in small, single purpose components.&lt;/p&gt;&lt;p&gt;I’ve had a very simple website for quite some time now. All it has is my name and a list of social media / web profile links. When I look at it, I see simplicity, but I began to fear that when others look at it, they see &lt;b&gt;boring.&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Try it out at&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;a href="http://www.brysgo.com"&gt;http://www.brysgo.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;figure class="tmblr-full" data-orig-height="1185" data-orig-width="1247"&gt;&lt;img src="https://40.media.tumblr.com/ec75fd19a4ffd14cd85ca11f6fac5a1c/tumblr_inline_npe6bchsee1r60sb8_540.png" data-orig-height="1185" data-orig-width="1247"/&gt;&lt;/figure&gt;</description></item><item><title>Avoiding Tunnel Vision</title><link>https://www.brysgo.com/2015/06/02/avoiding-tunnel-vision/</link><pubDate>Tue, 02 Jun 2015 18:51:37 +0000</pubDate><guid>https://www.brysgo.com/2015/06/02/avoiding-tunnel-vision/</guid><description>&lt;p&gt;
+ This is a blog post to advocate for something that is generally frowned upon
+ in software development. If you want to join the angry crowd and throw rotten
+ tomatoes, you are welcome to.
+&lt;/p&gt;
+&lt;figure data-orig-width="480" data-orig-height="360" class="tmblr-full"&gt;
+ &lt;img
+ src="https://36.media.tumblr.com/16e1827841b75b6bd61488f880867af3/tumblr_inline_npca0h9cHd1r60sb8_540.jpg"
+ data-orig-width="480"
+ data-orig-height="360"
+ /&gt;
+&lt;/figure&gt;</description></item><item><title>Wishlist: Chromebook search/ctrl</title><link>https://www.brysgo.com/2015/04/29/chromebook-search-ctrl/</link><pubDate>Wed, 29 Apr 2015 15:11:44 +0000</pubDate><guid>https://www.brysgo.com/2015/04/29/chromebook-search-ctrl/</guid><description>&lt;p&gt;In order to do development on my Chromebook, I need to change the search key to a control key. Problem is the search key is really sexy, and while I can make the control key the search key, it just isn&amp;rsquo;t the same. Also, sometimes I actually try and use Ctrl like a control key and everything is wonky.&lt;/p&gt;
+
+&lt;p&gt;So here is my request. I want to be able to set the search key to bring up the search if I haven’t pressed any keys in combination with it, but if I have, it should act like a control key.&lt;/p&gt;</description></item><item><title>2015 Chromebook Pixel</title><link>https://www.brysgo.com/2015/04/29/2015-chromebook-pixel/</link><pubDate>Wed, 29 Apr 2015 15:03:30 +0000</pubDate><guid>https://www.brysgo.com/2015/04/29/2015-chromebook-pixel/</guid><description>&lt;p&gt;
+ I just got a Chromebook pixel today and it is gorgeous. It embodies simplicity
+ and minimalism while still being completely functional.
+&lt;/p&gt;
+
+&lt;figure class="tmblr-full" data-orig-height="2506" data-orig-width="2306"&gt;
+ &lt;img
+ src="https://41.media.tumblr.com/3ba69eaeab41e5c7ee1983168c747e9c/tumblr_inline_nnl0vc6MnW1r60sb8_540.jpg"
+ data-orig-height="2506"
+ data-orig-width="2306"
+ /&gt;
+&lt;/figure&gt;</description></item><item><title>Web Development on a Nexus 9</title><link>https://www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</link><pubDate>Wed, 11 Mar 2015 10:41:18 +0000</pubDate><guid>https://www.brysgo.com/2015/03/11/web-development-on-a-nexus-9/</guid><description>&lt;p&gt;
+ I recently did something a little crazy. I am a professional web developer,
+ and I decided I was going to move all of my development to the cloud. This
+ paradigm that has brought so much convenience into every corner of my life was
+ going to close the final gap. It took me a little while, but I have 99%
+ percent of what I had going on my Macbook Pro, so here is my setup.
+&lt;/p&gt;</description></item><item><title>Giving 1-π/4 of your wealth to charity</title><link>https://www.brysgo.com/2015/01/14/giving-1-4-of-your-wealth-to-charity/</link><pubDate>Wed, 14 Jan 2015 19:43:00 +0000</pubDate><guid>https://www.brysgo.com/2015/01/14/giving-1-4-of-your-wealth-to-charity/</guid><description>&lt;p&gt;&lt;span&gt;As a New Yorker, I often feel guilty for how filthy it is and how there are people who have to live on our filthy streets.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;I try to give (not on the street) like a good person, but I always feel like it isn’t enough. So I did what I do everyday and attempted to solve my problems with emotionless calculations.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;I’m not super religious, but the first place I look when I’m in a moral dilemma is to my religion. I vaguely remember from pre-school that one of the commandments (the extended version) instructs us to leave the corners of our fields.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Here comes the math. The area of a circle, the shape used to plow a field, is πr^&lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt; and the formula for a square (the presumed average shape of a field) is x^&lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img src="https://31.media.tumblr.com/769ec843225540e5a8cd57427af73d20/tumblr_inline_ni70sty2sf1r60sb8.jpg"/&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;</description></item><item><title>The Seesaw First Five Days</title><link>https://www.brysgo.com/2015/01/09/the-seesaw-first-five-days/</link><pubDate>Fri, 09 Jan 2015 17:57:29 +0000</pubDate><guid>https://www.brysgo.com/2015/01/09/the-seesaw-first-five-days/</guid><description>&lt;a href="http://francinegoldsteinmarketblog.tumblr.com/post/107532245716/the-seesaw-first-five-days"&gt;The Seesaw First Five Days&lt;/a&gt;&lt;br/&gt;&lt;p&gt;&lt;a class="tumblr_blog" href="http://francinegoldsteinmarketblog.tumblr.com/post/107532245716/the-seesaw-first-five-days"&gt;francinegoldsteinmarketblog&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img alt="image" src="https://31.media.tumblr.com/f823c1c4825a1d32a626bc8e8d1fe28e/tumblr_inline_nhvbr4hwtA1ru0237.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;January 8, 2015&lt;/p&gt;
+&lt;p&gt;Happy new year! Volatility is alive and well!&lt;/p&gt;
+&lt;p&gt;Let’s recap the first five days: the S&amp;amp;P 500 Index sold off 2.7% for the first three days and then surged 3.0% for the next two days.&lt;/p&gt;
+&lt;p&gt;The sharp stock market volatility has proved especially challenging for all but the nimblest&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Thanks for the advice, seems like a fairly low risk / low maintenance way to maintain a portfolio. I can&amp;rsquo;t wait to start investing, I just hope I don&amp;rsquo;t have to learn things the hard way.&lt;/p&gt;</description></item><item><title>18 Years of Crohn's, 1 Week of Soylent 1.3</title><link>https://www.brysgo.com/2015/01/03/18-years-of-crohns-1-week-of-soylent-1-3/</link><pubDate>Sat, 03 Jan 2015 12:01:24 +0000</pubDate><guid>https://www.brysgo.com/2015/01/03/18-years-of-crohns-1-week-of-soylent-1-3/</guid><description>&lt;blockquote&gt;
+ &lt;p&gt;
+ &lt;strong&gt;UPDATE:&lt;/strong&gt; The nutritionist suggested I stop soylent after
+ version 1.4 made me irregular and wasn't helping me keep on weight. 1.5
+ looks better but I am going to wait a little before diving back in.
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Here is a quick synopsis of my case&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+ &lt;p&gt;
+ &lt;em
+ &gt;I was diagnosed with Crohn&amp;rsquo;s disease when I was 7 years old. I have
+ managed to avoid surgery, but was a frequent flyer in the emergency room
+ for flare ups. I was on remicade for about ten years and have been on
+ mercaptopurine and mesalamine since I was diagnosed. I was
+ on antibiotics from the time I was diagnosed until I graduated college,
+ and somewhere in that span I was briefly on growth hormones and steroids.
+ Additionally, I am most recently back on antibiotics and budesonide.&lt;/em
+ &gt;
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+ My most recent flare up a few months ago is what put me on budesonide and a
+ few weeks before I started soylent I went back on antibiotics (tinidazole and
+ ciprofloxacin). I ordered soylent months ago and was delighted when Soylent
+ V1.3 arrived in the midst of me trying to control my symptoms.</description></item><item><title>Teaspoon with Capybara-Webkit</title><link>https://www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</link><pubDate>Fri, 02 Jan 2015 11:00:38 +0000</pubDate><guid>https://www.brysgo.com/2015/01/02/teaspoon-with-capybara-webkit/</guid><description>&lt;p&gt;
+ Do you use
+ &lt;a href="https://github.com/modeset/teaspoon" target="_blank"&gt;teaspoon&lt;/a&gt; to
+ run your javascript tests?
+&lt;/p&gt;
+&lt;p&gt;
+ Do you use
+ &lt;a href="https://github.com/thoughtbot/capybara-webkit" target="_blank"
+ &gt;Capybara-Webkit&lt;/a
+ &gt;
+ to run your feature tests?
+&lt;/p&gt;
+&lt;p&gt;
+ Now you can run your teaspoon suite faster without having to install and boot
+ up phantomjs.
+ &lt;strong
+ &gt;Just use the new
+ &lt;a href="https://github.com/modeset/teaspoon/wiki/Using-Capybara-Webkit"
+ &gt;Capybara-Webkit driver for teaspoon&lt;/a
+ &gt;!&lt;/strong
+ &gt;
+ You may also have more success with it on your CI server, as that is what
+ caused us to make this change.
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;img
+ src="https://31.media.tumblr.com/14a72ca6b3c8408634787273308418df/tumblr_inline_nhgs8cSeaT1r60sb8.png"
+ /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description></item><item><title>Linearly dependant Rspec 'behavior'</title><link>https://www.brysgo.com/2014/12/31/linearly-dependant-rspec-behavior/</link><pubDate>Wed, 31 Dec 2014 15:17:00 +0000</pubDate><guid>https://www.brysgo.com/2014/12/31/linearly-dependant-rspec-behavior/</guid><description>&lt;p&gt;
+ &lt;strong&gt;The problem:&lt;/strong&gt; You finish writing your test in rspec, and after
+ you have carefully described the scenario, you go to write your next test. For
+ your next test you need to check that after you do everything for the first
+ test, the next thing doesn’t break.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Potential hacks:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+ a) Well, it is just this one time, I can ignore the description of the spec
+ and just throw in another assertion after my test.
+&lt;/p&gt;
+&lt;p&gt;
+ While you’re at it, why don’t you just do everything in one test, I’m sure
+ you’ll be able to figure it out when it fails.
+&lt;/p&gt;
+&lt;p&gt;
+ b) There isn’t that much setup, I can just do the same thing I did in the last
+ test as setup!
+&lt;/p&gt;
+&lt;p&gt;
+ Lets pretend we don’t care about performance, I hope we can guarantee that the
+ first test won’t change and that the setup state of the second test won’t get
+ out of touch with reality!
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But wait, there’s another solutions…&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</description></item><item><title>How-to : Submit your Tumblr blog sitemap to Google Webmaster tools</title><link>https://www.brysgo.com/2014/12/30/how-to-submit-your-tumblr-blog-sitemap-to-google/</link><pubDate>Tue, 30 Dec 2014 19:04:58 +0000</pubDate><guid>https://www.brysgo.com/2014/12/30/how-to-submit-your-tumblr-blog-sitemap-to-google/</guid><description>&lt;a href="http://aepearson.tumblr.com/post/1518918074/how-to-submit-your-tumblr-blog-sitemap-to-google"&gt;How-to : Submit your Tumblr blog sitemap to Google Webmaster tools&lt;/a&gt;&lt;br/&gt;&lt;p&gt;&lt;a class="tumblr_blog" href="http://aepearson.tumblr.com/post/1518918074/how-to-submit-your-tumblr-blog-sitemap-to-google"&gt;aepearson&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A friend of mine, &lt;a href="http://accattato.com/" title="Paul Accattato" target="_blank"&gt;Paul&lt;/a&gt;, asked me today about how he may go about submitting a sitemap to Google Webmaster tools for his Tumblr blog.&lt;/p&gt;
+&lt;p&gt;I found the surprisingly simple solution!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 - First, you’ll need to sign up for Google Webmaster Tools:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.google.com/webmasters/" target="_blank"&gt;http://www.google.com/webmasters/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2 - Now you’ll&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Wishlist: Google Calendar Trips</title><link>https://www.brysgo.com/2014/12/23/wishlist-google-calendar-trips/</link><pubDate>Tue, 23 Dec 2014 15:24:53 +0000</pubDate><guid>https://www.brysgo.com/2014/12/23/wishlist-google-calendar-trips/</guid><description>&lt;p&gt;Google calendar has many features I rely on, one of my favorites is the integration with Google now that helps you get where you need to go on time.&lt;/p&gt;
+
+&lt;p&gt;I use the to make sure I always leave time for the subway. However, sometimes my trips are a little longer. Google already knows when I&amp;rsquo;m going on a flight, why not add trips to my calendar.&lt;/p&gt;
+
+&lt;p&gt;If I&amp;rsquo;m going on a train to long island two hours of my time are spent on the train. How do I put those into my calendar in a way that Google will help me the most.&lt;/p&gt;</description></item><item><title>Contextualizing with DSLs</title><link>https://www.brysgo.com/2014/12/19/contextualizing-with-dsls/</link><pubDate>Fri, 19 Dec 2014 18:40:31 +0000</pubDate><guid>https://www.brysgo.com/2014/12/19/contextualizing-with-dsls/</guid><description>&lt;p&gt;
+ &lt;span&gt;Why do we use &lt;/span
+ &gt;&lt;a href="http://martinfowler.com/books/dsl.html"
+ &gt;&lt;span&gt;domain specific languages&lt;/span&gt;&lt;/a
+ &gt;&lt;span
+ &gt;? My first reaction to them when I started programming in the real world
+ was to scorn them with the attitude that they introduce unnecessary
+ complication for both the developer and the computer. What good could they
+ possibly do?&lt;/span
+ &gt;
+&lt;/p&gt;
+&lt;p&gt;
+ &lt;span
+ &gt;Like any programmer thrown into a stack, I faithfully used the established
+ patterns, knowing that any divergence from the standard usually has a much
+ worse effect than dealing with it.&lt;/span
+ &gt;
+&lt;/p&gt;</description></item><item><title>Use your YAML fixtures as documentation</title><link>https://www.brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</link><pubDate>Wed, 10 Dec 2014 21:45:00 +0000</pubDate><guid>https://www.brysgo.com/2014/12/10/use-your-yaml-fixtures-as-documentation/</guid><description>&lt;p&gt;
+ If you are writing an API sandbox with a local development tool, you will no
+ doubt need fixtures for your API’s modeling.
+&lt;/p&gt;
+&lt;p&gt;
+ It turns out those fixtures are a great example of how your API is modeled. If
+ you comment on those fixtures, they can be great documentation for the
+ perusing developer.</description></item><item><title>Voltrb first impressions</title><link>https://www.brysgo.com/2014/12/04/voltrb-first-impressions/</link><pubDate>Thu, 04 Dec 2014 23:27:00 +0000</pubDate><guid>https://www.brysgo.com/2014/12/04/voltrb-first-impressions/</guid><description>&lt;p&gt;What do you get when you cross meteorjs with rails?&lt;/p&gt;
+&lt;p&gt;The answer is quite simply, voltrb.&lt;/p&gt;
+&lt;p&gt;
+ Getting started is not quite as easy as meteor or rails, which isn’t
+ surprising considering how fresh it is.
+&lt;/p&gt;
+&lt;p&gt;
+ So far I built a search box that creates new items on submit, but searches
+ through existing items as you type. I’m building the site that will go here:
+ &lt;a href="http://www.procedur.al"&gt;http://www.procedur.al&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+ I love how you get default models and collections for each storage method and
+ you can optionally create models that are autoloaded if they exist. This
+ reminds me if ember, only I don’t have to leave ruby!</description></item><item><title>The wonderful distributed world wide web!</title><link>https://www.brysgo.com/2014/12/01/the-wonderful-distributed-world-wide-web/</link><pubDate>Mon, 01 Dec 2014 23:05:17 +0000</pubDate><guid>https://www.brysgo.com/2014/12/01/the-wonderful-distributed-world-wide-web/</guid><description>&lt;p&gt;
+ …umm, I mean let’s all use the same service so we don’t have to manage or own
+ hardware.
+&lt;/p&gt;
+
+&lt;p&gt;
+ There are advantages and disadvantages to distributing the internet. One of
+ the advantages initially were that it was the only way to host anything. There
+ were no easy services for sharing content.
+&lt;/p&gt;
+
+&lt;p&gt;
+ There are of course many other advantages to the distribution of the internet,
+ like fault tolerance, but those were quickly forgotten.
+&lt;/p&gt;</description></item><item><title>Commit to a single way</title><link>https://www.brysgo.com/2014/11/26/commit-to-a-single-way/</link><pubDate>Wed, 26 Nov 2014 13:13:06 +0000</pubDate><guid>https://www.brysgo.com/2014/11/26/commit-to-a-single-way/</guid><description>&lt;p&gt;
+ Software engineers are responsible for adding new and unforeseen complexity to
+ established, carefully thought out systems.
+&lt;/p&gt;
+
+&lt;p&gt;
+ It tends to be a reflex when told to add complexity, that we special case the
+ complexity and fall through to the system you had before. This works in many
+ cases and is great if the complexity being added is a footnote that you
+ don&amp;rsquo;t intend to come back to.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+ &lt;p&gt;
+ Complexity that is essential to the long term success of your product needs
+ to be &amp;ldquo;native.&amp;rdquo;
+ &lt;/p&gt;</description></item><item><title>Strategies for reviewing massive pull requests</title><link>https://www.brysgo.com/2014/11/20/strategies-for-reviewing-massive-pull-requests/</link><pubDate>Thu, 20 Nov 2014 22:52:00 +0000</pubDate><guid>https://www.brysgo.com/2014/11/20/strategies-for-reviewing-massive-pull-requests/</guid><description>&lt;p&gt;
+ Too many massive pull requests are a smell, but sometimes big pull requests
+ are a necessity. It is easy to come across a large pull request and
+ immediately reject it, but you shouldn’t be intimidated by the size of a PR.
+&lt;/p&gt;
+
+&lt;p&gt;
+ Your first job when reviewing such a PR is to identify why it is so large. Is
+ there a large piece of functionality being added or Is a common pattern in the
+ code being changed? Maybe the pull request is a large feature combined with
+ pattern changes.
+&lt;/p&gt;
+
+&lt;p&gt;
+ If it is the third, I would definitely ask for the PR to be broken up. There
+ is no reason to do a pattern change and new feature in one PR. Otherwise the
+ actions you take will depend largely on what the reason for the PR’s size is.</description></item><item><title>Why is consistency in code so difficult?</title><link>https://www.brysgo.com/2014/11/19/why-is-consistency-in-code-so-difficult/</link><pubDate>Wed, 19 Nov 2014 22:39:00 +0000</pubDate><guid>https://www.brysgo.com/2014/11/19/why-is-consistency-in-code-so-difficult/</guid><description>&lt;p&gt;
+ Why is it we can’t just agree on a pattern to use when programming and get
+ everything done already?
+&lt;/p&gt;
+&lt;p&gt;
+ The fact is that while language level stylistic differences are very easy to
+ agree on, the patterns in which you use the tools provided by the language
+ emerge proportional to the size of the system.
+&lt;/p&gt;
+&lt;p&gt;
+ So you can come to a new pattern, agree on it, come to the next, agree on it,
+ etc… but there will always be more patterns.
+&lt;/p&gt;
+&lt;p&gt;
+ Okay well, we can’t agree on patterns, at least we can agree on philosophies
+ for coming up with new patterns?</description></item><item><title>A RoseFactory by any other name...</title><link>https://www.brysgo.com/2014/11/18/a-rosefactory-by-any-other-name/</link><pubDate>Tue, 18 Nov 2014 22:54:00 +0000</pubDate><guid>https://www.brysgo.com/2014/11/18/a-rosefactory-by-any-other-name/</guid><description>&lt;blockquote&gt;
+ &lt;p&gt;
+ There are only two hard things in Computer Science: cache invalidation and
+ naming things.
+ &lt;/p&gt;
+ &lt;p&gt;— Phil Karlton&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+ Lets hold on to cache invalidation for another post&lt;a
+ href="https://www.youtube.com/watch?v=g-4-gLlF0uw"
+ &gt;…&lt;/a
+ &gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+ Naming things (or should I say labeling them&lt;a
+ href="https://www.youtube.com/watch?v=g-4-gLlF0uw"
+ &gt;…&lt;/a
+ &gt;) is a very hard problem.
+&lt;/p&gt;
+
+&lt;h2&gt;Why is it a hard problem?&lt;/h2&gt;
+
+&lt;p&gt;
+ Consider this, imagine you are building a piece of IKEA furniture. You get all
+ the pieces in the box and you have to put them together. Now imagine that all
+ the pieces had a succinct description that you used to put them together. Now
+ imagine that you couldn’t see or feel the pieces and all you had to work with
+ were these descriptions.
+&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;img
+ alt=""
+ src="http://photos1.blogger.com/blogger2/1715/1669/1600/larson-oct-1987.gif"
+ /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;</description></item><item><title>UX that grows complexity with the user, not the product</title><link>https://www.brysgo.com/2014/11/15/ux-that-grows-complexity-with-the-user-not-the/</link><pubDate>Sat, 15 Nov 2014 18:44:00 +0000</pubDate><guid>https://www.brysgo.com/2014/11/15/ux-that-grows-complexity-with-the-user-not-the/</guid><description>&lt;p&gt;
+ Have you ever played a videogame where you sit down, turn on the game, and are
+ overwhelmed with a thousand cool things you can do?*
+&lt;/p&gt;
+
+&lt;p&gt;NO&lt;/p&gt;
+
+&lt;p&gt;
+ Why not? Because that game company went out of business long ago. Games start
+ with one thing the user can do, waits until the user is comfortable, then
+ introduces the next thing.</description></item><item><title>Blogs on blogs on blogs</title><link>https://www.brysgo.com/2014/11/15/if-i-write-a-blog-in-the-forest-does-it-make-a/</link><pubDate>Sat, 15 Nov 2014 13:41:46 +0000</pubDate><guid>https://www.brysgo.com/2014/11/15/if-i-write-a-blog-in-the-forest-does-it-make-a/</guid><description>&lt;p&gt;
+ I’ve decided to write a blog post every day, even if it is crappy. Why? Is it
+ so I can feel important? Maybe, but I would never admit that. The reason I’m
+ sticking to is that I want to get better at reflecting on important parts of
+ my day.
+&lt;/p&gt;
+
+&lt;p&gt;
+ It may help me appreciate all the interesting things I come across daily that
+ are quickly relegated to a distant memory. Especially the seemingly mundane
+ things I tend to take for granted. Writing about my day will help give meaning
+ to at least one special thing that happened.
+&lt;/p&gt;</description></item><item><title>OO code isn't spaghetti proof</title><link>https://www.brysgo.com/2014/11/15/oo-code-isnt-spaghetti-proof/</link><pubDate>Sat, 15 Nov 2014 02:11:50 +0000</pubDate><guid>https://www.brysgo.com/2014/11/15/oo-code-isnt-spaghetti-proof/</guid><description>&lt;p&gt;
+ Today I had another terrifying, tear swallowing pull request moment. It
+ involved clearly abstracted pieces of our system being clearly and
+ purposefully coupled. If this doesn&amp;rsquo;t bring you to your knees let me try
+ and illustrate why this is so bad.
+&lt;/p&gt;
+
+&lt;p&gt;
+ You are the kind of developer that pardon my french, &amp;ldquo;gets shit
+ done.&amp;rdquo; Because you are such a doer, you connect the first input with the
+ desired output. You repeat this with a different input and output a few times.
+ Then you have two inputs that have the same desired outcome so you hook that
+ up. Then maybe you depend on that output as the input to something else you
+ need to decide on. This keeps going on taking whatever input is needed for the
+ job and producing the desired outcome on the system. Eventually this happens.
+&lt;/p&gt;</description></item><item><title>Ink/filepicker-rails doesn't preview my unsupported image format</title><link>https://www.brysgo.com/2014/11/13/ink-filepicker-rails-doesnt-preview-my/</link><pubDate>Thu, 13 Nov 2014 19:30:18 +0000</pubDate><guid>https://www.brysgo.com/2014/11/13/ink-filepicker-rails-doesnt-preview-my/</guid><description>&lt;p&gt;
+ First, before you go any further&amp;hellip; check to make sure the image
+ you&amp;rsquo;re trying isn&amp;rsquo;t just broken.
+&lt;/p&gt;
+
+&lt;p&gt;
+ I visited the image in the browser and realized that the browser supported the
+ format, so the broken preview had to be somewhere in filepicker.
+&lt;/p&gt;
+
+&lt;p&gt;
+ In my case I was using a(n) &lt;code&gt;.ico&lt;/code&gt; file and since filepicker.io
+ &lt;a href="https://developers.filepicker.io/docs/web/rest/#blob-images"
+ &gt;only supports post processing on &lt;code&gt;.jpg&lt;/code&gt; and &lt;code&gt;.png&lt;/code&gt;&lt;/a
+ &gt;
+ I had to come up with a work around.
+&lt;/p&gt;</description></item><item><title>Soylent mission one</title><link>https://www.brysgo.com/2014/08/19/this-is-the-first-thing-im-going-to-try-when-i/</link><pubDate>Tue, 19 Aug 2014 10:46:55 +0000</pubDate><guid>https://www.brysgo.com/2014/08/19/this-is-the-first-thing-im-going-to-try-when-i/</guid><description>&lt;blockquote&gt;
+ &lt;strong&gt;UPDATE:&lt;/strong&gt; &lt;a href="https://instagram.com/p/1d38PamJZ-/"&gt;I got a later version of soylent and used a different recipe and it was yummy.&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;img src="https://www.brysgo.com/tumblr_files/tumblr_n5l1x9VQCt1suhyawo1_1280.jpg"/&gt;&lt;br/&gt;&lt;p&gt;This is the first thing I&amp;rsquo;m going to try when I get my soylent&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a class="tumblr_blog" href="http://leecaubleblog.tumblr.com/post/85838203989/baked-soylent-this-is-not-my-first-attempt-to"&gt;leecaubleblog&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Baked Soylent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is not my first attempt to bake with Soylent. During beta testing I made a few batches of peanut butter cookies.  I made a few mistakes with this batch of brownies but overall the taste and texture are OK. My hubby, who is not a soylent drinker, came home and cut himself a big piece. On first taste he knew these weren’t regular brownies, but that did not stop him from finishing them.  The 2 biggest mistakes I made was pouring the powder into the bowl then adding the wet ingredients. Most baking recipes have you mix the wet ingredients first then adding the dry to the wet. I’m sure this will result in easier mixing and not overworking the batter. The second mistake was covering them before they were completely cooled.  This resulted in the crunchy crust that formed in baking getting soft and the brownies became sticky and difficult to cut. This was easily fixed by simply leaving the cover off overnight. As for the recipe:&lt;/p&gt;</description></item><item><title>Wishlist: Coding in the Cloud (without falling from the sky)</title><link>https://www.brysgo.com/2014/07/28/wishlist-coding-in-the-cloud-without-falling/</link><pubDate>Mon, 28 Jul 2014 09:01:01 +0000</pubDate><guid>https://www.brysgo.com/2014/07/28/wishlist-coding-in-the-cloud-without-falling/</guid><description>&lt;p&gt;As a diehard Google fanboy, it is my duty to figure out how I can switch to a Chromebook as my primary laptop. The only way I can see myself doing that is if I were provided a web based programming experience that was better than coding on metal.&lt;/p&gt;
+&lt;p&gt;Enter Bryan&amp;rsquo;s fantasy world, where a flourishing space economy affords us with cheap vacations to the moon and once a year visits to grandma on the mars colony. Err&amp;hellip; I mean where there is a really cool way to work on code in the cloud.&lt;/p&gt;</description></item><item><title>Wishlist Series</title><link>https://www.brysgo.com/2014/07/27/wishlist-series/</link><pubDate>Sun, 27 Jul 2014 21:55:14 +0000</pubDate><guid>https://www.brysgo.com/2014/07/27/wishlist-series/</guid><description>&lt;p&gt;
+ Those of you who know me already know I am a man of many wishes and
+ &lt;a href="http://vimeo.com/55277669"&gt;dreams&lt;/a&gt;. That means as a developer, I
+ dream up, try to start, and abandon many&amp;hellip;many projects.
+&lt;/p&gt;
+&lt;p&gt;
+ When I work occasionally to get these projects out of my head and into code, I
+ will pull on any open source threads I am given. The really cool part about
+ this is I usually end up finding the people who are already trying to do what
+ I am setting out to do. Most of the time, they are
+ &lt;a href="https://github.com/trending"&gt;way ahead of me&lt;/a&gt;.
+&lt;/p&gt;</description></item><item><title>Bye CVS</title><link>https://www.brysgo.com/2014/05/09/my-breakup-with-cvs-after-7-years-of-patronage/</link><pubDate>Fri, 09 May 2014 19:32:32 +0000</pubDate><guid>https://www.brysgo.com/2014/05/09/my-breakup-with-cvs-after-7-years-of-patronage/</guid><description>&lt;p&gt;I was about to leave a scathing review of the CVS on east 72nd and 2nd, including the manager, Marc, when I read a little bit about how CVS treats it’s employees like crap and I decided against it.&lt;/p&gt;
+&lt;p&gt;The only thing that keeps me coming back to the place is that I have a really nice pharmacist named Bobby. I wish I could take him with me when I go somewhere else, but I know I can’t.&lt;/p&gt;</description></item><item><title>Machine Learning in Go</title><link>https://www.brysgo.com/2013/11/23/machine-learning-in-go/</link><pubDate>Sat, 23 Nov 2013 21:53:42 +0000</pubDate><guid>https://www.brysgo.com/2013/11/23/machine-learning-in-go/</guid><description>&lt;p&gt;
+ For a while now I have been curious about Go. There doesn&amp;rsquo;t seem to be
+ much to it, but it is getting more and more popular. Another itch I&amp;rsquo;ve
+ had for a really long time is to write my own machine learning/AI framework.
+ After looking at Golang a bit more, I couldn&amp;rsquo;t shake the feeling that it
+ would be the perfect language for my machine learning framework.
+&lt;/p&gt;
+&lt;p&gt;
+ I did some searching and while there were people
+ &lt;a href="https://groups.google.com/forum/#!topic/golang-nuts/TLb4EiymBmk"
+ &gt;talking about writing machine learning frameworks in Go&lt;/a
+ &gt;, no one was actually doing it. There was some mention of having the science
+ and mathematics packages built up before they implement machine learning
+ because most of the papers are written using mathematical formulas that
+ aren&amp;rsquo;t easy to implement.
+&lt;/p&gt;</description></item><item><title>Monopolistic ISPs</title><link>https://www.brysgo.com/2013/11/09/monopolistic-isps/</link><pubDate>Sat, 09 Nov 2013 09:39:01 +0000</pubDate><guid>https://www.brysgo.com/2013/11/09/monopolistic-isps/</guid><description>&lt;p&gt;
+ I am on the lowest tier of TWC broadband in NYC and I feel like I&amp;rsquo;m
+ connecting from a third world country. For $20 a month I don&amp;rsquo;t expect
+ the fastest internet, but I expect it to be just as reliable as the next
+ persons internet. One thing I&amp;rsquo;m not going to do is pay more to the same
+ people who can&amp;rsquo;t provide decent service in the first place.
+&lt;/p&gt;
+&lt;p&gt;
+ Net neutrality is something that has become a hot button issue these days and
+ I&amp;rsquo;m not looking forward to the day when my ISP can tell me what websites
+ I have access to.
+&lt;/p&gt;</description></item><item><title>Look ma, I inspired a webcomic!</title><link>https://www.brysgo.com/2013/10/23/look-ma-i-inspired-a-webcomic/</link><pubDate>Wed, 23 Oct 2013 10:52:02 +0000</pubDate><guid>https://www.brysgo.com/2013/10/23/look-ma-i-inspired-a-webcomic/</guid><description>&lt;img src="https://www.brysgo.com/tumblr_files/tumblr_mhd7rd4XHH1s0tnemo1_1280.jpg" /&gt;&lt;br /&gt;
+&lt;p&gt;
+ &lt;a
+ href="http://paircomix.com/post/48774846416/stop-pronouncing-my-typos"
+ class="tumblr_blog"
+ &gt;paircomix&lt;/a
+ &gt;:
+&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Stop pronouncing my typos!&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Never&lt;/p&gt;</description></item><item><title>Was Frankenstein('s Monster) a Zombie?</title><link>https://www.brysgo.com/2013/10/08/was-frankenstein-s-monster-a-zombie/</link><pubDate>Tue, 08 Oct 2013 22:08:00 +0000</pubDate><guid>https://www.brysgo.com/2013/10/08/was-frankenstein-s-monster-a-zombie/</guid><description>&lt;p&gt;The primary definition of a zombie, according to Google is as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+ &lt;p&gt;
+ a corpse said to be revived by witchcraft, esp. in certain African and
+ Caribbean religions.
+ &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+ Early religions lacked the scientific methods to explain everyday events and
+ defaulted to labeling things that couldn&amp;rsquo;t otherwise be explained as
+ witchcraft.
+&lt;/p&gt;
+&lt;p&gt;
+ It is through that stretch of the definition of a zombie that allow the
+ &lt;em&gt;walkers &lt;/em&gt;on AMC&amp;rsquo;s &lt;em&gt;The Walking Dead&lt;/em&gt; to be labeled
+ zombies. Even though we know the walkers to be infected by a virus that seems
+ to be fairly predictable, the same behavior in another culture would have been
+ seen as witchcraft.
+&lt;/p&gt;</description></item></channel></rss>

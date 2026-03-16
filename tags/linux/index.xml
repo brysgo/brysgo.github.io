@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on BRYSGO</title><link>//www.brysgo.com/tags/linux/</link><description>Recent content in linux on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2017 14:10:28 +0000</lastBuildDate><atom:link href="//www.brysgo.com/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>The Job of an OS</title><link>//www.brysgo.com/post/2017-11-06-job-of-os/</link><pubDate>Mon, 06 Nov 2017 14:10:28 +0000</pubDate><guid>//www.brysgo.com/post/2017-11-06-job-of-os/</guid><description>It started with a gitter chat then a tweet, followed by a blog post.
-&amp;hellip;
-Well, I&amp;rsquo;ve had some time to digest my thoughts, and I think it is time for, a second blog post.
-Whenever I think something needs redefining, the first thing I like to do is look for a definition (shocking right?). The Merriam-Webster dictionary defines and Operating System as:
-Software that controls the operation of a computer and directs the processing of programs (as by assigning storage space in memory and controlling input and output functions)</description></item><item><title>Why are operating systems still multi-user?</title><link>//www.brysgo.com/post/2017-11-05-multi-user-systems/</link><pubDate>Sun, 05 Nov 2017 14:10:28 +0000</pubDate><guid>//www.brysgo.com/post/2017-11-05-multi-user-systems/</guid><description>So I&amp;rsquo;m minding my own business, setting up Arch linux in my unrooted Termux installation on my phone, when all of a sudden, makepkg wants me to not be root to run a build. Excuse me? What century are we in?
-Let me clarify, when I am running linux in a container to build applications the operating system should not be bothering me with arbitrary user systems.
-When was the last time you logged into a multi-user unix system that had other users on it?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on BRYSGO</title><link>https://www.brysgo.com/tags/linux/</link><description>Recent content in Linux on BRYSGO</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2017 14:10:28 +0000</lastBuildDate><atom:link href="https://www.brysgo.com/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>The Job of an OS</title><link>https://www.brysgo.com/post/2017-11-06-job-of-os/</link><pubDate>Mon, 06 Nov 2017 14:10:28 +0000</pubDate><guid>https://www.brysgo.com/post/2017-11-06-job-of-os/</guid><description>&lt;p&gt;It started with a &lt;a href="https://www.brysgo.com/text/termux_gitter_multi_user_linux.txt"&gt;gitter chat&lt;/a&gt; then
+&lt;a href="https://twitter.com/brysgo/status/927162173331267584"&gt;a tweet&lt;/a&gt;, followed by a
+&lt;a href="https://www.brysgo.com/post/2017-11-05-multi-user-systems%22"&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Well, I&amp;rsquo;ve had some time to digest my thoughts, and I think it is time for,
+&lt;strong&gt;a second blog post&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Whenever I think something needs redefining, the first thing I like to do is
+look for a definition (shocking right?). The Merriam-Webster dictionary defines
+and Operating System as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Software that controls the operation of a computer and directs the processing of programs (as by assigning storage space in memory and controlling input and output functions)&lt;/p&gt;</description></item><item><title>Why are operating systems still multi-user?</title><link>https://www.brysgo.com/post/2017-11-05-multi-user-systems/</link><pubDate>Sun, 05 Nov 2017 14:10:28 +0000</pubDate><guid>https://www.brysgo.com/post/2017-11-05-multi-user-systems/</guid><description>&lt;p&gt;So I&amp;rsquo;m minding my own business, setting up Arch linux in my unrooted Termux
+installation on my phone, when all of a sudden, &lt;code&gt;makepkg&lt;/code&gt; wants me to not be
+root to run a build. Excuse me? What century are we in?&lt;/p&gt;
+&lt;p&gt;Let me clarify, when I am running linux in a container to build applications
+the operating system should not be bothering me with arbitrary user systems.&lt;/p&gt;
+&lt;p&gt;When was the last time you logged into a multi-user unix system that had other
+users on it? Was it in your CS department in college? Me too.&lt;/p&gt;</description></item></channel></rss>

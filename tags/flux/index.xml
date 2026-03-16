@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>flux on BRYSGO</title><link>//www.brysgo.com/tags/flux/</link><description>Recent content in flux on BRYSGO</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2015 12:59:33 +0000</lastBuildDate><atom:link href="//www.brysgo.com/tags/flux/index.xml" rel="self" type="application/rss+xml"/><item><title>Will Relay replace Flux?</title><link>//www.brysgo.com/2015/07/25/relay-vs-flux/</link><pubDate>Sat, 25 Jul 2015 12:59:33 +0000</pubDate><guid>//www.brysgo.com/2015/07/25/relay-vs-flux/</guid><description>Relay is out in preview! Have a look.
-When people talk about Relay they think of it as the server-client link in the Facebook stack, but is that really all it is?
-Flux still has a place on the client because you need to manage temporary app state, right?
-I think it doesn&amp;rsquo;t. Flux is an architecture for unidirectional data flow that separates out input from the user and the server so that it can react without getting tangled up.</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>//www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>//www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>Now that Relay is out in preview, it will probably replace Flux entirely.
-Why React? A few months ago, the release of React Native by Facebook convinced me to make the leap to React.
-I spent a while working on a React Native app and quickly learned that I needed to bring in Flux. After watching a few videos and reading a few blogs, I added my own implementation of flux to my react native app.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flux on BRYSGO</title><link>https://www.brysgo.com/tags/flux/</link><description>Recent content in Flux on BRYSGO</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2015 12:59:33 +0000</lastBuildDate><atom:link href="https://www.brysgo.com/tags/flux/index.xml" rel="self" type="application/rss+xml"/><item><title>Will Relay replace Flux?</title><link>https://www.brysgo.com/2015/07/25/relay-vs-flux/</link><pubDate>Sat, 25 Jul 2015 12:59:33 +0000</pubDate><guid>https://www.brysgo.com/2015/07/25/relay-vs-flux/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview! Have a look.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When people talk about Relay they think of it as the server-client link in the
+Facebook stack, but is that really all it is?&lt;/p&gt;
+&lt;p&gt;Flux still has a place on the client because you need to manage temporary app
+state, right?&lt;/p&gt;
+&lt;p&gt;I think it doesn&amp;rsquo;t. Flux is an architecture for unidirectional data flow that
+separates out input from the user and the server so that it can react without
+getting tangled up. It does so at the high cost of tremendous verbosity and a
+significant drop in top down readability.&lt;/p&gt;</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;Now that &lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview, it will probably replace Flux entirely.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="why-react"&gt;Why React?&lt;/h1&gt;
+&lt;p&gt;A few months ago, the release of &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; by Facebook convinced me to make
+the leap to &lt;a href="http://facebook.github.io/react/"&gt;React&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I spent a while working on a &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; app and quickly learned that I needed
+to bring in &lt;a href="https://facebook.github.io/flux/"&gt;Flux&lt;/a&gt;. After watching a few videos and reading a few blogs, I added my own
+implementation of flux to my react native app.&lt;/p&gt;</description></item></channel></rss>
