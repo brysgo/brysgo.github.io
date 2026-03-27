@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -8,6 +9,7 @@ tags:
 title: "Holding in the Idea Vomit"
 date: 2020-07-29T08:04:18.308Z
 ---
+draft: true
 
 Yesterday I had an idea. Congratulations me, now there are two options, I can:
 

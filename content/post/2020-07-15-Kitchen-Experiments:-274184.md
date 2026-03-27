@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -8,6 +9,7 @@ tags:
 title: "Kitchen Experiments: the weirdest way to cook"
 date: 2020-07-15T17:03:27.467Z
 ---
+draft: true
 
 As COVID-19 settled in and the outside food procurement grew fraught with uncertainty, I turned to something I managed to avoid for a very long time... cooking.
 

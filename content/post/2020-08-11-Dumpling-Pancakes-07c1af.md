@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -7,6 +8,7 @@ tags:
 title: "Dumpling Pancakes"
 date: 2020-08-11T08:05:06.622Z
 ---
+draft: true
 
 I think it is safe to say that a lot of people like dumplings 🥟- and more safe to say that they are too complicated and time consuming for most people to make themselves (yes, you could order them but that is besides the point). I realized I could make dumplings by dipping the protein in a thick batter instead of wrapping it. 
 

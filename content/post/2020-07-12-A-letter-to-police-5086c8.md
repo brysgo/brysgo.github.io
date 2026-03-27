@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - opinion
@@ -7,6 +8,7 @@ tags:
 title: "A letter to police"
 date: 2020-07-12T17:03:29.576Z
 ---
+draft: true
 
 I'm not usually outwardly political, but I have something to get off my chest. I recently overheard a police officer talking about how it won't be worth it if he has to get insurance so he won't get sued. I didn't feel comfortable enough to get into a debate with him, which later made me even more uncomfortable, so I will address the issue here.
 

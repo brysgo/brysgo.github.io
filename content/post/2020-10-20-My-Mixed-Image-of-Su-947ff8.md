@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -7,6 +8,7 @@ tags:
 title: "My Mixed Image of Success"
 date: 2020-10-20T13:06:03.573Z
 ---
+draft: true
 
 I recently had an epiphany about the mixed image of success that I project and why it is so confusing from an outsider looking in. I'm writing this to turn my inner monologue outwards in the off chance that someone else has experienced the same thing, but also to help others understand where I'm coming from.
 

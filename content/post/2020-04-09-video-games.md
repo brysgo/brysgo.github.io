@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: quarantine life
 tags:
   - pandemic
@@ -8,6 +9,7 @@ tags:
 title: "Quarantine Rule #2: Play Video Games"
 date: 2020-04-09T23:36:00Z
 ---
+draft: true
 
 While we are physically isolated from each-other, we are missing the ability to go out and make new experiences with the people we care about as well as spontaneous experiences with people we've never seen before.
 

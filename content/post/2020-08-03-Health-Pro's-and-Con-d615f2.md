@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -9,6 +10,7 @@ tags:
 title: "Health Pro's and Con's of Cooking with Discrete Ingredients"
 date: 2020-08-03T08:04:30.687Z
 ---
+draft: true
 
 Remember when I mentioned that cooking with discrete ingredients has side effects? Well, in reality, all food has side effects, they are just drowned out by the popular proportions of everything that are hard coded into the common foods that everyone eats.
 

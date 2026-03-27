@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -8,6 +9,7 @@ tags:
 title: "Seitan is a dish best served cold"
 date: 2020-07-19T08:03:49.734Z
 ---
+draft: true
 
 My first kitchen obsession of the quarantine season, was Seitan. The reason being that it is delicious, and I can make it entirely with ingredients shipped via Amazon. While this mostly appeals to me because I didn't much feel like going to the super market, it also helped that I'm a huge nerd and I like the idea of creating something out of simple powdered ingredients.
 

@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: quarantine life
 tags:
   - quirky
@@ -8,6 +9,7 @@ tags:
 title: "Quarantine Rule #1: Exercise every day"
 date: 2020-04-05T19:46:00Z
 ---
+draft: true
 
 It may sound like a lot, but if you are like me and your quarantine space is limited to a studio apartment, then it is probably the most essential thing you can do to stay sane. The three groups of exercise I alternate between are:
 

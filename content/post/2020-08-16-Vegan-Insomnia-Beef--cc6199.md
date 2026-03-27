@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -8,6 +9,7 @@ tags:
 title: "Vegan Insomnia Beef in Ginger Sauce"
 date: 2020-08-16T17:04:36.443Z
 ---
+draft: true
 
 I've been going back and forth for a little while with my sister about trying to recreate a seitan ginger beef dish from a restaurant that we like in Vermont. It is a little tricky for me since I've never done a seitan beef before and because of the whole low FODMAP thing, but I finally decided to give it a try. After substituting pretty much every ingredient in the recipes I found, I finally created what I lovingly refer to as insomnia beef, since I associate eating it with not being the least bit tired (probably because of the high protein content and the cocoa nibs I threw in).
 

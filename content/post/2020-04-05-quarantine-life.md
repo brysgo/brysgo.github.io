@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: quarantine life
 tags:
   - quirky
@@ -8,6 +9,7 @@ tags:
 title: "Quarantine Tips from Experienced Introvert"
 date: 2020-04-05T19:13:00Z
 ---
+draft: true
 
 The year is 2003. It is a lovely spring day and I can see out my window where the trees and birds sing. Then a yell comes from downstairs, it is my mother telling me it is so nice out I should come outside. The temptation is strong, but the draw of my new computer that I had been obsessing over is even stronger.
 

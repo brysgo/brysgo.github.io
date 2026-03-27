@@ -1,4 +1,5 @@
 ---
+draft: true
 categories: none
 tags:
   - quirky
@@ -7,6 +8,7 @@ tags:
 title: "project review time"
 date: 2020-07-24T08:04:17.572Z
 ---
+draft: true
 
 I recently got a good review at work and it helped me start to course correct a dangerous internal narrative. For the last year of projects I've been on, I've heard: "you are a genius, but you have to work on your communication" -- which in my brain translates to "we need to soften the blow of this feedback, but you are a piece of shit to work with"
 
