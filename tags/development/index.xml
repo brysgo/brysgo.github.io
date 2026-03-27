@@ -63,17 +63,7 @@ deterministic and easy to work with. React is also fully composable, making
 it imensly powerful with high potential for writing reusable code.&lt;/p&gt;
 &lt;p&gt;Relay is a mirror image of React, except instead of composing beautiful views
 for the web and native mobile devices using JSX, you can compose data from your
-database for your views using graphql.&lt;/p&gt;</description></item><item><title>Bringing back 'Under Construction' in style</title><link>https://www.brysgo.com/2015/06/25/under-construction/</link><pubDate>Thu, 25 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/25/under-construction/</guid><description>&lt;p&gt;I&amp;rsquo;m just going to go ahead and say what&amp;rsquo;s on everyone&amp;rsquo;s mind already. Where did all those great under construction pages from the 90s go with the animated gifs and text scrolling accross the screen.&lt;/p&gt;
-&lt;p&gt;Since I know you all missed those pages so much, I brought them back. If you visit any of my websites that I have yet to utilize:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://worthy.gift"&gt;worthy.gift&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://unravel.space"&gt;unravel.space&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://solve.technology"&gt;solve.technology&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://socrenchus.com"&gt;socrenchus.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://stackoverachieve.com"&gt;stackoverachieve.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://stackoverachiever.com"&gt;stackoverachiever.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You will see an under construction banner that uses HTML5 gradients, text shadow, and of course, a marquee tag.&lt;/p&gt;</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>&lt;blockquote&gt;
+database for your views using graphql.&lt;/p&gt;</description></item><item><title>Searching for an Isomorphic Reactiflux Stack</title><link>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</link><pubDate>Wed, 17 Jun 2015 10:07:43 +0000</pubDate><guid>https://www.brysgo.com/2015/06/17/isomorphic-react-flux-stack/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;Now that &lt;a href="https://facebook.github.io/relay/"&gt;Relay&lt;/a&gt; is out in preview, it will probably replace Flux entirely.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id="why-react"&gt;Why React?&lt;/h1&gt;
