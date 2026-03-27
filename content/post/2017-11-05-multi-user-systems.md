@@ -1,4 +1,5 @@
 ---
+image: /images/hero/multi-user-os.jpg
 categories: linux termux
 tags:
   - linux

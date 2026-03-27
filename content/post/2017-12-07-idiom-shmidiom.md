@@ -1,4 +1,5 @@
 ---
+image: /images/hero/idiomatic.jpg
 categories: philosophy leadership
 tags:
   - quirky

@@ -1,4 +1,5 @@
 ---
+image: /images/hero/jscodemigrate-deps.jpg
 categories: development tools
 date: 2015-12-11T00:09:33Z
 tags:

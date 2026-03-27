@@ -1,4 +1,5 @@
 ---
+image: /images/hero/strong-ai.jpg
 categories: none
 tags:
   - ai

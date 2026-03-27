@@ -1,4 +1,5 @@
 ---
+image: /images/hero/future-flight.jpg
 categories: future scifi
 tags:
 - scifi

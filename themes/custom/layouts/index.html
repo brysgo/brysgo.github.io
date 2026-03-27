@@ -18,15 +18,16 @@
 
     <div>
       {{ range (where .Site.RegularPages "Type" "post") }}
-      <div style="margin-bottom: 32px;">
+      <a href="{{ .Permalink }}" style="display: block; text-decoration: none; color: inherit; margin-bottom: 40px;">
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;" />
+        {{ end }}
         <div style="font-size: 0.85rem; color: #999; margin-bottom: 4px;">
           {{ .Date.Format "January 2, 2006" }}
         </div>
-        <h2 style="font-size: 1.2rem; margin: 0 0 6px 0;">
-          <a href="{{ .Permalink }}" style="color: #222; text-decoration: none;">{{ .Title }}</a>
-        </h2>
+        <h2 style="font-size: 1.2rem; margin: 0 0 6px 0; color: #222;">{{ .Title }}</h2>
         <p style="color: #666; margin: 0; font-size: 0.95rem;">{{ .Summary | truncate 180 }}</p>
-      </div>
+      </a>
       {{ end }}
     </div>
 

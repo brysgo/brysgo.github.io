@@ -1,4 +1,5 @@
 ---
+image: /images/hero/brain-transformer.jpg
 categories: none
 tags:
   - ai

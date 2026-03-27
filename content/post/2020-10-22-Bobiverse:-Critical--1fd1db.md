@@ -1,4 +1,5 @@
 ---
+image: /images/hero/bobiverse.jpg
 categories: none
 tags:
   - ai

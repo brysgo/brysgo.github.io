@@ -1,4 +1,5 @@
 ---
+image: /images/hero/graphql-bookshelf.jpg
 categories: development libraries
 date: 2015-08-13T00:09:33Z
 tags:

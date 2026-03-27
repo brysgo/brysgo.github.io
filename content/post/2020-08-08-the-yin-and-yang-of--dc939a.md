@@ -1,4 +1,5 @@
 ---
+image: /images/hero/yin-yang-utility.jpg
 categories: none
 tags:
   - development

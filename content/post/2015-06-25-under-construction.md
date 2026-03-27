@@ -1,4 +1,6 @@
 ---
+draft: true
+image: /images/hero/under-construction.jpg
 categories: development retro
 date: 2015-06-25T10:07:43Z
 tags:

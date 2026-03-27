@@ -1,4 +1,5 @@
 ---
+image: /images/hero/open-source.jpg
 categories: none
 tags:
   - development

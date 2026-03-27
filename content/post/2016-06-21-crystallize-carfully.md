@@ -1,4 +1,5 @@
 ---
+image: /images/hero/crystallize.jpg
 categories: development philosophy
 date: 2016-06-21T01:54:33Z
 subtitle: avoid getting stuck with a pile of glass shards

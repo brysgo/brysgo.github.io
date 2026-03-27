@@ -1,4 +1,5 @@
 ---
+image: /images/hero/relay-vs-flux.jpg
 categories: development frameworks
 date: 2015-07-25T12:59:33Z
 tags:

@@ -1,4 +1,5 @@
 ---
+image: /images/hero/high-altitude.jpg
 categories: space future
 tags:
   - scifi

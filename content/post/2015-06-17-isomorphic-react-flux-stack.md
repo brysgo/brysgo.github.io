@@ -1,4 +1,5 @@
 ---
+image: /images/hero/isomorphic-react.jpg
 categories: development tools
 date: 2015-06-17T10:07:43Z
 tags:
