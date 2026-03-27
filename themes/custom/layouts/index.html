@@ -1,275 +1,35 @@
 {{ partial "header" . }}
 
 <main>
-  <div class="site-wrapper">
-    <!-- Hero Area  -->
-    <section class="hero-area">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="hero-image">
-              <img src="/landing_page/image/hero-image.png" alt="Bryan Goldstein" />
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="hero-content">
-              <h1>Bryan Goldstein</h1>
-              <p>
-                Software engineer and AI researcher at BCG, building tools at the intersection of machine learning, modern web architecture, and complex systems. Driven by curiosity, open source, and the challenge of making hard things simple.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <div class="container" style="max-width: 760px; padding-top: 60px; padding-bottom: 60px;">
 
-    <!-- Features Area  -->
-    <section class="feature-section">
-      <div class="shape">
-        <img src="/landing_page/image/landing-1-shape.svg" alt="" />
+    <div style="margin-bottom: 48px; padding-bottom: 32px; border-bottom: 1px solid #eee;">
+      <h1 style="font-size: 2rem; margin-bottom: 8px;">Bryan Goldstein</h1>
+      <p style="color: #666; margin-bottom: 16px;">
+        Software engineer and AI researcher at BCG. Writing about development, AI, systems, and whatever I'm currently obsessing over.
+      </p>
+      <div>
+        <a href="https://github.com/brysgo" style="margin-right: 12px; color: #333;"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/brysgo/" style="margin-right: 12px; color: #333;"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/brysgo/" style="margin-right: 12px; color: #333;"><i class="fa fa-twitter"></i></a>
+        <a href="mailto:brysgo@gmail.com" style="color: #333;"><i class="fa fa-envelope-o"></i></a>
       </div>
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>What I Work On</h2>
-        </div>
-        <div class="row mb-d-30">
-          <div class="col-md-6 col-lg-4 mb--30">
-            <div class="feature-card">
-              <div class="card-icon">
-                <i class="icon icon-users-mm"></i>
-              </div>
-              <div class="card-content">
-                <h3>Web Developer</h3>
-                <p>
-                  I specialize in modern web technologies, with a strong focus on React and GraphQL. 
-                  I am an active contributor to open source projects and passionate about building scalable web applications.
-                </p>
-                <a href="/tags/development" class="btn btn-link right-icon"
-                  >Learn more <i class="icon icon-minimal-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb--30">
-            <div class="feature-card">
-              <div class="card-icon">
-                <i class="icon icon-send"></i>
-              </div>
-              <div class="card-content">
-                <h3>DevOps Enthusiast</h3>
-                <p>
-                  I am driven by a passion for automation and efficiency. 
-                  My expertise includes building CI/CD pipelines and leveraging modern DevOps tooling to streamline development workflows.
-                </p>
-                <a href="/tags/devops" class="btn btn-link right-icon"
-                  >Learn more <i class="icon icon-minimal-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb--30">
-            <div class="feature-card">
-              <div class="card-icon">
-                <i class="icon icon-settings"></i>
-              </div>
-              <div class="card-content">
-                <h3>AI Researcher</h3>
-                <p>
-                  Fascinated by the intersection of computer science and cognitive modeling, I am constantly exploring new frontiers in Artificial Intelligence and Machine Learning.
-                </p>
-                <a href="/tags/ai" class="btn btn-link right-icon"
-                  >Learn more <i class="icon icon-minimal-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <!-- Recent Posts Section -->
-    <section class="content-section-01">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Recent Insights</h2>
-            </div>
-            <div class="row">
-                {{ range first 3 (where .Site.RegularPages "Type" "post") }}
-                <div class="col-md-4 mb--30">
-                    <div class="feature-card" style="height: 100%;">
-                        <div class="card-content">
-                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                            <p>{{ .Summary | truncate 150 }}</p>
-                            <a href="{{ .Permalink }}" class="btn btn-link right-icon">Read more <i class="icon icon-minimal-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
+    <div>
+      {{ range (where .Site.RegularPages "Type" "post") }}
+      <div style="margin-bottom: 32px;">
+        <div style="font-size: 0.85rem; color: #999; margin-bottom: 4px;">
+          {{ .Date.Format "January 2, 2006" }}
         </div>
-    </section>
-
-    <!-- Features Area  -->
-    <section class="content-section-01">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-5 col-sm-6 col-10">
-            <div class="content-img">
-              <img src="/landing_page/image/content-image-1.png" alt="" />
-            </div>
-          </div>
-
-          <div class="col-xl-5 offset-xl-1 col-sm-6">
-            <div class="content-right-content">
-              <h2>Science fiction that becomes science fact</h2>
-              <p>
-                Driven by the infinite possibilities of our future, I am energized by the challenge of making the impossible possible through innovative engineering and creative problem-solving.
-              </p>
-              <div class="content-link">
-                <a href="/tags/scifi"
-                  >Learn more <i class="icon icon-minimal-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2 style="font-size: 1.2rem; margin: 0 0 6px 0;">
+          <a href="{{ .Permalink }}" style="color: #222; text-decoration: none;">{{ .Title }}</a>
+        </h2>
+        <p style="color: #666; margin: 0; font-size: 0.95rem;">{{ .Summary | truncate 180 }}</p>
       </div>
-    </section>
-    <section class="content-section-02">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-5 offset-xl-1 col-sm-6 col-10 order-sm-2">
-            <div class="content-img">
-              <img src="/landing_page/image/content-image-2.png" alt="" />
-            </div>
-          </div>
-          <div class="col-xl-5 col-sm-6 order-sm-1">
-            <div class="content-left-content">
-              <h2>Curious by Default</h2>
-              <p>
-                Authenticity is at the core of everything I do. Whether it's a technical rabbit hole or a philosophical tangent, I follow curiosity wherever it leads and write about what I find.
-              </p>
-              <ul class="content-list">
-                <li>
-                  <span><i class="icon icon-check-2"></i></span>Creative Thinker
-                </li>
-                <li>
-                  <span><i class="icon icon-check-2"></i></span>Lifelong Learner
-                </li>
-                <li>
-                  <span><i class="icon icon-check-2"></i></span>Passionately Curious
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="content-section-03">
-      <div class="shape">
-        <img src="/landing_page/image/landing-4.svg" alt="" />
-      </div>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-5 col-lg-6 col-md-5 col-sm-6 col-10">
-            <div class="content-img">
-              <img src="/landing_page/image/content-image-3.png" alt="" />
-            </div>
-          </div>
-          <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-7 col-sm-6">
-            <div class="content-left-content">
-              <h2>Boundless Adventure</h2>
-              <p>
-                Whether it's climbing, skiing, camping, or exploring new technologies, I am always on the lookout for the next big adventure. I thrive on challenges and love sharing my obsessions with others.
-              </p>
-              <div class="content-bottom-part">
-                <div class="content-btn">
-                  <a
-                    href="https://brysgo.youcanbook.me"
-                    class="btn btn--primary"
-                    >Schedule A Meeting</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      {{ end }}
+    </div>
 
-    <!-- Projects section -->
-    <section class="pricing-section">
-      <div class="shape">
-        <img src="/landing_page/image/landing-2-shape.svg" alt="" />
-      </div>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2>Featured Projects</h2>
-              <p>
-                A selection of projects that I am currently focused on.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-d-30">
-            <div class="col-lg-4">
-              <div class="pricing-card">
-                <div class="card-head">
-                  <h6>XeroToAI</h6>
-                </div>
-                <div class="card-content">
-                  <h3>AI Tools for Small Business</h3>
-                  <br />
-                  <p>
-                    A blog covering practical AI tools for small business owners — honest reviews, comparisons, and guides to help teams move faster without the hype.
-                  </p>
-                  <div class="card-btn">
-                    <a href="https://xerotoai.com" class="btn btn--primary">Visit Site</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="pricing-card active">
-                <div class="card-head">
-                  <h6>BingoDirect</h6>
-                </div>
-                <div class="card-content">
-                  <h3>Kosher Grocery Delivery</h3>
-                  <br />
-                  <p>
-                    A delivery platform for Bingo Wholesale, bringing kosher meat and groceries directly to customers in Teaneck, NJ. Built with Flask, Stripe, and gig-worker dispatch.
-                  </p>
-                  <div class="card-btn">
-                    <a href="https://bingodirect.net" class="btn btn--primary">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="pricing-card">
-                <div class="card-head">
-                  <h6>Open Source</h6>
-                </div>
-                <div class="card-content">
-                  <h3>babel-plugin-inline-dotenv</h3>
-                  <br />
-                  <p>
-                    A Babel plugin with thousands of weekly npm downloads that inlines environment variables at build time. One of several open source tools I've shipped and maintain.
-                  </p>
-                  <div class="card-btn">
-                    <a href="https://github.com/brysgo" class="btn btn--primary">GitHub</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section>
   </div>
 </main>
 
