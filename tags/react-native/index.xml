@@ -6,15 +6,4 @@ more complicated.&lt;/p&gt;
 &lt;p&gt;My react native app has two components, the packager (for serving the client
 code) and the server (for interacting with the app).&lt;/p&gt;
 &lt;p&gt;Heroku only lets one process bind to an external port, so it wasn&amp;rsquo;t easy to do
-without creating two heroku apps.&lt;/p&gt;</description></item><item><title>2015 Chromebook Pixel</title><link>https://www.brysgo.com/2015/04/29/2015-chromebook-pixel/</link><pubDate>Wed, 29 Apr 2015 15:03:30 +0000</pubDate><guid>https://www.brysgo.com/2015/04/29/2015-chromebook-pixel/</guid><description>&lt;p&gt;
- I just got a Chromebook pixel today and it is gorgeous. It embodies simplicity
- and minimalism while still being completely functional.
-&lt;/p&gt;
-
-&lt;figure class="tmblr-full" data-orig-height="2506" data-orig-width="2306"&gt;
- &lt;img
- src="https://41.media.tumblr.com/3ba69eaeab41e5c7ee1983168c747e9c/tumblr_inline_nnl0vc6MnW1r60sb8_540.jpg"
- data-orig-height="2506"
- data-orig-width="2306"
- /&gt;
-&lt;/figure&gt;</description></item></channel></rss>
+without creating two heroku apps.&lt;/p&gt;</description></item></channel></rss>

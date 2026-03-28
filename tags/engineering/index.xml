@@ -10,20 +10,4 @@ tell you that we draw imaginary lines around imaginary concepts until those
 concepts can map to both a specific set of instructions for a machine and a
 common understanding for programmers.&lt;/p&gt;
 &lt;p&gt;Why am I stating the obvious? Well, it is quite simply to emphasize just how
-important it is where we draw those lines.&lt;/p&gt;</description></item><item><title>Commit to a single way</title><link>https://www.brysgo.com/2014/11/26/commit-to-a-single-way/</link><pubDate>Wed, 26 Nov 2014 13:13:06 +0000</pubDate><guid>https://www.brysgo.com/2014/11/26/commit-to-a-single-way/</guid><description>&lt;p&gt;
- Software engineers are responsible for adding new and unforeseen complexity to
- established, carefully thought out systems.
-&lt;/p&gt;
-
-&lt;p&gt;
- It tends to be a reflex when told to add complexity, that we special case the
- complexity and fall through to the system you had before. This works in many
- cases and is great if the complexity being added is a footnote that you
- don&amp;rsquo;t intend to come back to.
-&lt;/p&gt;
-
-&lt;blockquote&gt;
- &lt;p&gt;
- Complexity that is essential to the long term success of your product needs
- to be &amp;ldquo;native.&amp;rdquo;
- &lt;/p&gt;</description></item></channel></rss>
+important it is where we draw those lines.&lt;/p&gt;</description></item></channel></rss>
