@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep031-beyond-brute-force-brain-inspired-ai.jpg"
 build:
   render: never
   list: always

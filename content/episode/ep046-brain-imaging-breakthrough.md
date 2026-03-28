@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep046-brain-imaging-breakthrough.jpg"
 build:
   render: never
   list: always

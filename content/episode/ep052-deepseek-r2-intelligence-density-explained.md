@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep052-deepseek-r2-intelligence-density-explained.jpg"
 build:
   render: never
   list: always

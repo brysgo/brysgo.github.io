@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep063-deepsouth-simulates-the-human-brain-power.jpg"
 build:
   render: never
   list: always

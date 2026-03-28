@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep028-ai-teamwork-revolution-automated-design-crushing-human-intui.jpg"
 build:
   render: never
   list: always

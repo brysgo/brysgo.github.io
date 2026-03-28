@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep062-ai-hallucinates-viable-alien-viruses.jpg"
 build:
   render: never
   list: always

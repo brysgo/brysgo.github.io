@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep023-flat-space-gravity-a-radical-new-path-to-unifying-the-univer.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep011-brain-inspired-neuromorphic-architectures.jpg"
 build:
   render: never
   list: always

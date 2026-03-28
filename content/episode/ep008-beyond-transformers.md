@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep008-beyond-transformers.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep037-agi-reality-check-hype-vs-hurdles.jpg"
 build:
   render: never
   list: always

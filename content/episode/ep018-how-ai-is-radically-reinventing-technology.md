@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep018-how-ai-is-radically-reinventing-technology.jpg"
 build:
   render: never
   list: always

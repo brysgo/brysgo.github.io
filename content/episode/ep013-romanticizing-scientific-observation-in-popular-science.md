@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep013-romanticizing-scientific-observation-in-popular-science.jpg"
 build:
   render: never
   list: always

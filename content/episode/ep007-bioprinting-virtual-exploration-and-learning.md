@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep007-bioprinting-virtual-exploration-and-learning.jpg"
 build:
   render: never
   list: always

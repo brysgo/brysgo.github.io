@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep029-navigating-the-rise-of-ai-digital-minds-and-the-posthuman-fu.jpg"
 build:
   render: never
   list: always

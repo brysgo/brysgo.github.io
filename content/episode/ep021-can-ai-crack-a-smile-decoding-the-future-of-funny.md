@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep021-can-ai-crack-a-smile-decoding-the-future-of-funny.jpg"
 build:
   render: never
   list: always

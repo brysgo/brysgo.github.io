@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep044-mind-uploads-and-the-fungible-self.jpg"
 build:
   render: never
   list: always

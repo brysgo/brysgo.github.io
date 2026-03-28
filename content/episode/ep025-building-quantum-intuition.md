@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep025-building-quantum-intuition.jpg"
 build:
   render: never
   list: always

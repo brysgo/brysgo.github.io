@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep064-masi-replaces-lenses-with-software-imaging.jpg"
 build:
   render: never
   list: always

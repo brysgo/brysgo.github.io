@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep040-fusion-s-hidden-wall.jpg"
 build:
   render: never
   list: always

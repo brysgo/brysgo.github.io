@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep041-meta-s-14-billion-ai-data-grab.jpg"
 build:
   render: never
   list: always

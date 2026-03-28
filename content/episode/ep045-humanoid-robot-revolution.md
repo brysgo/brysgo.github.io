@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep045-humanoid-robot-revolution.jpg"
 build:
   render: never
   list: always

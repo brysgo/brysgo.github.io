@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep042-the-great-mathematical-divide-the-abc-conjecture.jpg"
 build:
   render: never
   list: always

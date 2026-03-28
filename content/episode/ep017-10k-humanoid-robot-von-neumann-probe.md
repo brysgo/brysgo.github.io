@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep017-10k-humanoid-robot-von-neumann-probe.jpg"
 build:
   render: never
   list: always

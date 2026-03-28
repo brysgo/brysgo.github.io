@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep056-we-are-living-inside-a-black-hole.jpg"
 build:
   render: never
   list: always

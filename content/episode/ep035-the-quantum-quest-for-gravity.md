@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep035-the-quantum-quest-for-gravity.jpg"
 build:
   render: never
   list: always

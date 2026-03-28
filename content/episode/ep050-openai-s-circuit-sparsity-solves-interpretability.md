@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep050-openai-s-circuit-sparsity-solves-interpretability.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep057-selling-sunlight-from-space.jpg"
 build:
   render: never
   list: always

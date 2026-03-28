@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep047-the-tired-coder-is-your-ai-sleepy-or-just-overloaded.jpg"
 build:
   render: never
   list: always

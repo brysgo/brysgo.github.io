@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep034-rewiring-life-could-bio-hacking-ever-have-its-pc-moment.jpg"
 build:
   render: never
   list: always

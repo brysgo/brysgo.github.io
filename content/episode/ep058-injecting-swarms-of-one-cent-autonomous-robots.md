@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep058-injecting-swarms-of-one-cent-autonomous-robots.jpg"
 build:
   render: never
   list: always

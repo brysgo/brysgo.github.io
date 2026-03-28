@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep065-nasal-drops-bypass-blood-brain-barrier-for-gbm.jpg"
 build:
   render: never
   list: always

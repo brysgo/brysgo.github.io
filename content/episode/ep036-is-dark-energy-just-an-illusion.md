@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep036-is-dark-energy-just-an-illusion.jpg"
 build:
   render: never
   list: always

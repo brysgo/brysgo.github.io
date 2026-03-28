@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep059-deepseek-engram-and-memrl-mimic-human-memory.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep010-liquid-networks.jpg"
 build:
   render: never
   list: always

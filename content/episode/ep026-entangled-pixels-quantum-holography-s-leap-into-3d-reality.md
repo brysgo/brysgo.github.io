@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep026-entangled-pixels-quantum-holography-s-leap-into-3d-reality.jpg"
 build:
   render: never
   list: always

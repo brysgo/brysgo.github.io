@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep054-ai-models-converge-on-single-reality.jpg"
 build:
   render: never
   list: always

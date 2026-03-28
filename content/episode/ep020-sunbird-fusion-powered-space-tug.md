@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep020-sunbird-fusion-powered-space-tug.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep016-venus-cloud-city.jpg"
 build:
   render: never
   list: always

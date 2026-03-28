@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep053-china-s-light-speed-plan-bypassing-ai-bottlenecks.jpg"
 build:
   render: never
   list: always

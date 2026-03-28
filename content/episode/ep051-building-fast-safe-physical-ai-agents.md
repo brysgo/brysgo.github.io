@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep051-building-fast-safe-physical-ai-agents.jpg"
 build:
   render: never
   list: always

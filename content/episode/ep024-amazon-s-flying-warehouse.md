@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep024-amazon-s-flying-warehouse.jpg"
 build:
   render: never
   list: always

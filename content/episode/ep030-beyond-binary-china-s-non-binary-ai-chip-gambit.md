@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep030-beyond-binary-china-s-non-binary-ai-chip-gambit.jpg"
 build:
   render: never
   list: always

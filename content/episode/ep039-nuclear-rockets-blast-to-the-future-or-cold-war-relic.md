@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep039-nuclear-rockets-blast-to-the-future-or-cold-war-relic.jpg"
 build:
   render: never
   list: always

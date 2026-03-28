@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep032-ai-s-uncanny-worlds-when-reality-breaks-in-the-metaverse.jpg"
 build:
   render: never
   list: always

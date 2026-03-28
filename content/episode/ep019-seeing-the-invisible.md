@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep019-seeing-the-invisible.jpg"
 build:
   render: never
   list: always

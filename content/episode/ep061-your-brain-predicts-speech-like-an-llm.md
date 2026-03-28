@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep061-your-brain-predicts-speech-like-an-llm.jpg"
 build:
   render: never
   list: always

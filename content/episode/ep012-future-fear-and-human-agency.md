@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep012-future-fear-and-human-agency.jpg"
 build:
   render: never
   list: always

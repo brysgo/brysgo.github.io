@@ -24,9 +24,10 @@
         {{ if eq .Type "episode" }}
         <a href="https://youtu.be/{{ .Params.youtube_id }}" target="_blank" rel="noopener" style="display: block; text-decoration: none; color: inherit; margin-bottom: 40px;">
           <div style="display: flex; align-items: flex-start; gap: 14px;">
-            <img src="https://img.youtube.com/vi/{{ .Params.youtube_id }}/mqdefault.jpg"
+            {{ $thumb := .Params.image | default (printf "https://img.youtube.com/vi/%s/mqdefault.jpg" .Params.youtube_id) }}
+            <img src="{{ $thumb }}"
                  alt="{{ .Title }}"
-                 style="width: 160px; height: 90px; object-fit: cover; border-radius: 6px; flex-shrink: 0;" />
+                 style="width: 200px; height: 113px; object-fit: cover; border-radius: 6px; flex-shrink: 0;" />
             <div>
               <div style="font-size: 0.85rem; color: #999; margin-bottom: 4px;">
                 {{ .Date.Format "January 2, 2006" }} &middot;

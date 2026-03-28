@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep027-ancient-prophecy-or-silicon-savior.jpg"
 build:
   render: never
   list: always

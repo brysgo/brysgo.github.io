@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep048-google-s-nested-learning-solves-catastrophic-forgetting.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep009-analemma-skyscraper-in-space.jpg"
 build:
   render: never
   list: always

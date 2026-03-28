@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep060-dissecting-the-alien-mind-of-llms.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep055-donut-lab-s-impossible-273-year-battery.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep043-ai-swarms-the-dawn-of-multi-agent-systems.jpg"
 build:
   render: never
   list: always

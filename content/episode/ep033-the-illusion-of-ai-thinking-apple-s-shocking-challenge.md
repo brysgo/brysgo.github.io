@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep033-the-illusion-of-ai-thinking-apple-s-shocking-challenge.jpg"
 build:
   render: never
   list: always

@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep049-physical-warp-drive-requires-neutron-stars.jpg"
 build:
   render: never
   list: always

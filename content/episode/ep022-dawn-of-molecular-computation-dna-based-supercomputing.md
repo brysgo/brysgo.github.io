@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep022-dawn-of-molecular-computation-dna-based-supercomputing.jpg"
 build:
   render: never
   list: always

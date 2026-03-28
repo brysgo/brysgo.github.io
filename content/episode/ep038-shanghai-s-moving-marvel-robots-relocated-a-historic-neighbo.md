@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep038-shanghai-s-moving-marvel-robots-relocated-a-historic-neighbo.jpg"
 build:
   render: never
   list: always

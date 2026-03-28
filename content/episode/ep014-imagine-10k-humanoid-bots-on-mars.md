@@ -1,4 +1,5 @@
 ---
+image: "/images/episode/ep014-imagine-10k-humanoid-bots-on-mars.jpg"
 build:
   render: never
   list: always
