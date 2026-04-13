@@ -2,7 +2,7 @@
 title: "Your Gut Has Been Running Your Brain This Whole Time"
 date: 2026-04-13T12:00:00Z
 episode: 67
-youtube_id: "CHX1ZrgjOz0"
+youtube_id: "gIkaqFcRbJo"
 duration: "5:20"
 format: "Short"
 type: episode
