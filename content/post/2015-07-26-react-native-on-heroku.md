@@ -1,5 +1,5 @@
 ---
-image: /images/hero/react-native.jpg
+image: /images/hero/react-native-on-heroku.jpg
 categories: development tools
 date: 2015-07-26T00:09:33Z
 tags:

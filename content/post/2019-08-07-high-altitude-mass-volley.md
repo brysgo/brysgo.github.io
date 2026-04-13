@@ -1,5 +1,5 @@
 ---
-image: /images/hero/high-altitude.jpg
+image: /images/hero/high-altitude-mass-volley.jpg
 categories: space future
 tags:
   - scifi

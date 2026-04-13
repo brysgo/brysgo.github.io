@@ -1,5 +1,5 @@
 ---
-image: /images/hero/future-flight.jpg
+image: /images/hero/future-airplanes.jpg
 categories: future scifi
 tags:
 - scifi

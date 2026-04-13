@@ -1,5 +1,5 @@
 ---
-image: /images/hero/github-inbox.jpg
+image: /images/hero/GitHub-Inbox-Zero-9892d6.jpg
 categories: none
 tags:
   - development

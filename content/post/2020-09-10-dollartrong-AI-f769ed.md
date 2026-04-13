@@ -1,5 +1,5 @@
 ---
-image: /images/hero/strong-ai.jpg
+image: /images/hero/dollartrong-AI-f769ed.jpg
 categories: none
 tags:
   - ai

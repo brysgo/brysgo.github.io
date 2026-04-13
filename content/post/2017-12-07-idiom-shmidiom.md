@@ -1,5 +1,5 @@
 ---
-image: /images/hero/idiomatic.jpg
+image: /images/hero/idiom-shmidiom.jpg
 categories: philosophy leadership
 tags:
   - quirky

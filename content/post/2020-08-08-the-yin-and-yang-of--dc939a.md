@@ -1,5 +1,5 @@
 ---
-image: /images/hero/yin-yang-utility.jpg
+image: /images/hero/the-yin-and-yang-of--dc939a.jpg
 categories: none
 tags:
   - development

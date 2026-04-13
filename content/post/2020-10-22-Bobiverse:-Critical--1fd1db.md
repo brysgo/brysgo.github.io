@@ -1,5 +1,5 @@
 ---
-image: /images/hero/bobiverse.jpg
+image: /images/hero/Bobiverse:-Critical--1fd1db.jpg
 categories: none
 tags:
   - ai

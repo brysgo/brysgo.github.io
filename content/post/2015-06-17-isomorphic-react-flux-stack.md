@@ -1,5 +1,5 @@
 ---
-image: /images/hero/isomorphic-react.jpg
+image: /images/hero/isomorphic-react-flux-stack.jpg
 categories: development tools
 date: 2015-06-17T10:07:43Z
 tags:

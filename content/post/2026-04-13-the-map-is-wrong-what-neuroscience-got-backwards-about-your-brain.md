@@ -1,7 +1,7 @@
 ---
 image: /images/hero/the-map-is-wrong-what-neuroscience-got-backwards-about-your-brain.jpg
 title: "The Map Is Wrong: What Neuroscience Got Backwards About Your Brain"
-date: 2026-04-13T12:00:00Z
+date: 2026-04-13T05:00:00Z
 draft: false
 tags: ["technology", "ai", "future"]
 ---

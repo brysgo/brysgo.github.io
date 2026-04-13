@@ -1,5 +1,5 @@
 ---
-image: /images/hero/end-of-work.jpg
+image: /images/hero/End-of-Work-Beginnin-75f8b0.jpg
 categories: none
 tags:
   - ai

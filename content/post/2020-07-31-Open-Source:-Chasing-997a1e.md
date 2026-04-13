@@ -1,5 +1,5 @@
 ---
-image: /images/hero/open-source.jpg
+image: /images/hero/Open-Source:-Chasing-997a1e.jpg
 categories: none
 tags:
   - development

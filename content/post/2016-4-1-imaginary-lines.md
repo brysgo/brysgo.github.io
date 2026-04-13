@@ -1,5 +1,5 @@
 ---
-image: /images/hero/imaginary-lines.jpg
+image: /images/hero/2016-4-1-imaginary-lines.jpg
 categories: development philosophy
 date: 2016-04-01T01:13:33Z
 tags:

@@ -1,5 +1,5 @@
 ---
-image: /images/hero/ai-story-2.jpg
+image: /images/hero/My-AI-Story-(23)-e5cf6d.jpg
 categories: none
 tags:
   - ai
