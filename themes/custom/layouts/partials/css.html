@@ -13,7 +13,7 @@
 </style>
 
 <!-- main -->
-<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+{{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <!-- custom -->
 {{ range .Site.Params.css }} <link rel="stylesheet" href="{{ . | absURL }}"> {{ end }}
