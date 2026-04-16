@@ -2,7 +2,7 @@
 title: "The Brain's Janitor Is Smarter Than Your AI"
 date: 2026-04-16T12:00:00Z
 episode: 69
-youtube_id: "K2AoZ6ZqR1Q"
+youtube_id: "_2tvfKuFtv4"
 duration: "5:48"
 format: "Short"
 type: episode
