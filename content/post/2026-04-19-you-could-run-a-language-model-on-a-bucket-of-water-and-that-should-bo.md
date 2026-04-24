@@ -1,4 +1,5 @@
 ---
+image: /images/hero/you-could-run-a-language-model-on-a-bucket-of-water-and-that-should-bo.jpg
 title: "You Could Run a Language Model on a Bucket of Water (And That Should Bother You)"
 date: 2026-04-19T01:04:13Z
 draft: false

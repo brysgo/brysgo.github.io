@@ -1,3 +1,4 @@
+*, *::before, *::after { box-sizing: border-box; }
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
@@ -63,4 +64,35 @@ $on-laptop:        800px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 0px 0px 8px black;
+}
+
+/* Mobile responsiveness and overflow fixes */
+main, .post-content {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+}
+
+pre {
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+/* Table responsiveness */
+table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
