@@ -2,7 +2,7 @@
 title: "The 144-Week Moat"
 date: 2026-06-03T12:00:00Z
 episode: 80
-youtube_id: "Yy656geccrc"
+youtube_id: "ZWgFSLfUIYo"
 duration: "6:04"
 format: "Short"
 type: episode
