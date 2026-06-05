@@ -1,6 +1,6 @@
 ---
 image: /images/hero/the-immune-problem-was-always-the-problem-how-engineered-stealth-beta-.jpg
-title: "The Immune Problem Was Always the Problem: How Engineered "Stealth" Beta Cells Finally Address It"
+title: 'The Immune Problem Was Always the Problem: How Engineered "Stealth" Beta Cells Finally Address It'
 date: 2026-06-04T14:26:16Z
 draft: false
 tags: ["crispr", "type-1-diabetes", "cell-therapy", "immune-evasion", "ipsc"]
