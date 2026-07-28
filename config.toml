@@ -8,7 +8,7 @@ disqusShortname = "brysgo" # delete this to disable disqus comments
 
 [params]
     author = "Bryan Goldstein"
-    description = "Personal blog of Bryan Goldstein. Exploring Web Development, DevOps, AI, and more."
+    description = "Personal blog of Bryan Goldstein. Exploring AI systems, software, automation, science, and the future of work."
     githubUsername = "brysgo"
     accent = "red"
     showBorder = true
