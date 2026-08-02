@@ -2,7 +2,7 @@
 title: "The Theater of Machine Thought: Designing the Appearance of Reasoning"
 date: 2026-07-31T12:00:00Z
 episode: 87
-youtube_id: "11SVaMX0xQI"
+youtube_id: "qVe1j6of_OE"
 duration: "6:58"
 format: "Short"
 type: episode
